@@ -20,13 +20,14 @@ namespace Optimizer
             {
                 Console.WriteLine("Enter Pokemon name");
                 var pokemonName = Console.ReadLine();
-                Console.WriteLine("Enter fast attack name");
-                var fastAttackName = Console.ReadLine();
-                Console.WriteLine("Enter special attack name");
-                var specialAttackName = Console.ReadLine();
+                //Console.WriteLine("Enter fast attack name");
+                //var fastAttackName = Console.ReadLine();
+                //Console.WriteLine("Enter special attack name");
+                //var specialAttackName = Console.ReadLine();
 
-                var pokemon = _pokemonFactory.CreatePokemon(pokemonName, fastAttackName, specialAttackName);
-                var matchups = _matchupCalculator.FindFavorableAttackMatchups(pokemon);
+                //var pokemon = _pokemonFactory.CreatePokemon(pokemonName, fastAttackName, specialAttackName);
+                //var matchups = _matchupCalculator.FindFavorableAttackMatchups(pokemon);
+                var matchups = _matchupCalculator.FindFavorableAttackMatchups(pokemonName);
 
                 Console.WriteLine("");
                 foreach (var matchup in matchups)

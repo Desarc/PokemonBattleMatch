@@ -9,6 +9,8 @@ namespace Optimizer
 {
     interface IMatchupCalculator
     {
-        IDictionary<Pokemon, double> FindFavorableAttackMatchups(Pokemon attackingPokemon);
+        IDictionary<Pokemon, double> FindFavorableAttackMatchups(string defendingPokemonName, int modifierLimit = 1);
+
+        IDictionary<Pokemon, double> FindFavorableAttackMatchups(Pokemon defendingPokemon, int modifierLimit = 1);
     }
 }

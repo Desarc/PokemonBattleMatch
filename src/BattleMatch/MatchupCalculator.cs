@@ -21,24 +21,61 @@ namespace Optimizer
             _pokemonFactory = pokemonFactory;
         }
 
-        public IDictionary<Pokemon, double> FindFavorableAttackMatchups(Pokemon defendingPokemon)
+        public IDictionary<Pokemon, double> FindFavorableAttackMatchups(string defendingPokemonName, int modifierLimit = 1)
         {
             var favorableMatchups = new Dictionary<Pokemon, double>();
-            var permutations = _pokemonTemplates.GetAllPermutations(_pokemonFactory);
-            foreach (var permutation in permutations)
+
+            var defendingPokemonTemplate = _pokemonTemplates.GetTemplate(defendingPokemonName);
+            var defendingPokemonPermutations = defendingPokemonTemplate.CreatePermutations(_pokemonFactory);
+
+            var attackingPokemonPermutations = _pokemonTemplates.GetAllPermutations(_pokemonFactory);
+            foreach (var attackingPokemonPermutation in attackingPokemonPermutations)
             {
-                var attackingModifierResult1 = MatchFastAttack(permutation, defendingPokemon);
-                var attackingModifierResult2 = MatchSpecialAttack(permutation, defendingPokemon);
-                var defendingModifierResult1 = MatchFastAttack(defendingPokemon, permutation);
-                var defendingModifierResult2 = MatchSpecialAttack(defendingPokemon, permutation);
-                var totalResult = attackingModifierResult1 * attackingModifierResult1 * defendingModifierResult1 * defendingModifierResult2;
-                if (totalResult > 1)
+                var modifiers = new List<double>();
+
+                foreach (var defendingPokemonPermutation in defendingPokemonPermutations)
                 {
-                    favorableMatchups.Add(permutation, totalResult);
+                    var modifier = MatchTotal(attackingPokemonPermutation, defendingPokemonPermutation);
+
+                    modifiers.Add(modifier);
+                }
+
+                var totalResult = modifiers.Sum() / modifiers.Count;
+                if (totalResult > modifierLimit)
+                {
+                    favorableMatchups.Add(attackingPokemonPermutation, totalResult);
+                }
+            }
+            
+
+            return SortByValue(favorableMatchups);
+        }
+
+        public IDictionary<Pokemon, double> FindFavorableAttackMatchups(Pokemon defendingPokemon, int modifierLimit = 1)
+        {
+            var favorableMatchups = new Dictionary<Pokemon, double>();
+            var attackingPokemonPermutations = _pokemonTemplates.GetAllPermutations(_pokemonFactory);
+            foreach (var attackingPokemonPermutation in attackingPokemonPermutations)
+            {
+                var totalResult = MatchTotal(attackingPokemonPermutation, defendingPokemon);
+                
+                if (totalResult > modifierLimit)
+                {
+                    favorableMatchups.Add(attackingPokemonPermutation, totalResult);
                 }
             }
 
             return SortByValue(favorableMatchups);
+        }
+
+        private double MatchTotal(Pokemon attackingPokemon, Pokemon defendingPokemon)
+        {
+            var attackingModifierResult1 = MatchFastAttack(attackingPokemon, defendingPokemon);
+            var attackingModifierResult2 = MatchSpecialAttack(attackingPokemon, defendingPokemon);
+            var defendingModifierResult1 = MatchFastAttack(defendingPokemon, attackingPokemon);
+            var defendingModifierResult2 = MatchSpecialAttack(defendingPokemon, attackingPokemon);
+
+            return attackingModifierResult1 * attackingModifierResult1 * defendingModifierResult1 * defendingModifierResult2;
         }
 
         private double MatchFastAttack(Pokemon attackingPokemon, Pokemon defendingPokemon)
