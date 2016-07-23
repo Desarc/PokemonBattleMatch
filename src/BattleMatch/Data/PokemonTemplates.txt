@@ -1,0 +1,546 @@
+﻿[
+	{ 
+		"number": 1,
+		"name": "Bulbasaur", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Tackle", "Vine Whip" ],
+		"specialAttacks": [ "Sludge Bomb", "Seed Bomb", "Power Whip" ]
+	},
+	{ 
+		"number": 2,
+		"name": "Ivysaur", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Razor Leaf", "Vine Whip" ],
+		"specialAttacks": [ "Sludge Bomb", "Solar Beam", "Power Whip" ]
+	},
+	{ 
+		"number": 3,
+		"name": "Venusaur", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Razor Leaf", "Vine Whip" ],
+		"specialAttacks": [ "Sludge Bomb", "Solar Beam", "Petal Blizzard" ]
+	},
+	{ 
+		"number": 4,
+		"name": "Charmander", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Scratch", "Ember" ],
+		"specialAttacks": [ "Flame Burst", "Flamethrower", "Flame Charge" ]
+	},
+	{ 
+		"number": 5,
+		"name": "Charmeleon", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Scratch", "Ember" ],
+		"specialAttacks": [ "Flame Burst", "Flamethrower", "Fire Punch" ]
+	},
+	{ 
+		"number": 6,
+		"name": "Charizard", 
+		"firstType": "FIRE",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Wing Attack", "Ember" ],
+		"specialAttacks": [ "Dragon Claw", "Flamethrower", "Fire Blast" ]
+	},
+	{ 
+		"number": 7,
+		"name": "Squirtle", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Bubble" ],
+		"specialAttacks": [ "Aqua Jet", "Aqua Tail", "Water Pulse" ]
+	},
+	{ 
+		"number": 8,
+		"name": "Wartortle", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Bite", "Water Gun" ],
+		"specialAttacks": [ "Aqua Jet", "Hydro Pump", "Ice Beam" ]
+	},
+	{ 
+		"number": 9,
+		"name": "Blastoise", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Bite", "Water Gun" ],
+		"specialAttacks": [ "Ice Beam", "Hydro Pump", "Flash Cannon" ]
+	},
+	{ 
+		"number": 10,
+		"name": "Caterpie", 
+		"firstType": "BUG",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Bug Bite" ],
+		"specialAttacks": [ "Struggle" ]
+	},
+	{ 
+		"number": 11,
+		"name": "Metapod", 
+		"firstType": "BUG",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Bug Bite" ],
+		"specialAttacks": [ "Struggle" ]
+	},
+	{ 
+		"number": 12,
+		"name": "Butterfree", 
+		"firstType": "BUG",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Confusion", "Bug Bite" ],
+		"specialAttacks": [ "Psychic", "Bug Buzz", "Signal Beam" ]
+	},
+	{ 
+		"number": 13,
+		"name": "Weedle", 
+		"firstType": "BUG",
+		"secondType": "POISON",
+		"fastAttacks": [ "Bug Bite", "Poison Sting" ],
+		"specialAttacks": [ "Struggle" ]
+	},
+	{ 
+		"number": 14,
+		"name": "Kakuna", 
+		"firstType": "BUG",
+		"secondType": "POISON",
+		"fastAttacks": [ "Bug Bite", "Poison Sting" ],
+		"specialAttacks": [ "Struggle" ]
+	},
+	{ 
+		"number": 15,
+		"name": "Beedrill", 
+		"firstType": "BUG",
+		"secondType": "POISON",
+		"fastAttacks": [ "Bug Bite", "Poison Jab" ],
+		"specialAttacks": [ "Aerial Ace", "Sludge Bomb", "X-Scissor" ]
+	},
+	{ 
+		"number": 16,
+		"name": "Pidgey", 
+		"firstType": "NORMAL",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Tackle", "Quick Attack" ],
+		"specialAttacks": [ "Twister", "Aerial Ace", "Air Cutter" ]
+	},
+	{ 
+		"number": 17,
+		"name": "Pidgeotto", 
+		"firstType": "NORMAL",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Wing Attack", "Steel Wing" ],
+		"specialAttacks": [ "Twister", "Aerial Ace", "Air Cutter" ]
+	},
+	{ 
+		"number": 18,
+		"name": "Pidgeot", 
+		"firstType": "NORMAL",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Wing Attack", "Steel Wing" ],
+		"specialAttacks": [ "Hurricane", "Aerial Ace", "Air Cutter" ]
+	},
+	{ 
+		"number": 19,
+		"name": "Rattata", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Quick Attack" ],
+		"specialAttacks": [ "Dig", "Hyper Fang", "Body Slam" ]
+	},
+	{ 
+		"number": 20,
+		"name": "Raticate", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Bite", "Quick Attack" ],
+		"specialAttacks": [ "Dig", "Hyper Fang", "Hyper Beam" ]
+	},
+	{ 
+		"number": 21,
+		"name": "Spearow", 
+		"firstType": "NORMAL",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Quick Attack", "Peck" ],
+		"specialAttacks": [ "Aerial Ace", "Twister", "Drill Peck" ]
+	},
+	{ 
+		"number": 22,
+		"name": "Fearow", 
+		"firstType": "NORMAL",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Steel Wing", "Peck" ],
+		"specialAttacks": [ "Aerial Ace", "Twister", "Drill Run" ]
+	},
+	{ 
+		"number": 23,
+		"name": "Ekans", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Acid", "Poison Sting" ],
+		"specialAttacks": [ "Gunk Shot", "Sludge Bomb", "Wrap" ]
+	},
+	{ 
+		"number": 24,
+		"name": "Arbok", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Acid", "Bite" ],
+		"specialAttacks": [ "Gunk Shot", "Sludge Wave", "Dark Pulse" ]
+	},
+	{ 
+		"number": 25,
+		"name": "Pikachu", 
+		"firstType": "ELECTRIC",
+		"secondType": null,
+		"fastAttacks": [ "Thunder Shock", "Quick Attack" ],
+		"specialAttacks": [ "Thunderbolt", "Discharge", "Thunder" ]
+	},
+	{ 
+		"number": 26,
+		"name": "Raichu", 
+		"firstType": "ELECTRIC",
+		"secondType": null,
+		"fastAttacks": [ "Thunder Shock", "Spark" ],
+		"specialAttacks": [ "Brick Break", "Thunder Punch", "Thunder" ]
+	},
+	{ 
+		"number": 27,
+		"name": "Sandshrew", 
+		"firstType": "GROUND",
+		"secondType": null,
+		"fastAttacks": [ "Scratch", "Mud Shot" ],
+		"specialAttacks": [ "Dig", "Rock Slide", "Rock Tomb" ]
+	},
+	{ 
+		"number": 28,
+		"name": "Sandslash", 
+		"firstType": "GROUND",
+		"secondType": null,
+		"fastAttacks": [ "Metal Claw", "Mud Shot" ],
+		"specialAttacks": [ "Rock Tomb", "Bulldoze", "Earthquake" ]
+	},
+	{ 
+		"number": 29,
+		"name": "Nidoran (f)", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Poison Sting", "Bite" ],
+		"specialAttacks": [ "Poison Fang", "Sludge Bomb", "Body Slam" ]
+	},
+	{ 
+		"number": 30,
+		"name": "Nidorina", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Poison Sting", "Bite" ],
+		"specialAttacks": [ "Poison Fang", "Sludge Bomb", "Dig" ]
+	},
+	{ 
+		"number": 31,
+		"name": "Nidoqueen", 
+		"firstType": "POISON",
+		"secondType": "GROUND",
+		"fastAttacks": [ "Poison Jab", "Bite" ],
+		"specialAttacks": [ "Stone Edge", "Sludge Wave", "Earthquake" ]
+	},
+	{ 
+		"number": 32,
+		"name": "Nidoran (m)", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Poison Sting", "Peck" ],
+		"specialAttacks": [ "Horn Attack", "Sludge Bomb", "Body Slam" ]
+	},
+	{ 
+		"number": 33,
+		"name": "Nidorino", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Poison Jab", "Bite" ],
+		"specialAttacks": [ "Horn Attack", "Sludge Bomb", "Dig" ]
+	},
+	{ 
+		"number": 34,
+		"name": "Nidoking", 
+		"firstType": "POISON",
+		"secondType": "GROUND",
+		"fastAttacks": [ "Poison Jab", "Fury Cutter" ],
+		"specialAttacks": [ "Megahorn", "Earthquake", "Sludge Wave" ]
+	},
+	{ 
+		"number": 35,
+		"name": "Clefairy", 
+		"firstType": "FAIRY",
+		"secondType": null,
+		"fastAttacks": [ "Zen Headbutt", "Pound" ],
+		"specialAttacks": [ "Body Slam", "Disarming Voice", "Moonblast" ]
+	},
+	{ 
+		"number": 36,
+		"name": "Clefable", 
+		"firstType": "FAIRY",
+		"secondType": null,
+		"fastAttacks": [ "Zen Headbutt", "Pound" ],
+		"specialAttacks": [ "Psychic", "Dazzling Gleam", "Moonblast" ]
+	},
+	{ 
+		"number": 38,
+		"name": "Ninetales", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Feint Attack", "Ember" ],
+		"specialAttacks": [ "Heat Wave", "Fire Blast", "Flamethrower" ]
+	},
+	{ 
+		"number": 40,
+		"name": "Wigglytuff", 
+		"firstType": "NORMAL",
+		"secondType": "FAIRY",
+		"fastAttacks": [ "Feint Attack", "Pound" ],
+		"specialAttacks": [ "Dazzling Gleam", "Hyper Beam", "Play Rough" ]
+	},
+	{ 
+		"number": 42,
+		"name": "Golbat", 
+		"firstType": "POISON",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Bite", "Wing Attack" ],
+		"specialAttacks": [ "Ominous Wind", "Poison Fang", "Air Cutter" ]
+	},
+	{ 
+		"number": 45,
+		"name": "Vileplume", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Razor Leaf", "Acid" ],
+		"specialAttacks": [ "Moonblast", "Petal Blizzard", "Solar Beam" ]
+	},
+	{ 
+		"number": 47,
+		"name": "Parasect", 
+		"firstType": "BUG",
+		"secondType": "GRASS",
+		"fastAttacks": [ "Bug Bite", "Fury Cutter" ],
+		"specialAttacks": [ "Solar Beam", "X-Scissor", "Cross Poison" ]
+	},
+	{ 
+		"number": 49,
+		"name": "Venomoth", 
+		"firstType": "BUG",
+		"secondType": "POISON",
+		"fastAttacks": [ "Bug Bite", "Confusion" ],
+		"specialAttacks": [ "Bug Buzz", "Poison Fang", "Psychic" ]
+	},
+	{ 
+		"number": 51,
+		"name": "Dugtrio", 
+		"firstType": "GROUND",
+		"secondType": null,
+		"fastAttacks": [ "Sucker Punch", "Mud Shot" ],
+		"specialAttacks": [ "Stone Edge", "Earthquake", "Mud Bomb" ]
+	},
+	{ 
+		"number": 53,
+		"name": "Persian", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Scratch", "Feint Attack" ],
+		"specialAttacks": [ "Play Rough", "Power Gem", "Night Slash" ]
+	},
+	{ 
+		"number": 55,
+		"name": "Golduck", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Confusion", "Water Gun" ],
+		"specialAttacks": [ "Hydro Pump", "Ice Beam", "Psychic" ]
+	},
+	{ 
+		"number": 59,
+		"name": "Arcanine", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Fire Fang", "Bite" ],
+		"specialAttacks": [ "Fire Blast", "Bulldoze", "Flamethrower" ]
+	},
+	{ 
+		"number": 62,
+		"name": "Poliwrath", 
+		"firstType": "WATER",
+		"secondType": "FIGHTING",
+		"fastAttacks": [ "Bubble", "Mud Shot" ],
+		"specialAttacks": [ "Ice Punch", "Hydro Pump", "Submission" ]
+	},
+	{ 
+		"number": 73,
+		"name": "Tentacruel", 
+		"firstType": "WATER",
+		"secondType": "POISON",
+		"fastAttacks": [ "Acid", "Poison Jab" ],
+		"specialAttacks": [ "Blizzard", "Hydro Pump", "Sludge Wave" ]
+	},
+	{ 
+		"number": 80,
+		"name": "Slowbro", 
+		"firstType": "WATER",
+		"secondType": "PSYCHIC",
+		"fastAttacks": [ "Water Gun", "Confusion" ],
+		"specialAttacks": [ "Psychic", "Water Pulse", "Ice Beam" ]
+	},
+	{ 
+		"number": 87,
+		"name": "Dewgong", 
+		"firstType": "WATER",
+		"secondType": "ICE",
+		"fastAttacks": [ "Frost Breath", "Ice Shard" ],
+		"specialAttacks": [ "Aqua Jet", "Icy Wind", "Blizzard" ]
+	},
+	{ 
+		"number": 91,
+		"name": "Cloyster", 
+		"firstType": "WATER",
+		"secondType": "ICE",
+		"fastAttacks": [ "Frost Breath", "Ice Shard" ],
+		"specialAttacks": [ "Hydro Pump", "Icy Wind", "Blizzard" ]
+	},
+	{ 
+		"number": 94,
+		"name": "Gengar", 
+		"firstType": "GHOST",
+		"secondType": "POISON",
+		"fastAttacks": [ "Shadow Claw", "Sucker Punch" ],
+		"specialAttacks": [ "Dark Pulse", "Sludge Wave", "Shadow Ball" ]
+	},
+	{ 
+		"number": 97,
+		"name": "Hypno", 
+		"firstType": "PSYCHIC",
+		"secondType": null,
+		"fastAttacks": [ "Zen Headbutt", "Confusion" ],
+		"specialAttacks": [ "Psychic", "Psyshock", "Shadow Ball" ]
+	},
+	{ 
+		"number": 99,
+		"name": "Kingler", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Metal Claw", "Mud Shot" ],
+		"specialAttacks": [ "Vice Grip", "Water Pulse", "X-Scissor" ]
+	},
+	{ 
+		"number": 117,
+		"name": "Seadra", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Water Gun", "Dragon Breath" ],
+		"specialAttacks": [ "Hydro Pump", "Dragon Pulse", "Blizzard" ]
+	},
+	{ 
+		"number": 119,
+		"name": "Seaking", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Poison Jab", "Peck" ],
+		"specialAttacks": [ "Drill Run", "Megahorn", "Icy Wind" ]
+	},
+	{ 
+		"number": 123,
+		"name": "Scyther", 
+		"firstType": "BUG",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Steel Wing", "Fury Cutter" ],
+		"specialAttacks": [ "Bug Buzz", "X-Scissor", "Night Slash" ]
+	},
+	{ 
+		"number": 124,
+		"name": "Jynx", 
+		"firstType": "ICE",
+		"secondType": "PSYCHIC",
+		"fastAttacks": [ "Pound", "Frost Breath" ],
+		"specialAttacks": [ "Psyshock", "Ice Punch", "Draining Kiss" ]
+	},
+	{ 
+		"number": 125,
+		"name": "Electabuzz", 
+		"firstType": "ELECTRIC",
+		"secondType": null,
+		"fastAttacks": [ "Low Kick", "Thunder Shock" ],
+		"specialAttacks": [ "Thunderbolt", "Thunder", "Thunder Punch" ]
+	},
+	{ 
+		"number": 126,
+		"name": "Magmar", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Karate Chop", "Ember" ],
+		"specialAttacks": [ "Fire Blast", "Flamethrower", "Fire Punch" ]
+	},
+	{ 
+		"number": 130,
+		"name": "Gyarados", 
+		"firstType": "WATER",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Bite", "Dragon Breath" ],
+		"specialAttacks": [ "Twister", "Hydro Pump", "Dragon Pulse" ]
+	},
+	{ 
+		"number": 131,
+		"name": "Lapras", 
+		"firstType": "WATER",
+		"secondType": "ICE",
+		"fastAttacks": [ "Frost Breath", "Ice Shard" ],
+		"specialAttacks": [ "Ice Beam", "Dragon Pulse", "Blizzard" ]
+	},
+	{ 
+		"number": 134,
+		"name": "Vaporeon", 
+		"firstType": "WATER",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Water Gun" ],
+		"specialAttacks": [ "Aqua Tail", "Water Pulse", "Hydro Pump" ]
+	},
+	{ 
+		"number": 135,
+		"name": "Jolteon", 
+		"firstType": "ELECTRIC",
+		"secondType": null,
+		"fastAttacks": [ "Thunder Shock" ],
+		"specialAttacks": [ "Thunderbolt", "Thunder", "Discharge" ]
+	},
+	{ 
+		"number": 136,
+		"name": "Flareon", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Ember" ],
+		"specialAttacks": [ "Fire Blast", "Flamethrower", "Heat Wave" ]
+	},
+	{ 
+		"number": 142,
+		"name": "Aerodactyl", 
+		"firstType": "ROCK",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Bite", "Steel Wing" ],
+		"specialAttacks": [ "Iron Head", "Hyper Beam", "Ancient Power" ]
+	},
+	{ 
+		"number": 143,
+		"name": "Snorlax", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Lick", "Zen Headbutt" ],
+		"specialAttacks": [ "Earthquake", "Hyper Beam", "Body Slam" ]
+	},
+	{ 
+		"number": 149,
+		"name": "Dragonite", 
+		"firstType": "DRAGON",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Dragon Breath", "Steel Wing" ],
+		"specialAttacks": [ "Dragon Claw", "Hyper Beam", "Dragon Pulse" ]
+	},
+]
