@@ -1,5 +1,6 @@
 ﻿using Optimizer.Lookup;
 using System;
+using System.IO;
 
 namespace Optimizer
 {
@@ -16,10 +17,10 @@ namespace Optimizer
             _pokemonFactory = new PokemonFactory(attacks, pokemonTemplates);
             _matchupCalculator = new MatchupCalculator(typeMatchups, pokemonTemplates, _pokemonFactory);
 
-            while (true)
-            {
-                Console.WriteLine("Enter Pokemon name");
-                var pokemonName = Console.ReadLine();
+            //while (true)
+            //{
+                //Console.WriteLine("Enter Pokemon name");
+                //var pokemonName = Console.ReadLine();
                 //Console.WriteLine("Enter fast attack name");
                 //var fastAttackName = Console.ReadLine();
                 //Console.WriteLine("Enter special attack name");
@@ -27,16 +28,27 @@ namespace Optimizer
 
                 //var pokemon = _pokemonFactory.CreatePokemon(pokemonName, fastAttackName, specialAttackName);
                 //var matchups = _matchupCalculator.FindFavorableAttackMatchups(pokemon);
-                var matchups = _matchupCalculator.FindFavorableAttackMatchups(pokemonName);
-
-                Console.WriteLine("");
-                foreach (var matchup in matchups)
+                foreach (var template in pokemonTemplates.GetAllTemplates())
                 {
-                    Console.WriteLine($"{matchup.Key} - {matchup.Value}");
-                }
+                    var matchups = _matchupCalculator.FindFavorableAttackMatchups(template.Name, -1);
 
-                Console.WriteLine("");
-            }
+                    //File.WriteAllLines($"{pokemonName}.txt", matchups);
+
+                    using (StreamWriter file = new StreamWriter($@"..\..\..\..\results\{template.NumberString}-{template.Name}.txt"))
+                    {
+                        //Console.WriteLine("");
+
+                        foreach (var matchup in matchups)
+                        {
+                            var matchupString = $"{matchup.Key} - {matchup.Value}";
+                            //Console.WriteLine(matchupString);
+                            file.WriteLine(matchupString);
+                        }
+
+                        //Console.WriteLine("");
+                    }
+                }
+            //}
         }
     }
 }

@@ -2,6 +2,7 @@
 using Optimizer.Data;
 using Optimizer.Model;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Optimizer.Lookup
 {
@@ -22,6 +23,21 @@ namespace Optimizer.Lookup
         public PokemonTemplate GetTemplate(string pokemonName)
         {
             return _pokemonTemplates[pokemonName.ToLower()];
+        }
+
+        public IEnumerable<string> GetAllNames()
+        {
+            return from template in _pokemonTemplates.Values
+                   select template.Name;
+        }
+
+        public IEnumerable<PokemonTemplate> GetAllTemplates(bool onlyMaxStage = false)
+        {
+            return onlyMaxStage
+                ? from pokemonTemplate in _pokemonTemplates.Values
+                  where pokemonTemplate.IsMaxStage
+                  select pokemonTemplate
+                : _pokemonTemplates.Values;
         }
 
         public IList<Pokemon> GetAllPermutations(IPokemonFactory pokemonFactory)

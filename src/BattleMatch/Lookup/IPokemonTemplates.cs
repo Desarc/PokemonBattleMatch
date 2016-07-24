@@ -7,6 +7,10 @@ namespace Optimizer.Lookup
     {
         PokemonTemplate GetTemplate(string pokemonName);
 
+        IEnumerable<string> GetAllNames();
+
+        IEnumerable<PokemonTemplate> GetAllTemplates(bool onlyMaxStage = false);
+
         IList<Pokemon> GetAllPermutations(IPokemonFactory pokemonFactory);
     }
 }

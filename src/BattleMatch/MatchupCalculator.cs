@@ -75,7 +75,7 @@ namespace Optimizer
             var defendingModifierResult1 = MatchFastAttack(defendingPokemon, attackingPokemon);
             var defendingModifierResult2 = MatchSpecialAttack(defendingPokemon, attackingPokemon);
 
-            return attackingModifierResult1 * attackingModifierResult1 * defendingModifierResult1 * defendingModifierResult2;
+            return (attackingModifierResult1 + attackingModifierResult1) / (defendingModifierResult1 + defendingModifierResult2);
         }
 
         private double MatchFastAttack(Pokemon attackingPokemon, Pokemon defendingPokemon)
