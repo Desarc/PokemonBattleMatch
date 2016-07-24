@@ -288,12 +288,28 @@
 		"specialAttacks": [ "Psychic", "Dazzling Gleam", "Moonblast" ]
 	},
 	{ 
+		"number": 37,
+		"name": "Vulpix", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Quick Attack", "Ember" ],
+		"specialAttacks": [ "Body Slam", "Flame Charge", "Flamethrower" ]
+	},
+	{ 
 		"number": 38,
 		"name": "Ninetales", 
 		"firstType": "FIRE",
 		"secondType": null,
 		"fastAttacks": [ "Feint Attack", "Ember" ],
 		"specialAttacks": [ "Heat Wave", "Fire Blast", "Flamethrower" ]
+	},
+	{ 
+		"number": 39,
+		"name": "Jigglypuff", 
+		"firstType": "NORMAL",
+		"secondType": "FAIRY",
+		"fastAttacks": [ "Feint Attack", "Pound" ],
+		"specialAttacks": [ "Disarming Voice", "Body Slam", "Play Rough" ]
 	},
 	{ 
 		"number": 40,
@@ -304,12 +320,36 @@
 		"specialAttacks": [ "Dazzling Gleam", "Hyper Beam", "Play Rough" ]
 	},
 	{ 
+		"number": 41,
+		"name": "Zubat", 
+		"firstType": "POISON",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Bite", "Quick Attack" ],
+		"specialAttacks": [ "Sludge Bomb", "Poison Fang", "Air Cutter" ]
+	},
+	{ 
 		"number": 42,
 		"name": "Golbat", 
 		"firstType": "POISON",
 		"secondType": "FLYING",
 		"fastAttacks": [ "Bite", "Wing Attack" ],
 		"specialAttacks": [ "Ominous Wind", "Poison Fang", "Air Cutter" ]
+	},
+	{ 
+		"number": 43,
+		"name": "Oddish", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Razor Leaf", "Acid" ],
+		"specialAttacks": [ "Moonblast", "Petal Blizzard", "Sludge Bomb" ]
+	},
+	{ 
+		"number": 44,
+		"name": "Gloom", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Razor Leaf", "Acid" ],
+		"specialAttacks": [ "Moonblast", "Seed Bomb", "Sludge Bomb" ]
 	},
 	{ 
 		"number": 45,
@@ -320,12 +360,28 @@
 		"specialAttacks": [ "Moonblast", "Petal Blizzard", "Solar Beam" ]
 	},
 	{ 
+		"number": 46,
+		"name": "Paras", 
+		"firstType": "BUG",
+		"secondType": "GRASS",
+		"fastAttacks": [ "Bug Bite", "Scratch" ],
+		"specialAttacks": [ "Seed Bomb", "X-Scissor", "Cross Poison" ]
+	},
+	{ 
 		"number": 47,
 		"name": "Parasect", 
 		"firstType": "BUG",
 		"secondType": "GRASS",
 		"fastAttacks": [ "Bug Bite", "Fury Cutter" ],
 		"specialAttacks": [ "Solar Beam", "X-Scissor", "Cross Poison" ]
+	},
+	{ 
+		"number": 48,
+		"name": "Venonat", 
+		"firstType": "BUG",
+		"secondType": "Poison",
+		"fastAttacks": [ "Bug Bite", "Confusion" ],
+		"specialAttacks": [ "Signal Beam", "Poison Fang", "Psybeam" ]
 	},
 	{ 
 		"number": 49,
@@ -336,12 +392,28 @@
 		"specialAttacks": [ "Bug Buzz", "Poison Fang", "Psychic" ]
 	},
 	{ 
+		"number": 50,
+		"name": "Diglett", 
+		"firstType": "GROUND",
+		"secondType": null,
+		"fastAttacks": [ "Scratch", "Mud Shot" ],
+		"specialAttacks": [ "Rock Tomb", "Dig", "Mud Bomb" ]
+	},
+	{ 
 		"number": 51,
 		"name": "Dugtrio", 
 		"firstType": "GROUND",
 		"secondType": null,
 		"fastAttacks": [ "Sucker Punch", "Mud Shot" ],
 		"specialAttacks": [ "Stone Edge", "Earthquake", "Mud Bomb" ]
+	},
+	{ 
+		"number": 52,
+		"name": "Meowth", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Scratch", "Bite" ],
+		"specialAttacks": [ "Dark Pulse", "Body Slam", "Night Slash" ]
 	},
 	{ 
 		"number": 53,
@@ -352,12 +424,44 @@
 		"specialAttacks": [ "Play Rough", "Power Gem", "Night Slash" ]
 	},
 	{ 
+		"number": 54,
+		"name": "Psyduck", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Zen Headbutt", "Water Gun" ],
+		"specialAttacks": [ "Aqua Tail", "Cross Chop", "Psybeam" ]
+	},
+	{ 
 		"number": 55,
 		"name": "Golduck", 
 		"firstType": "WATER",
 		"secondType": null,
 		"fastAttacks": [ "Confusion", "Water Gun" ],
 		"specialAttacks": [ "Hydro Pump", "Ice Beam", "Psychic" ]
+	},
+	{ 
+		"number": 56,
+		"name": "Mankey", 
+		"firstType": "FIGHTING",
+		"secondType": null,
+		"fastAttacks": [ "Karate Chop", "Scratch" ],
+		"specialAttacks": [ "Brick Break", "Cross Chop", "Low Sweep" ]
+	},
+	{ 
+		"number": 57,
+		"name": "Primeape", 
+		"firstType": "FIGHTING",
+		"secondType": null,
+		"fastAttacks": [ "Karate Chop", "Low Kick" ],
+		"specialAttacks": [ "Night Slash", "Cross Chop", "Low Sweep" ]
+	},
+	{ 
+		"number": 58,
+		"name": "Growlithe", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Ember", "Bite" ],
+		"specialAttacks": [ "Flame Wheel", "Body Slam", "Flamethrower" ]
 	},
 	{ 
 		"number": 59,
@@ -368,12 +472,108 @@
 		"specialAttacks": [ "Fire Blast", "Bulldoze", "Flamethrower" ]
 	},
 	{ 
+		"number": 60,
+		"name": "Poliwag", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Bubble", "Mud Shot" ],
+		"specialAttacks": [ "Body Slam", "Bubble Beam", "Mud Bomb" ]
+	},
+	{ 
+		"number": 61,
+		"name": "Poliwhirl", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Bubble", "Mud Shot" ],
+		"specialAttacks": [ "Scald", "Bubble Beam", "Mud Bomb" ]
+	},
+	{ 
 		"number": 62,
 		"name": "Poliwrath", 
 		"firstType": "WATER",
 		"secondType": "FIGHTING",
 		"fastAttacks": [ "Bubble", "Mud Shot" ],
 		"specialAttacks": [ "Ice Punch", "Hydro Pump", "Submission" ]
+	},
+	{ 
+		"number": 63,
+		"name": "Abra", 
+		"firstType": "PSYCHIC",
+		"secondType": null,
+		"fastAttacks": [ "Zen Headbutt" ],
+		"specialAttacks": [ "Shadow Ball", "Signal Beam", "Psyshock" ]
+	},
+	{ 
+		"number": 64,
+		"name": "Kadabra", 
+		"firstType": "PSYCHIC",
+		"secondType": null,
+		"fastAttacks": [ "Confusion", "Psycho Cut" ],
+		"specialAttacks": [ "Shadow Ball", "Dazzling Gleam", "Psybeam" ]
+	},
+	{ 
+		"number": 65,
+		"name": "Alakazam", 
+		"firstType": "PSYCHIC",
+		"secondType": null,
+		"fastAttacks": [ "Confusion", "Psycho Cut" ],
+		"specialAttacks": [ "Shadow Ball", "Dazzling Gleam", "Psychic" ]
+	},
+	{ 
+		"number": 66,
+		"name": "Machop", 
+		"firstType": "FIGHTING",
+		"secondType": null,
+		"fastAttacks": [ "Low Kick", "Karate Chop" ],
+		"specialAttacks": [ "Brick Break", "Cross Chop", "Low Sweep" ]
+	},
+	{ 
+		"number": 67,
+		"name": "Machoke", 
+		"firstType": "FIGHTING",
+		"secondType": null,
+		"fastAttacks": [ "Low Kick", "Karate Chop" ],
+		"specialAttacks": [ "Brick Break", "Cross Chop", "Submission" ]
+	},
+	{ 
+		"number": 68,
+		"name": "Machamp", 
+		"firstType": "FIGHTING",
+		"secondType": null,
+		"fastAttacks": [ "Bullet Punch", "Karate Chop" ],
+		"specialAttacks": [ "Stone Edge", "Cross Chop", "Submission" ]
+	},
+	{ 
+		"number": 69,
+		"name": "Bellsprout", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Acid", "Vine Whip" ],
+		"specialAttacks": [ "Sludge Bomb", "Power Whip", "Wrap" ]
+	},
+	{ 
+		"number": 70,
+		"name": "Weepinbell", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Acid", "Razor Leaf" ],
+		"specialAttacks": [ "Sludge Bomb", "Power Whip", "Seed Bomb" ]
+	},
+	{ 
+		"number": 71,
+		"name": "Victreebel", 
+		"firstType": "GRASS",
+		"secondType": "POISON",
+		"fastAttacks": [ "Acid", "Razor Leaf" ],
+		"specialAttacks": [ "Sludge Bomb", "Leaf Blade", "Solar Beam" ]
+	},
+	{ 
+		"number": 72,
+		"name": "Tentacool", 
+		"firstType": "WATER",
+		"secondType": "POISON",
+		"fastAttacks": [ "Bubble", "Poison Sting" ],
+		"specialAttacks": [ "Bubble Beam", "Water Pulse", "Wrap" ]
 	},
 	{ 
 		"number": 73,
@@ -384,12 +584,108 @@
 		"specialAttacks": [ "Blizzard", "Hydro Pump", "Sludge Wave" ]
 	},
 	{ 
+		"number": 74,
+		"name": "Geodude", 
+		"firstType": "ROCK",
+		"secondType": "GROUND",
+		"fastAttacks": [ "Rock Throw", "Tackle" ],
+		"specialAttacks": [ "Rock Slide", "Dig", "Rock Tomb" ]
+	},
+	{ 
+		"number": 75,
+		"name": "Graveler", 
+		"firstType": "ROCK",
+		"secondType": "GROUND",
+		"fastAttacks": [ "Rock Throw", "Mud Shot" ],
+		"specialAttacks": [ "Rock Slide", "Dig", "Stone Edge" ]
+	},
+	{ 
+		"number": 76,
+		"name": "Golem", 
+		"firstType": "ROCK",
+		"secondType": "GROUND",
+		"fastAttacks": [ "Rock Throw", "Mud Shot" ],
+		"specialAttacks": [ "Ancient Power", "Earthquake", "Stone Edge" ]
+	},
+	{ 
+		"number": 77,
+		"name": "Ponyta", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Ember" ],
+		"specialAttacks": [ "Flame Wheel", "Fire Blast", "Flame Charge" ]
+	},
+	{ 
+		"number": 78,
+		"name": "Rapidash", 
+		"firstType": "FIRE",
+		"secondType": null,
+		"fastAttacks": [ "Low Kick", "Ember" ],
+		"specialAttacks": [ "Heat Wave", "Fire Blast", "Drill Run" ]
+	},
+	{ 
+		"number": 79,
+		"name": "Slowpoke", 
+		"firstType": "WATER",
+		"secondType": "PSYCHIC",
+		"fastAttacks": [ "Water Gun", "Confusion" ],
+		"specialAttacks": [ "Psychic", "Water Pulse", "Psyshock" ]
+	},
+	{ 
 		"number": 80,
 		"name": "Slowbro", 
 		"firstType": "WATER",
 		"secondType": "PSYCHIC",
 		"fastAttacks": [ "Water Gun", "Confusion" ],
 		"specialAttacks": [ "Psychic", "Water Pulse", "Ice Beam" ]
+	},
+	{ 
+		"number": 81,
+		"name": "Magnemite", 
+		"firstType": "ELECTRIC",
+		"secondType": "STEEL",
+		"fastAttacks": [ "Spark", "Thunder Shock" ],
+		"specialAttacks": [ "Magnet Bomb", "Discharge", "Thunderbolt" ]
+	},
+	{ 
+		"number": 82,
+		"name": "Magneton", 
+		"firstType": "ELECTRIC",
+		"secondType": "STEEL",
+		"fastAttacks": [ "Spark", "Thunder Shock" ],
+		"specialAttacks": [ "Magnet Bomb", "Discharge", "Flash Cannon" ]
+	},
+	{ 
+		"number": 83,
+		"name": "Farfetch'd", 
+		"firstType": "NORMAL",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Fury Cutter", "Cut" ],
+		"specialAttacks": [ "Air Cutter", "Aerial Ace", "Leaf Blade" ]
+	},
+	{ 
+		"number": 84,
+		"name": "Doduo", 
+		"firstType": "NORMAL",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Peck", "Quick Attack" ],
+		"specialAttacks": [ "Swift", "Aerial Ace", "Drill Peck" ]
+	},
+	{ 
+		"number": 85,
+		"name": "Dodrio", 
+		"firstType": "NORMAL",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Steel Wing", "Feint Attack" ],
+		"specialAttacks": [ "Air Cutter", "Aerial Ace", "Drill Peck" ]
+	},
+	{ 
+		"number": 86,
+		"name": "Seel", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Water Gun", "Ice Shard" ],
+		"specialAttacks": [ "Aqua Jet", "Icy Wind", "Aqua Tail" ]
 	},
 	{ 
 		"number": 87,
@@ -400,12 +696,52 @@
 		"specialAttacks": [ "Aqua Jet", "Icy Wind", "Blizzard" ]
 	},
 	{ 
+		"number": 88,
+		"name": "Grimer", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Mud Slap", "Acid" ],
+		"specialAttacks": [ "Sludge", "Sludge Bomb", "Mud Bomb" ]
+	},
+	{ 
+		"number": 89,
+		"name": "Muk", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Poison Jab", "Acid" ],
+		"specialAttacks": [ "Sludge Wave", "Sludge Bomb", "Dark Pulse" ]
+	},
+	{ 
+		"number": 90,
+		"name": "Shellder", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Ice Shard" ],
+		"specialAttacks": [ "Water Pulse", "Icy Wind", "Bubble Beam" ]
+	},
+	{ 
 		"number": 91,
 		"name": "Cloyster", 
 		"firstType": "WATER",
 		"secondType": "ICE",
 		"fastAttacks": [ "Frost Breath", "Ice Shard" ],
 		"specialAttacks": [ "Hydro Pump", "Icy Wind", "Blizzard" ]
+	},
+	{ 
+		"number": 92,
+		"name": "Gastly", 
+		"firstType": "GHOST",
+		"secondType": "POISON",
+		"fastAttacks": [ "Lick", "Sucker Punch" ],
+		"specialAttacks": [ "Dark Pulse", "Sludge Bomb", "Ominous Wind" ]
+	},
+	{ 
+		"number": 93,
+		"name": "Haunter", 
+		"firstType": "GHOST",
+		"secondType": "POISON",
+		"fastAttacks": [ "Shadow Claw", "Lick" ],
+		"specialAttacks": [ "Dark Pulse", "Sludge Bomb", "Shadow Ball" ]
 	},
 	{ 
 		"number": 94,
@@ -416,12 +752,36 @@
 		"specialAttacks": [ "Dark Pulse", "Sludge Wave", "Shadow Ball" ]
 	},
 	{ 
+		"number": 95,
+		"name": "Onix", 
+		"firstType": "ROCK",
+		"secondType": "GROUND",
+		"fastAttacks": [ "Rock Throw", "Tackle" ],
+		"specialAttacks": [ "Rock Slide", "Stone Edge", "Iron Head" ]
+	},
+	{ 
+		"number": 96,
+		"name": "Drowzee", 
+		"firstType": "PSYCHIC",
+		"secondType": null,
+		"fastAttacks": [ "Pound", "Confusion" ],
+		"specialAttacks": [ "Psychic", "Psyshock", "Psybeam" ]
+	},
+	{ 
 		"number": 97,
 		"name": "Hypno", 
 		"firstType": "PSYCHIC",
 		"secondType": null,
 		"fastAttacks": [ "Zen Headbutt", "Confusion" ],
 		"specialAttacks": [ "Psychic", "Psyshock", "Shadow Ball" ]
+	},
+	{ 
+		"number": 98,
+		"name": "Krabby", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Bubble", "Mud Shot" ],
+		"specialAttacks": [ "Vice Grip", "Water Pulse", "Bubble Beam" ]
 	},
 	{ 
 		"number": 99,
@@ -432,6 +792,142 @@
 		"specialAttacks": [ "Vice Grip", "Water Pulse", "X-Scissor" ]
 	},
 	{ 
+		"number": 100,
+		"name": "Voltorb", 
+		"firstType": "ELECTRIC",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Spark" ],
+		"specialAttacks": [ "Thunderbolt", "Discharge", "Signal Beam" ]
+	},
+	{ 
+		"number": 101,
+		"name": "Electrode", 
+		"firstType": "ELECTRIC",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Spark" ],
+		"specialAttacks": [ "Thunderbolt", "Discharge", "Hyper Beam" ]
+	},
+	{ 
+		"number": 102,
+		"name": "Exeggcute", 
+		"firstType": "GRASS",
+		"secondType": "PSYCHIC",
+		"fastAttacks": [ "Confusion" ],
+		"specialAttacks": [ "Psychic", "Seed Bomb", "Ancient Power" ]
+	},
+	{ 
+		"number": 103,
+		"name": "Exeggutor", 
+		"firstType": "GRASS",
+		"secondType": "PSYCHIC",
+		"fastAttacks": [ "Confusion", "Zen Headbutt" ],
+		"specialAttacks": [ "Psychic", "Seed Bomb", "Solar Beam" ]
+	},
+	{ 
+		"number": 104,
+		"name": "Cubone", 
+		"firstType": "GROUND",
+		"secondType": null,
+		"fastAttacks": [ "Rock Smash", "Mud Slap" ],
+		"specialAttacks": [ "Bone Club", "Dig", "Bulldoze" ]
+	},
+	{ 
+		"number": 105,
+		"name": "Marowak", 
+		"firstType": "GROUND",
+		"secondType": null,
+		"fastAttacks": [ "Rock Smash", "Mud Slap" ],
+		"specialAttacks": [ "Bone Club", "Dig", "Earthquake" ]
+	},
+	{ 
+		"number": 106,
+		"name": "Hitmonlee", 
+		"firstType": "FIGHTING",
+		"secondType": null,
+		"fastAttacks": [ "Rock Smash", "Low Kick" ],
+		"specialAttacks": [ "Low Sweep", "Stone Edge", "Stomp" ]
+	},
+	{ 
+		"number": 107,
+		"name": "Hitmonchan", 
+		"firstType": "FIGHTING",
+		"secondType": null,
+		"fastAttacks": [ "Rock Smash", "Bullet Punch" ],
+		"specialAttacks": [ "Fire Punch", "Ice Punch", "Thunder Punch", "Brick Break" ]
+	},
+	{ 
+		"number": 108,
+		"name": "Lickitung", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Lick", "Zen Headbutt" ],
+		"specialAttacks": [ "Hyper Beam", "Stomp", "Power Whip" ]
+	},
+	{ 
+		"number": 109,
+		"name": "Koffing", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Acid" ],
+		"specialAttacks": [ "Dark Pulse", "Sludge", "Sludge Bomb" ]
+	},
+	{ 
+		"number": 110,
+		"name": "Weezing", 
+		"firstType": "POISON",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Acid" ],
+		"specialAttacks": [ "Dark Pulse", "Shadow Ball", "Sludge Bomb" ]
+	},
+	{ 
+		"number": 111,
+		"name": "Rhyhorn", 
+		"firstType": "GROUND",
+		"secondType": "ROCK",
+		"fastAttacks": [ "Rock Smash", "Mud Slap" ],
+		"specialAttacks": [ "Bulldoze", "Stomp", "Horn Attack" ]
+	},
+	{ 
+		"number": 112,
+		"name": "Rhydon", 
+		"firstType": "GROUND",
+		"secondType": "ROCK",
+		"fastAttacks": [ "Rock Smash", "Mud Slap" ],
+		"specialAttacks": [ "Earthquake", "Stone Edge", "Megahorn" ]
+	},
+	{ 
+		"number": 113,
+		"name": "Chansey", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Pound", "Zen Headbutt" ],
+		"specialAttacks": [ "Dazzling Gleam", "Psybeam", "Psychic" ]
+	},
+	{ 
+		"number": 114,
+		"name": "Tangela", 
+		"firstType": "GRASS",
+		"secondType": null,
+		"fastAttacks": [ "Vine Whip" ],
+		"specialAttacks": [ "Sludge Bomb", "Solar Beam", "Power Whip" ]
+	},
+	{ 
+		"number": 115,
+		"name": "Kangaskhan", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Low Kick", "Mud Slap" ],
+		"specialAttacks": [ "Earthquake", "Brick Break", "Stomp" ]
+	},
+	{ 
+		"number": 116,
+		"name": "Horsea", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Water Gun", "Bubble" ],
+		"specialAttacks": [ "Bubble Beam", "Dragon Pulse", "Flash Cannon" ]
+	},
+	{ 
 		"number": 117,
 		"name": "Seadra", 
 		"firstType": "WATER",
@@ -440,12 +936,44 @@
 		"specialAttacks": [ "Hydro Pump", "Dragon Pulse", "Blizzard" ]
 	},
 	{ 
+		"number": 118,
+		"name": "Goldeen", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Mud Shot", "Peck" ],
+		"specialAttacks": [ "Aqua Tail", "Horn Attack", "Water Pulse" ]
+	},
+	{ 
 		"number": 119,
 		"name": "Seaking", 
 		"firstType": "WATER",
 		"secondType": null,
 		"fastAttacks": [ "Poison Jab", "Peck" ],
 		"specialAttacks": [ "Drill Run", "Megahorn", "Icy Wind" ]
+	},
+	{ 
+		"number": 120,
+		"name": "Staryu", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Water Gun", "Quick Attack" ],
+		"specialAttacks": [ "Bubble Beam", "Power Gem", "Swift" ]
+	},
+	{ 
+		"number": 121,
+		"name": "Starmie", 
+		"firstType": "WATER",
+		"secondType": "PSYCHIC",
+		"fastAttacks": [ "Water Gun", "Quick Attack" ],
+		"specialAttacks": [ "Hydro Pump", "Power Gem", "Psybeam" ]
+	},
+	{ 
+		"number": 122,
+		"name": "Mr. Mime", 
+		"firstType": "PSYCHIC",
+		"secondType": "FAIRY",
+		"fastAttacks": [ "Confusion", "Zen Headbutt" ],
+		"specialAttacks": [ "Shadow Ball", "Psybeam", "Psychic" ]
 	},
 	{ 
 		"number": 123,
@@ -480,6 +1008,30 @@
 		"specialAttacks": [ "Fire Blast", "Flamethrower", "Fire Punch" ]
 	},
 	{ 
+		"number": 127,
+		"name": "Pinsir", 
+		"firstType": "BUG",
+		"secondType": null,
+		"fastAttacks": [ "Fury Cutter", "Rock Smash" ],
+		"specialAttacks": [ "Submission", "Vice Grip", "X-Scissor" ]
+	},
+	{ 
+		"number": 128,
+		"name": "Tauros", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Zen Headbutt" ],
+		"specialAttacks": [ "Earthquake", "Iron Head", "Horn Attack" ]
+	},
+	{ 
+		"number": 129,
+		"name": "Magikarp", 
+		"firstType": "WATER",
+		"secondType": null,
+		"fastAttacks": [ "Splash" ],
+		"specialAttacks": [ "Struggle" ]
+	},
+	{ 
 		"number": 130,
 		"name": "Gyarados", 
 		"firstType": "WATER",
@@ -494,6 +1046,22 @@
 		"secondType": "ICE",
 		"fastAttacks": [ "Frost Breath", "Ice Shard" ],
 		"specialAttacks": [ "Ice Beam", "Dragon Pulse", "Blizzard" ]
+	},
+	{ 
+		"number": 132,
+		"name": "Ditto", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Pound" ],
+		"specialAttacks": [ "Struggle" ]
+	},
+	{ 
+		"number": 133,
+		"name": "Eevee", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Quick Attack" ],
+		"specialAttacks": [ "Body Slam", "Dig", "Swift" ]
 	},
 	{ 
 		"number": 134,
@@ -520,6 +1088,46 @@
 		"specialAttacks": [ "Fire Blast", "Flamethrower", "Heat Wave" ]
 	},
 	{ 
+		"number": 137,
+		"name": "Porygon", 
+		"firstType": "NORMAL",
+		"secondType": null,
+		"fastAttacks": [ "Tackle", "Quick Attack" ],
+		"specialAttacks": [ "Discharge", "Psybeam", "Signal Beam" ]
+	},
+	{ 
+		"number": 138,
+		"name": "Omanyte", 
+		"firstType": "ROCK",
+		"secondType": "WATER",
+		"fastAttacks": [ "Water Gun", "Mud Shot" ],
+		"specialAttacks": [ "Rock Tomb", "Ancient Power", "Brine" ]
+	},
+	{ 
+		"number": 139,
+		"name": "Omastar", 
+		"firstType": "ROCK",
+		"secondType": "WATER",
+		"fastAttacks": [ "Water Gun", "Rock Throw" ],
+		"specialAttacks": [ "Rock Slide", "Ancient Power", "Hydro Pump" ]
+	},
+	{ 
+		"number": 140,
+		"name": "Kabuto", 
+		"firstType": "ROCK",
+		"secondType": "WATER",
+		"fastAttacks": [ "Scratch", "Mud Shot" ],
+		"specialAttacks": [ "Aqua Jet", "Rock Tomb", "Ancient Power" ]
+	},
+	{ 
+		"number": 141,
+		"name": "Kabutops", 
+		"firstType": "ROCK",
+		"secondType": "WATER",
+		"fastAttacks": [ "Fury Cutter", "Mud Shot" ],
+		"specialAttacks": [ "Water Pulse", "Stone Edge", "Ancient Power" ]
+	},
+	{ 
 		"number": 142,
 		"name": "Aerodactyl", 
 		"firstType": "ROCK",
@@ -536,11 +1144,67 @@
 		"specialAttacks": [ "Earthquake", "Hyper Beam", "Body Slam" ]
 	},
 	{ 
+		"number": 144,
+		"name": "Articuno", 
+		"firstType": "ICE",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Frost Breath" ],
+		"specialAttacks": [ "Ice Beam", "Icy Wind", "Blizzard" ]
+	},
+	{ 
+		"number": 145,
+		"name": "Zapdos", 
+		"firstType": "ELECTRIC",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Thunder Shock" ],
+		"specialAttacks": [ "Discharge", "Thunderbolt", "Thunder" ]
+	},
+	{ 
+		"number": 146,
+		"name": "Moltres", 
+		"firstType": "FIRE",
+		"secondType": "FLYING",
+		"fastAttacks": [ "Ember" ],
+		"specialAttacks": [ "Fire Blast", "Heat Wave", "Flamethrower" ]
+	},
+	{ 
+		"number": 147,
+		"name": "Dratini", 
+		"firstType": "DRAGON",
+		"secondType": null,
+		"fastAttacks": [ "Dragon Breath" ],
+		"specialAttacks": [ "Wrap", "Aqua Tail", "Twister" ]
+	},
+	{ 
+		"number": 148,
+		"name": "Dragonair", 
+		"firstType": "DRAGON",
+		"secondType": null,
+		"fastAttacks": [ "Dragon Breath" ],
+		"specialAttacks": [ "Wrap", "Aqua Tail", "Dragon Pulse" ]
+	},
+	{ 
 		"number": 149,
 		"name": "Dragonite", 
 		"firstType": "DRAGON",
 		"secondType": "FLYING",
 		"fastAttacks": [ "Dragon Breath", "Steel Wing" ],
 		"specialAttacks": [ "Dragon Claw", "Hyper Beam", "Dragon Pulse" ]
+	},
+	{ 
+		"number": 150,
+		"name": "Mewtwo", 
+		"firstType": "PSYCHIC",
+		"secondType": null,
+		"fastAttacks": [ "Confusion", "Psycho Cut" ],
+		"specialAttacks": [ "Psychic", "Shadow Ball", "Hyper Beam" ]
+	},
+	{ 
+		"number": 151,
+		"name": "Mew", 
+		"firstType": "PSYCHIC",
+		"secondType": null,
+		"fastAttacks": [ "Pound" ],
+		"specialAttacks": [ "Hurricane", "Earthquake", "Psychic", "Dragon Pulse", "Thunder", "Moonblast", "Fire Blast", "Solar Beam", "Hyper Beam" ]
 	},
 ]

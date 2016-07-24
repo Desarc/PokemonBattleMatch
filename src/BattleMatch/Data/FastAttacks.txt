@@ -18,6 +18,7 @@
 	{ "name": "Low Kick", "type": "FIGHTING" },
 	{ "name": "Metal Claw", "type": "STEEL" },
 	{ "name": "Mud Shot", "type": "GROUND" },
+	{ "name": "Mud Slap", "type": "GROUND" },
 	{ "name": "Peck", "type": "FLYING" },
 	{ "name": "Poison Jab", "type": "POISON" },
 	{ "name": "Poison Sting", "type": "POISON" },
