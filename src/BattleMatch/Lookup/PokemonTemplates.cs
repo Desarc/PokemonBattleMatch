@@ -25,6 +25,24 @@ namespace Optimizer.Lookup
             return _pokemonTemplates[pokemonName.ToLower()];
         }
 
+        public int GetMaxHP()
+        {
+            var hps = from template in _pokemonTemplates.Values
+                     orderby template.MaxHP descending
+                     select template.MaxHP;
+
+            return hps.First();
+        }
+
+        public int GetMaxCP()
+        {
+            var cps = from template in _pokemonTemplates.Values
+                     orderby template.MaxCP descending
+                     select template.MaxCP;
+
+            return cps.First();
+        }
+
         public IEnumerable<string> GetAllNames()
         {
             return from template in _pokemonTemplates.Values

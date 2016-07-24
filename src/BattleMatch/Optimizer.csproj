@@ -53,9 +53,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Files.resx</DependentUpon>
     </Compile>
-    <Compile Include="IMatchupCalculator.cs" />
+    <Compile Include="Persistence\IResultWriter.cs" />
+    <Compile Include="Persistence\ResultWriter.cs" />
+    <Compile Include="Analysis\IMatchupCalculator.cs" />
     <Compile Include="Lookup\Attacks.cs" />
-    <Compile Include="IPokemonFactory.cs" />
+    <Compile Include="Model\IPokemonFactory.cs" />
     <Compile Include="Lookup\IAttacks.cs" />
     <Compile Include="Lookup\IPokemonTemplates.cs" />
     <Compile Include="Lookup\ITypeMatchups.cs" />
@@ -64,10 +66,10 @@
     <Compile Include="Model\PokemonTypes.cs" />
     <Compile Include="Model\TypeMatchup.cs" />
     <Compile Include="Model\TypeModifier.cs" />
-    <Compile Include="MatchupCalculator.cs" />
+    <Compile Include="Analysis\MatchupCalculator.cs" />
     <Compile Include="Model\Attack.cs" />
     <Compile Include="Model\Pokemon.cs" />
-    <Compile Include="PokemonFactory.cs" />
+    <Compile Include="Model\PokemonFactory.cs" />
     <Compile Include="Model\PokemonTemplate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

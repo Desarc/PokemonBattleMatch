@@ -1,15 +1,14 @@
 ﻿using Optimizer.Lookup;
 using Optimizer.Model;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Optimizer
+namespace Optimizer.Analysis
 {
     internal class MatchupCalculator : IMatchupCalculator
     {
+        private const double SameTypeAttackBonus = 1.25;
+
         private readonly ITypeMatchups _typeMatchups;
         private readonly IPokemonTemplates _pokemonTemplates;
         private readonly IPokemonFactory _pokemonFactory;
@@ -21,6 +20,7 @@ namespace Optimizer
             _pokemonFactory = pokemonFactory;
         }
 
+        // TODO: take max CP into account
         public IDictionary<Pokemon, double> FindFavorableAttackMatchups(string defendingPokemonName, int modifierLimit = 1)
         {
             var favorableMatchups = new Dictionary<Pokemon, double>();
@@ -81,13 +81,19 @@ namespace Optimizer
         private double MatchFastAttack(Pokemon attackingPokemon, Pokemon defendingPokemon)
         {
             double fastAttackModifier;
+            var fastAttackType = attackingPokemon.FastAttack.Type;
             if (defendingPokemon.SecondType != null)
             {
-                fastAttackModifier = _typeMatchups.GetModifier(attackingPokemon.FastAttack.Type, defendingPokemon.FirstType, defendingPokemon.SecondType);
+                fastAttackModifier = _typeMatchups.GetModifier(fastAttackType, defendingPokemon.FirstType, defendingPokemon.SecondType);
             }
             else
             {
-                fastAttackModifier = _typeMatchups.GetModifier(attackingPokemon.FastAttack.Type, defendingPokemon.FirstType);
+                fastAttackModifier = _typeMatchups.GetModifier(fastAttackType, defendingPokemon.FirstType);
+            }
+
+            if (SameTypeAttackBonusAppliesToFast(attackingPokemon))
+            {
+                fastAttackModifier = fastAttackModifier * SameTypeAttackBonus;
             }
 
             return fastAttackModifier;
@@ -105,16 +111,31 @@ namespace Optimizer
                 specialAttackModifier = _typeMatchups.GetModifier(attackingPokemon.SpecialAttack.Type, defendingPokemon.FirstType);
             }
 
+            if (SameTypeAttackBonusAppliesToFast(attackingPokemon))
+            {
+                specialAttackModifier = specialAttackModifier * SameTypeAttackBonus;
+            }
+
             return specialAttackModifier;
         }
 
-        private IDictionary<Pokemon, double> SortByValue(IDictionary<Pokemon, double> dictionary)
+        private static IDictionary<Pokemon, double> SortByValue(IDictionary<Pokemon, double> dictionary)
         {
             var sorted = from entry in dictionary
                          orderby entry.Value descending
                          select entry;
 
             return sorted.ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
+        }
+
+        private static bool SameTypeAttackBonusAppliesToFast(Pokemon pokemon)
+        {
+            return pokemon.FastAttack.Type == pokemon.FirstType || pokemon.FastAttack.Type == pokemon.SecondType;
+        }
+
+        public static bool SameTypeAttackBonusAppliesToSpecial(Pokemon pokemon)
+        {
+            return pokemon.SpecialAttack.Type == pokemon.FirstType || pokemon.SpecialAttack.Type == pokemon.SecondType;
         }
     }
 }

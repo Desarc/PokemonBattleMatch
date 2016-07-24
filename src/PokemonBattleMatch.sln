@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizer.GUI", "BattleMatc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "results", "results", "{99FF15BE-C600-4A47-BBAD-19CC9EA197A0}"
 	ProjectSection(SolutionItems) = preProject
+		..\results\CP-ranking.txt = ..\results\CP-ranking.txt
+		..\results\HP-ranking.txt = ..\results\HP-ranking.txt
+		..\results\total-ranking.txt = ..\results\total-ranking.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "matchups", "matchups", "{4A45E310-6F7B-4753-9B1E-654F498BAECF}"
+	ProjectSection(SolutionItems) = preProject
 		..\results\001-Bulbasaur.txt = ..\results\001-Bulbasaur.txt
 		..\results\002-Ivysaur.txt = ..\results\002-Ivysaur.txt
 		..\results\003-Venusaur.txt = ..\results\003-Venusaur.txt
@@ -179,5 +186,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A45E310-6F7B-4753-9B1E-654F498BAECF} = {99FF15BE-C600-4A47-BBAD-19CC9EA197A0}
 	EndGlobalSection
 EndGlobal

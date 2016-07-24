@@ -1,8 +1,7 @@
 ﻿using Optimizer.Lookup;
-using Optimizer.Model;
 using System;
 
-namespace Optimizer
+namespace Optimizer.Model
 {
     internal class PokemonFactory : IPokemonFactory
     {
