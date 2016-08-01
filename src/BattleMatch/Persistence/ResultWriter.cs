@@ -2,6 +2,7 @@
 using Optimizer.Lookup;
 using Optimizer.Model;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
@@ -78,6 +79,76 @@ namespace Optimizer.Persistence
                         var matchupString = $"{matchup.Key} - {value}";
                         file.WriteLine(matchupString);
                     }
+                }
+            }
+        }
+
+        public void WriteMatchupRankings()
+        {
+            var allTemplates = _pokemonTemplates.GetAllTemplates(true);
+            var allMatchups = new List<KeyValuePair<Pokemon, double>>();
+
+            foreach (var template in allTemplates)
+            {
+                allMatchups.AddRange(_matchupCalculator.FindFavorableAttackMatchups(template.Name, true, false, -1).ToList());
+            }
+
+            var aggregatedMatchupValues = new Dictionary<PokemonTemplate, double>();
+
+            foreach (var template in allTemplates)
+            {
+                var aggregatedMatchupValue = allMatchups.Where(am => am.Key.Name == template.Name).Sum(am => am.Value);
+                aggregatedMatchupValues[template] = aggregatedMatchupValue;
+            }
+
+            var sortedMatchupValues = aggregatedMatchupValues.OrderByDescending(am => am.Value);
+
+            Console.WriteLine("Writing matchup rankings...");
+
+            using (StreamWriter file = new StreamWriter($@"{ResultsFolder}\matchup-ranking.txt"))
+            {
+                var rankingNumber = 1;
+
+                foreach (var matchupValue in sortedMatchupValues)
+                {
+                    var templateString = $"{rankingNumber} - ({matchupValue.Key.NumberString}) {matchupValue.Key.Name}: {matchupValue.Value}";
+                    file.WriteLine(templateString);
+                    rankingNumber++;
+                }
+            }
+        }
+
+        public void WriteCPAdjustedMatchupRankings()
+        {
+            var allTemplates = _pokemonTemplates.GetAllTemplates(true);
+            var allMatchups = new List<KeyValuePair<Pokemon, double>>();
+
+            foreach (var template in allTemplates)
+            {
+                allMatchups.AddRange(_matchupCalculator.FindFavorableAttackMatchups(template.Name, true, true, -1).ToList());
+            }
+
+            var aggregatedMatchupValues = new Dictionary<PokemonTemplate, double>();
+
+            foreach (var template in allTemplates)
+            {
+                var aggregatedMatchupValue = allMatchups.Where(am => am.Key.Name == template.Name).Sum(am => am.Value);
+                aggregatedMatchupValues[template] = aggregatedMatchupValue;
+            }
+
+            var sortedMatchupValues = aggregatedMatchupValues.OrderByDescending(am => am.Value);
+
+            Console.WriteLine("Writing CP-adjusted matchup rankings...");
+
+            using (StreamWriter file = new StreamWriter($@"{ResultsFolder}\matchup-ranking-cpadjusted.txt"))
+            {
+                var rankingNumber = 1;
+
+                foreach (var matchupValue in sortedMatchupValues)
+                {
+                    var templateString = $"{rankingNumber} - ({matchupValue.Key.NumberString}) {matchupValue.Key.Name}: {matchupValue.Value}";
+                    file.WriteLine(templateString);
+                    rankingNumber++;
                 }
             }
         }

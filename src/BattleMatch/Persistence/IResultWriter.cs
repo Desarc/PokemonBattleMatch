@@ -6,6 +6,10 @@
 
         void WriteAllCPAdjustedMatchupResults();
 
+        void WriteMatchupRankings();
+
+        void WriteCPAdjustedMatchupRankings();
+
         void WriteCPRankings();
 
         void WriteHPRankings();

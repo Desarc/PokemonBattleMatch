@@ -8,6 +8,8 @@ namespace Optimizer.Lookup
 {
     internal class PokemonTemplates : IPokemonTemplates
     {
+        private readonly string[] NotAvailable = { "mew", "mewtwo", "moltres", "articuno", "zapdos", "ditto" };
+
         private readonly IDictionary<string, PokemonTemplate> _pokemonTemplates;
 
         public PokemonTemplates()
@@ -53,7 +55,7 @@ namespace Optimizer.Lookup
         {
             return onlyMaxStage
                 ? from pokemonTemplate in _pokemonTemplates.Values
-                  where pokemonTemplate.IsMaxStage
+                  where pokemonTemplate.IsMaxStage && !NotAvailable.Contains(pokemonTemplate.Name.ToLower())
                   select pokemonTemplate
                 : _pokemonTemplates.Values;
         }
@@ -63,6 +65,11 @@ namespace Optimizer.Lookup
             var permutations = new List<Pokemon>();
             foreach (var pokemonTemplate in _pokemonTemplates.Values)
             {
+                if (NotAvailable.Contains(pokemonTemplate.Name.ToLower()))
+                {
+                    continue;
+                }
+
                 if (pokemonTemplate.IsMaxStage)
                 {
                     permutations.AddRange(pokemonTemplate.CreatePermutations(pokemonFactory));

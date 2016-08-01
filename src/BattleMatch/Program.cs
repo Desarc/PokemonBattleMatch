@@ -24,6 +24,8 @@ namespace Optimizer
             resultWriter.WriteHPRankings();
             resultWriter.WriteTotalRankings();
             resultWriter.WriteAllCPAdjustedMatchupResults();
+            resultWriter.WriteMatchupRankings();
+            resultWriter.WriteCPAdjustedMatchupRankings();
 
             //while (true)
             //{

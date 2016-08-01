@@ -15,8 +15,6 @@ namespace Optimizer.Analysis
         private const double CPPowerIncreaseModifier = 2;
         private const double FastAttackWeighting = 1;
 
-        private readonly string[] NotAvailable = { "mew", "mewtwo", "moltres", "articuno", "zapdos", "ditto" };
-
         private readonly ITypeMatchups _typeMatchups;
         private readonly IPokemonTemplates _pokemonTemplates;
         private readonly IPokemonFactory _pokemonFactory;
@@ -38,11 +36,6 @@ namespace Optimizer.Analysis
             var attackingPokemonPermutations = _pokemonTemplates.GetAllPermutations(_pokemonFactory, onlyMaxStage);
             foreach (var attackingPokemonPermutation in attackingPokemonPermutations)
             {
-                if (NotAvailable.Contains(attackingPokemonPermutation.Name.ToLower()))
-                {
-                    continue;
-                }
-
                 var modifiers = new List<double>();
 
                 foreach (var defendingPokemonPermutation in defendingPokemonPermutations)
@@ -69,11 +62,6 @@ namespace Optimizer.Analysis
             var attackingPokemonPermutations = _pokemonTemplates.GetAllPermutations(_pokemonFactory, onlyMaxStage);
             foreach (var attackingPokemonPermutation in attackingPokemonPermutations)
             {
-                if (NotAvailable.Contains(attackingPokemonPermutation.Name.ToLower()))
-                {
-                    continue;
-                }
-
                 var totalResult = MatchTotal(attackingPokemonPermutation, defendingPokemon, adjustForCP);
                 
                 if (totalResult > modifierLimit)

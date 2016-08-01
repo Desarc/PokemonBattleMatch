@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "results", "results", "{99FF
 	ProjectSection(SolutionItems) = preProject
 		..\results\CP-ranking.txt = ..\results\CP-ranking.txt
 		..\results\HP-ranking.txt = ..\results\HP-ranking.txt
+		..\results\matchup-ranking-cpadjusted.txt = ..\results\matchup-ranking-cpadjusted.txt
+		..\results\matchup-ranking.txt = ..\results\matchup-ranking.txt
 		..\results\total-ranking.txt = ..\results\total-ranking.txt
 	EndProjectSection
 EndProject
