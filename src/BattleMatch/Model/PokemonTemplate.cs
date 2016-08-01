@@ -5,7 +5,7 @@ namespace Optimizer.Model
 {
     internal class PokemonTemplate
     {
-        public PokemonTemplate(int number, string name, int stage, int maxStage, int maxCP, int maxHP, IEnumerable<string> fastAttacks, IEnumerable<string> specialAttacks, string firstType, string secondType = null)
+        public PokemonTemplate(int number, string name, int stage, int maxStage, double maxCP, double maxHP, IEnumerable<string> fastAttacks, IEnumerable<string> specialAttacks, string firstType, string secondType = null)
         {
             Number = number;
             Name = name;
@@ -31,9 +31,9 @@ namespace Optimizer.Model
 
         public bool IsMaxStage => Stage == MaxStage;
 
-        public int MaxCP { get; }
+        public double MaxCP { get; }
 
-        public int MaxHP { get; }
+        public double MaxHP { get; }
 
         public IList<string> FastAttacks { get; }
 

@@ -23,6 +23,7 @@ namespace Optimizer
             resultWriter.WriteCPRankings();
             resultWriter.WriteHPRankings();
             resultWriter.WriteTotalRankings();
+            resultWriter.WriteAllCPAdjustedMatchupResults();
 
             //while (true)
             //{
@@ -34,7 +35,7 @@ namespace Optimizer
                 //var specialAttackName = Console.ReadLine();
 
                 //var pokemon = _pokemonFactory.CreatePokemon(pokemonName, fastAttackName, specialAttackName);
-                //var matchups = _matchupCalculator.FindFavorableAttackMatchups(
+                //var matchups = matchupCalculator.FindFavorableAttackMatchups(pokemonName);
             //}
         }
     }

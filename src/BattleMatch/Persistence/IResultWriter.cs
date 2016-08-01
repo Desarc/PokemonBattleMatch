@@ -4,6 +4,8 @@
     {
         void WriteAllMatchupResults();
 
+        void WriteAllCPAdjustedMatchupResults();
+
         void WriteCPRankings();
 
         void WriteHPRankings();

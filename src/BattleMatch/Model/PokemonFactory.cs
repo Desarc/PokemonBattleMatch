@@ -30,7 +30,7 @@ namespace Optimizer.Model
             var fastAttack = _attacks.GetFastAttack(fastAttackName);
             var specialAttack = _attacks.GetSpecialAttack(specialAttackName);
 
-            return new Pokemon(name, fastAttack, specialAttack, template.FirstType, template.SecondType);
+            return new Pokemon(name, fastAttack, specialAttack, template.MaxCP, template.FirstType, template.SecondType);
         }
     }
 }

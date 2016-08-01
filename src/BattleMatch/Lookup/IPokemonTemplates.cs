@@ -7,9 +7,9 @@ namespace Optimizer.Lookup
     {
         PokemonTemplate GetTemplate(string pokemonName);
 
-        int GetMaxHP();
+        double GetMaxHP();
 
-        int GetMaxCP();
+        double GetMaxCP();
 
         IEnumerable<string> GetAllNames();
 

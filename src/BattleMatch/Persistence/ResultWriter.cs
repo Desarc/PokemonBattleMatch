@@ -10,9 +10,10 @@ namespace Optimizer.Persistence
 {
     internal class ResultWriter : IResultWriter
     {
-        private const string ResultsFolder = @"..\..\..\..\results\";
+        private const string ResultsFolder = @"..\..\..\..\results";
 
         private const double CPValueModifier = 4.0;
+        private const int Precision = 4;
 
         private static IPokemonTemplates _pokemonTemplates;
         private static IPokemonFactory _pokemonFactory;
@@ -31,15 +32,49 @@ namespace Optimizer.Persistence
 
             foreach (var template in _pokemonTemplates.GetAllTemplates())
             {
-                var matchups = _matchupCalculator.FindFavorableAttackMatchups(template.Name, -1);
+                var matchups = _matchupCalculator.FindFavorableAttackMatchups(template.Name, false, -1);
+
+                var resultsFolder = $@"{ResultsFolder}\matchups";
+                if (!Directory.Exists(resultsFolder))
+                {
+                    Directory.CreateDirectory(resultsFolder);
+                }
 
                 Console.WriteLine($"Writing results for {template.Name}");
 
-                using (StreamWriter file = new StreamWriter($"{ResultsFolder}{template.NumberString}-{template.Name}.txt"))
+                using (StreamWriter file = new StreamWriter($@"{resultsFolder}\{template.NumberString}-{template.Name}.txt"))
                 {
                     foreach (var matchup in matchups)
                     {
-                        var value = Math.Round(matchup.Value, 2);
+                        var value = Math.Round(matchup.Value, Precision);
+                        var matchupString = $"{matchup.Key} - {value}";
+                        file.WriteLine(matchupString);
+                    }
+                }
+            }
+        }
+
+        public void WriteAllCPAdjustedMatchupResults()
+        {
+            Console.WriteLine("Writing CP adjusted matchup results...");
+
+            foreach (var template in _pokemonTemplates.GetAllTemplates())
+            {
+                var matchups = _matchupCalculator.FindFavorableAttackMatchups(template.Name, true, -1);
+
+                var resultsFolder = $@"{ResultsFolder}\matchups-cpadjusted";
+                if (!Directory.Exists(resultsFolder))
+                {
+                    Directory.CreateDirectory(resultsFolder);
+                }
+
+                Console.WriteLine($"Writing results for {template.Name}");
+
+                using (StreamWriter file = new StreamWriter($@"{resultsFolder}\{template.NumberString}-{template.Name}.txt"))
+                {
+                    foreach (var matchup in matchups)
+                    {
+                        var value = Math.Round(matchup.Value, Precision);
                         var matchupString = $"{matchup.Key} - {value}";
                         file.WriteLine(matchupString);
                     }
@@ -55,7 +90,7 @@ namespace Optimizer.Persistence
 
             Console.WriteLine("Writing CP rankings...");
 
-            using (StreamWriter file = new StreamWriter($"{ResultsFolder}CP-ranking.txt"))
+            using (StreamWriter file = new StreamWriter($@"{ResultsFolder}\CP-ranking.txt"))
             {
                 var rankingNumber = 1;
 
@@ -76,7 +111,7 @@ namespace Optimizer.Persistence
 
             Console.WriteLine("Writing HP rankings...");
 
-            using (StreamWriter file = new StreamWriter($"{ResultsFolder}HP-ranking.txt"))
+            using (StreamWriter file = new StreamWriter($@"{ResultsFolder}\HP-ranking.txt"))
             {
                 var rankingNumber = 1;
 
@@ -101,7 +136,7 @@ namespace Optimizer.Persistence
 
             Console.WriteLine("Writing total rankings...");
 
-            using (StreamWriter file = new StreamWriter($"{ResultsFolder}total-ranking.txt"))
+            using (StreamWriter file = new StreamWriter($@"{ResultsFolder}\total-ranking.txt"))
             {
                 var rankingNumber = 1;
 

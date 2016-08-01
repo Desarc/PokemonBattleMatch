@@ -1,5 +1,6 @@
 ﻿using Optimizer.Lookup;
 using Optimizer.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -8,6 +9,7 @@ namespace Optimizer.Analysis
     internal class MatchupCalculator : IMatchupCalculator
     {
         private const double SameTypeAttackBonus = 1.25;
+        private const double CPPowerIncreaseModifier = 2;
 
         private readonly ITypeMatchups _typeMatchups;
         private readonly IPokemonTemplates _pokemonTemplates;
@@ -21,7 +23,7 @@ namespace Optimizer.Analysis
         }
 
         // TODO: take max CP into account
-        public IDictionary<Pokemon, double> FindFavorableAttackMatchups(string defendingPokemonName, int modifierLimit = 1)
+        public IDictionary<Pokemon, double> FindFavorableAttackMatchups(string defendingPokemonName, bool adjustForCP = false, int modifierLimit = 1)
         {
             var favorableMatchups = new Dictionary<Pokemon, double>();
 
@@ -35,7 +37,7 @@ namespace Optimizer.Analysis
 
                 foreach (var defendingPokemonPermutation in defendingPokemonPermutations)
                 {
-                    var modifier = MatchTotal(attackingPokemonPermutation, defendingPokemonPermutation);
+                    var modifier = MatchTotal(attackingPokemonPermutation, defendingPokemonPermutation, adjustForCP);
 
                     modifiers.Add(modifier);
                 }
@@ -51,13 +53,13 @@ namespace Optimizer.Analysis
             return SortByValue(favorableMatchups);
         }
 
-        public IDictionary<Pokemon, double> FindFavorableAttackMatchups(Pokemon defendingPokemon, int modifierLimit = 1)
+        public IDictionary<Pokemon, double> FindFavorableAttackMatchups(Pokemon defendingPokemon, bool adjustForCP = false, int modifierLimit = 1)
         {
             var favorableMatchups = new Dictionary<Pokemon, double>();
             var attackingPokemonPermutations = _pokemonTemplates.GetAllPermutations(_pokemonFactory);
             foreach (var attackingPokemonPermutation in attackingPokemonPermutations)
             {
-                var totalResult = MatchTotal(attackingPokemonPermutation, defendingPokemon);
+                var totalResult = MatchTotal(attackingPokemonPermutation, defendingPokemon, adjustForCP);
                 
                 if (totalResult > modifierLimit)
                 {
@@ -68,14 +70,16 @@ namespace Optimizer.Analysis
             return SortByValue(favorableMatchups);
         }
 
-        private double MatchTotal(Pokemon attackingPokemon, Pokemon defendingPokemon)
+        private double MatchTotal(Pokemon attackingPokemon, Pokemon defendingPokemon, bool adjustForCP = false)
         {
             var attackingModifierResult1 = MatchFastAttack(attackingPokemon, defendingPokemon);
             var attackingModifierResult2 = MatchSpecialAttack(attackingPokemon, defendingPokemon);
             var defendingModifierResult1 = MatchFastAttack(defendingPokemon, attackingPokemon);
             var defendingModifierResult2 = MatchSpecialAttack(defendingPokemon, attackingPokemon);
 
-            return (attackingModifierResult1 + attackingModifierResult1) / (defendingModifierResult1 + defendingModifierResult2);
+            var CPmodifier = attackingPokemon.MaxCP / defendingPokemon.MaxCP;
+
+            return ((attackingModifierResult1 + attackingModifierResult1) / (defendingModifierResult1 + defendingModifierResult2)) * Math.Pow(CPmodifier, CPPowerIncreaseModifier);
         }
 
         private double MatchFastAttack(Pokemon attackingPokemon, Pokemon defendingPokemon)

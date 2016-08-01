@@ -25,7 +25,7 @@ namespace Optimizer.Lookup
             return _pokemonTemplates[pokemonName.ToLower()];
         }
 
-        public int GetMaxHP()
+        public double GetMaxHP()
         {
             var hps = from template in _pokemonTemplates.Values
                      orderby template.MaxHP descending
@@ -34,7 +34,7 @@ namespace Optimizer.Lookup
             return hps.First();
         }
 
-        public int GetMaxCP()
+        public double GetMaxCP()
         {
             var cps = from template in _pokemonTemplates.Values
                      orderby template.MaxCP descending

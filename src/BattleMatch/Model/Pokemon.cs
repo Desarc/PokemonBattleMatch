@@ -2,11 +2,12 @@
 {
     internal class Pokemon
     {
-        public Pokemon(string name, Attack fastAttack, Attack specialAttack, string firstType, string secondType = null)
+        public Pokemon(string name, Attack fastAttack, Attack specialAttack, double maxCP, string firstType, string secondType = null)
         {
             Name = name;
             FastAttack = fastAttack;
             SpecialAttack = specialAttack;
+            MaxCP = maxCP;
             FirstType = firstType;
             SecondType = secondType;
         }
@@ -16,6 +17,8 @@
         public Attack FastAttack { get; }
 
         public Attack SpecialAttack { get; }
+
+        public double MaxCP { get; }
 
         public string FirstType { get; }
 
