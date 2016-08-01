@@ -15,9 +15,9 @@ namespace Optimizer.Persistence
         private const double CPValueModifier = 4.0;
         private const int Precision = 4;
 
-        private static IPokemonTemplates _pokemonTemplates;
-        private static IPokemonFactory _pokemonFactory;
-        private static IMatchupCalculator _matchupCalculator;
+        private IPokemonTemplates _pokemonTemplates;
+        private IPokemonFactory _pokemonFactory;
+        private IMatchupCalculator _matchupCalculator;
 
         public ResultWriter(IPokemonTemplates pokemonTemplates, IPokemonFactory pokemonFactory, IMatchupCalculator matchupCalculator)
         {
@@ -32,7 +32,7 @@ namespace Optimizer.Persistence
 
             foreach (var template in _pokemonTemplates.GetAllTemplates())
             {
-                var matchups = _matchupCalculator.FindFavorableAttackMatchups(template.Name, false, -1);
+                var matchups = _matchupCalculator.FindFavorableAttackMatchups(template.Name, true, false, -1);
 
                 var resultsFolder = $@"{ResultsFolder}\matchups";
                 if (!Directory.Exists(resultsFolder))
@@ -60,7 +60,7 @@ namespace Optimizer.Persistence
 
             foreach (var template in _pokemonTemplates.GetAllTemplates())
             {
-                var matchups = _matchupCalculator.FindFavorableAttackMatchups(template.Name, true, -1);
+                var matchups = _matchupCalculator.FindFavorableAttackMatchups(template.Name, true, true, -1);
 
                 var resultsFolder = $@"{ResultsFolder}\matchups-cpadjusted";
                 if (!Directory.Exists(resultsFolder))

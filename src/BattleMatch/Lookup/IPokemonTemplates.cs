@@ -15,6 +15,6 @@ namespace Optimizer.Lookup
 
         IEnumerable<PokemonTemplate> GetAllTemplates(bool onlyMaxStage = false);
 
-        IList<Pokemon> GetAllPermutations(IPokemonFactory pokemonFactory);
+        IList<Pokemon> GetAllPermutations(IPokemonFactory pokemonFactory, bool onlyMaxStage = false);
     }
 }

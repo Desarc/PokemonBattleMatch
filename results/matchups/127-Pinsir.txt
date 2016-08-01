@@ -1,852 +1,440 @@
-Mewtwo - Confusion - Psychic - 4.3488
-Mewtwo - Confusion - Shadow Ball - 4.3488
-Mewtwo - Confusion - Hyper Beam - 4.3488
-Mewtwo - Psycho Cut - Psychic - 4.3488
-Mewtwo - Psycho Cut - Shadow Ball - 4.3488
-Mewtwo - Psycho Cut - Hyper Beam - 4.3488
-Moltres - Ember - Fire Blast - 4.3065
-Moltres - Ember - Heat Wave - 4.3065
-Moltres - Ember - Flamethrower - 4.3065
-Dragonite - Dragon Breath - Dragon Claw - 3.6875
-Dragonite - Dragon Breath - Hyper Beam - 3.6875
-Dragonite - Dragon Breath - Dragon Pulse - 3.6875
-Arcanine - Fire Fang - Fire Blast - 3.0334
-Arcanine - Fire Fang - Bulldoze - 3.0334
-Arcanine - Fire Fang - Flamethrower - 3.0334
-Dragonite - Steel Wing - Dragon Claw - 2.95
-Dragonite - Steel Wing - Hyper Beam - 2.95
-Dragonite - Steel Wing - Dragon Pulse - 2.95
-Zapdos - Thunder Shock - Discharge - 2.919
-Zapdos - Thunder Shock - Thunderbolt - 2.919
-Zapdos - Thunder Shock - Thunder - 2.919
-Charizard - Wing Attack - Dragon Claw - 2.7775
-Charizard - Wing Attack - Flamethrower - 2.7775
-Charizard - Wing Attack - Fire Blast - 2.7775
-Charizard - Ember - Dragon Claw - 2.7775
-Charizard - Ember - Flamethrower - 2.7775
-Charizard - Ember - Fire Blast - 2.7775
-Articuno - Frost Breath - Ice Beam - 2.4186
-Articuno - Frost Breath - Icy Wind - 2.4186
-Articuno - Frost Breath - Blizzard - 2.4186
-Vaporeon - Water Gun - Aqua Tail - 2.387
-Vaporeon - Water Gun - Water Pulse - 2.387
-Vaporeon - Water Gun - Hydro Pump - 2.387
-Flareon - Ember - Fire Blast - 2.3813
-Flareon - Ember - Flamethrower - 2.3813
-Flareon - Ember - Heat Wave - 2.3813
-Mew - Pound - Hurricane - 2.2049
-Mew - Pound - Earthquake - 2.2049
-Mew - Pound - Psychic - 2.2049
-Mew - Pound - Dragon Pulse - 2.2049
-Mew - Pound - Thunder - 2.2049
-Mew - Pound - Moonblast - 2.2049
-Mew - Pound - Fire Blast - 2.2049
-Mew - Pound - Solar Beam - 2.2049
-Mew - Pound - Hyper Beam - 2.2049
-Muk - Poison Jab - Sludge Wave - 2.038
-Muk - Poison Jab - Sludge Bomb - 2.038
-Muk - Poison Jab - Dark Pulse - 2.038
-Muk - Acid - Sludge Wave - 2.038
-Muk - Acid - Sludge Bomb - 2.038
-Muk - Acid - Dark Pulse - 2.038
-Exeggutor - Confusion - Psychic - 2.0305
-Exeggutor - Confusion - Seed Bomb - 2.0305
-Exeggutor - Confusion - Solar Beam - 2.0305
-Exeggutor - Zen Headbutt - Psychic - 2.0305
-Exeggutor - Zen Headbutt - Seed Bomb - 2.0305
-Exeggutor - Zen Headbutt - Solar Beam - 2.0305
-Lapras - Frost Breath - Ice Beam - 2.0106
-Lapras - Frost Breath - Dragon Pulse - 2.0106
-Lapras - Frost Breath - Blizzard - 2.0106
-Lapras - Ice Shard - Ice Beam - 2.0106
-Lapras - Ice Shard - Dragon Pulse - 2.0106
-Lapras - Ice Shard - Blizzard - 2.0106
-Arcanine - Bite - Fire Blast - 1.9414
-Arcanine - Bite - Bulldoze - 1.9414
-Arcanine - Bite - Flamethrower - 1.9414
-Nidoqueen - Poison Jab - Stone Edge - 1.8588
-Nidoqueen - Poison Jab - Sludge Wave - 1.8588
-Nidoqueen - Poison Jab - Earthquake - 1.8588
-Nidoking - Poison Jab - Megahorn - 1.8439
-Nidoking - Poison Jab - Earthquake - 1.8439
-Nidoking - Poison Jab - Sludge Wave - 1.8439
-Victreebel - Acid - Sludge Bomb - 1.767
-Victreebel - Acid - Leaf Blade - 1.767
-Victreebel - Acid - Solar Beam - 1.767
-Snorlax - Lick - Earthquake - 1.7541
-Snorlax - Lick - Hyper Beam - 1.7541
-Snorlax - Lick - Body Slam - 1.7541
-Snorlax - Zen Headbutt - Earthquake - 1.7541
-Snorlax - Zen Headbutt - Hyper Beam - 1.7541
-Snorlax - Zen Headbutt - Body Slam - 1.7541
-Magmar - Ember - Fire Blast - 1.7489
-Magmar - Ember - Flamethrower - 1.7489
-Magmar - Ember - Fire Punch - 1.7489
-Gyarados - Bite - Twister - 1.74
-Gyarados - Bite - Hydro Pump - 1.74
-Gyarados - Bite - Dragon Pulse - 1.74
-Gyarados - Dragon Breath - Twister - 1.74
-Gyarados - Dragon Breath - Hydro Pump - 1.74
-Gyarados - Dragon Breath - Dragon Pulse - 1.74
-Vileplume - Acid - Moonblast - 1.7144
-Vileplume - Acid - Petal Blizzard - 1.7144
-Vileplume - Acid - Solar Beam - 1.7144
-Poliwrath - Bubble - Ice Punch - 1.7113
-Poliwrath - Bubble - Hydro Pump - 1.7113
-Poliwrath - Bubble - Submission - 1.7113
-Slowbro - Water Gun - Psychic - 1.708
-Slowbro - Water Gun - Water Pulse - 1.708
-Slowbro - Water Gun - Ice Beam - 1.708
-Slowbro - Confusion - Psychic - 1.708
-Slowbro - Confusion - Water Pulse - 1.708
-Slowbro - Confusion - Ice Beam - 1.708
-Golbat - Wing Attack - Ominous Wind - 1.6705
-Golbat - Wing Attack - Poison Fang - 1.6705
-Golbat - Wing Attack - Air Cutter - 1.6705
-Rapidash - Ember - Heat Wave - 1.6484
-Rapidash - Ember - Fire Blast - 1.6484
-Rapidash - Ember - Drill Run - 1.6484
-Ninetales - Ember - Heat Wave - 1.632
-Ninetales - Ember - Fire Blast - 1.632
-Ninetales - Ember - Flamethrower - 1.632
-Gengar - Shadow Claw - Dark Pulse - 1.6248
-Gengar - Shadow Claw - Sludge Wave - 1.6248
-Gengar - Shadow Claw - Shadow Ball - 1.6248
-Blastoise - Water Gun - Ice Beam - 1.6159
-Blastoise - Water Gun - Hydro Pump - 1.6159
-Blastoise - Water Gun - Flash Cannon - 1.6159
-Golem - Rock Throw - Ancient Power - 1.5549
-Golem - Rock Throw - Earthquake - 1.5549
-Golem - Rock Throw - Stone Edge - 1.5549
-Weezing - Acid - Dark Pulse - 1.5239
-Weezing - Acid - Shadow Ball - 1.5239
-Weezing - Acid - Sludge Bomb - 1.5239
-Pidgeot - Wing Attack - Hurricane - 1.4905
-Pidgeot - Wing Attack - Aerial Ace - 1.4905
-Pidgeot - Wing Attack - Air Cutter - 1.4905
-Nidoqueen - Bite - Stone Edge - 1.4871
-Nidoqueen - Bite - Sludge Wave - 1.4871
-Nidoqueen - Bite - Earthquake - 1.4871
-Tentacruel - Acid - Blizzard - 1.4835
-Tentacruel - Acid - Hydro Pump - 1.4835
-Tentacruel - Acid - Sludge Wave - 1.4835
-Tentacruel - Poison Jab - Blizzard - 1.4835
-Tentacruel - Poison Jab - Hydro Pump - 1.4835
-Tentacruel - Poison Jab - Sludge Wave - 1.4835
-Nidoking - Fury Cutter - Megahorn - 1.4751
-Nidoking - Fury Cutter - Earthquake - 1.4751
-Nidoking - Fury Cutter - Sludge Wave - 1.4751
-Venusaur - Razor Leaf - Sludge Bomb - 1.4701
-Venusaur - Razor Leaf - Solar Beam - 1.4701
-Venusaur - Razor Leaf - Petal Blizzard - 1.4701
-Venusaur - Vine Whip - Sludge Bomb - 1.4701
-Venusaur - Vine Whip - Solar Beam - 1.4701
-Venusaur - Vine Whip - Petal Blizzard - 1.4701
-Machamp - Bullet Punch - Stone Edge - 1.468
-Machamp - Bullet Punch - Cross Chop - 1.468
-Machamp - Bullet Punch - Submission - 1.468
-Machamp - Karate Chop - Stone Edge - 1.468
-Machamp - Karate Chop - Cross Chop - 1.468
-Machamp - Karate Chop - Submission - 1.468
-Omastar - Rock Throw - Rock Slide - 1.4618
-Omastar - Rock Throw - Ancient Power - 1.4618
-Omastar - Rock Throw - Hydro Pump - 1.4618
-Scyther - Fury Cutter - Bug Buzz - 1.4271
-Scyther - Fury Cutter - X-Scissor - 1.4271
-Scyther - Fury Cutter - Night Slash - 1.4271
-Golduck - Water Gun - Hydro Pump - 1.4237
-Golduck - Water Gun - Ice Beam - 1.4237
-Golduck - Water Gun - Psychic - 1.4237
-Victreebel - Razor Leaf - Sludge Bomb - 1.4136
-Victreebel - Razor Leaf - Leaf Blade - 1.4136
-Victreebel - Razor Leaf - Solar Beam - 1.4136
-Clefable - Zen Headbutt - Psychic - 1.3836
-Clefable - Zen Headbutt - Dazzling Gleam - 1.3836
-Clefable - Zen Headbutt - Moonblast - 1.3836
-Clefable - Pound - Psychic - 1.3836
-Clefable - Pound - Dazzling Gleam - 1.3836
-Clefable - Pound - Moonblast - 1.3836
-Vileplume - Razor Leaf - Moonblast - 1.3715
-Vileplume - Razor Leaf - Petal Blizzard - 1.3715
-Vileplume - Razor Leaf - Solar Beam - 1.3715
-Gengar - Sucker Punch - Dark Pulse - 1.2998
-Gengar - Sucker Punch - Sludge Wave - 1.2998
-Gengar - Sucker Punch - Shadow Ball - 1.2998
-Blastoise - Bite - Ice Beam - 1.2927
-Blastoise - Bite - Hydro Pump - 1.2927
-Blastoise - Bite - Flash Cannon - 1.2927
-Wigglytuff - Pound - Dazzling Gleam - 1.2925
-Wigglytuff - Pound - Hyper Beam - 1.2925
-Wigglytuff - Pound - Play Rough - 1.2925
-Pinsir - Fury Cutter - Submission - 1.2419
-Pinsir - Fury Cutter - Vice Grip - 1.2419
-Pinsir - Fury Cutter - X-Scissor - 1.2419
-Weezing - Tackle - Dark Pulse - 1.2191
-Weezing - Tackle - Shadow Ball - 1.2191
-Weezing - Tackle - Sludge Bomb - 1.2191
-Hypno - Zen Headbutt - Psychic - 1.2079
-Hypno - Zen Headbutt - Psyshock - 1.2079
-Hypno - Zen Headbutt - Shadow Ball - 1.2079
-Hypno - Confusion - Psychic - 1.2079
-Hypno - Confusion - Psyshock - 1.2079
-Hypno - Confusion - Shadow Ball - 1.2079
-Starmie - Water Gun - Hydro Pump - 1.2057
-Starmie - Water Gun - Power Gem - 1.2057
-Starmie - Water Gun - Psybeam - 1.2057
-Venomoth - Bug Bite - Bug Buzz - 1.1862
-Venomoth - Bug Bite - Poison Fang - 1.1862
-Venomoth - Bug Bite - Psychic - 1.1862
-Omastar - Water Gun - Rock Slide - 1.1695
-Omastar - Water Gun - Ancient Power - 1.1695
-Omastar - Water Gun - Hydro Pump - 1.1695
-Jolteon - Thunder Shock - Thunderbolt - 1.1452
-Jolteon - Thunder Shock - Thunder - 1.1452
-Jolteon - Thunder Shock - Discharge - 1.1452
-Scyther - Steel Wing - Bug Buzz - 1.1417
-Scyther - Steel Wing - X-Scissor - 1.1417
-Scyther - Steel Wing - Night Slash - 1.1417
-Golduck - Confusion - Hydro Pump - 1.1389
-Golduck - Confusion - Ice Beam - 1.1389
-Golduck - Confusion - Psychic - 1.1389
-Electabuzz - Thunder Shock - Thunderbolt - 1.1229
-Electabuzz - Thunder Shock - Thunder - 1.1229
-Electabuzz - Thunder Shock - Thunder Punch - 1.1229
-Poliwrath - Mud Shot - Ice Punch - 1.0952
-Poliwrath - Mud Shot - Hydro Pump - 1.0952
-Poliwrath - Mud Shot - Submission - 1.0952
-Golbat - Bite - Ominous Wind - 1.0691
-Golbat - Bite - Poison Fang - 1.0691
-Golbat - Bite - Air Cutter - 1.0691
-Aerodactyl - Bite - Iron Head - 1.0612
-Aerodactyl - Bite - Hyper Beam - 1.0612
-Aerodactyl - Bite - Ancient Power - 1.0612
-Aerodactyl - Steel Wing - Iron Head - 1.0612
-Aerodactyl - Steel Wing - Hyper Beam - 1.0612
-Aerodactyl - Steel Wing - Ancient Power - 1.0612
-Ninetales - Feint Attack - Heat Wave - 1.0445
-Ninetales - Feint Attack - Fire Blast - 1.0445
-Ninetales - Feint Attack - Flamethrower - 1.0445
-Seaking - Peck - Drill Run - 1.0438
-Seaking - Peck - Megahorn - 1.0438
-Seaking - Peck - Icy Wind - 1.0438
-Dewgong - Frost Breath - Aqua Jet - 1.0417
-Dewgong - Frost Breath - Icy Wind - 1.0417
-Dewgong - Frost Breath - Blizzard - 1.0417
-Dewgong - Ice Shard - Aqua Jet - 1.0417
-Dewgong - Ice Shard - Icy Wind - 1.0417
-Dewgong - Ice Shard - Blizzard - 1.0417
-Fearow - Peck - Aerial Ace - 1.0392
-Fearow - Peck - Twister - 1.0392
-Fearow - Peck - Drill Run - 1.0392
-Wigglytuff - Feint Attack - Dazzling Gleam - 1.034
-Wigglytuff - Feint Attack - Hyper Beam - 1.034
-Wigglytuff - Feint Attack - Play Rough - 1.034
-Raichu - Thunder Shock - Brick Break - 1.0285
-Raichu - Thunder Shock - Thunder Punch - 1.0285
-Raichu - Thunder Shock - Thunder - 1.0285
-Raichu - Spark - Brick Break - 1.0285
-Raichu - Spark - Thunder Punch - 1.0285
-Raichu - Spark - Thunder - 1.0285
-Golem - Mud Shot - Ancient Power - 0.9952
-Golem - Mud Shot - Earthquake - 0.9952
-Golem - Mud Shot - Stone Edge - 0.9952
-Starmie - Quick Attack - Hydro Pump - 0.9646
-Starmie - Quick Attack - Power Gem - 0.9646
-Starmie - Quick Attack - Psybeam - 0.9646
-Pidgeot - Steel Wing - Hurricane - 0.9539
-Pidgeot - Steel Wing - Aerial Ace - 0.9539
-Pidgeot - Steel Wing - Air Cutter - 0.9539
-Cloyster - Frost Breath - Hydro Pump - 0.9533
-Cloyster - Frost Breath - Icy Wind - 0.9533
-Cloyster - Frost Breath - Blizzard - 0.9533
-Cloyster - Ice Shard - Hydro Pump - 0.9533
-Cloyster - Ice Shard - Icy Wind - 0.9533
-Cloyster - Ice Shard - Blizzard - 0.9533
-Venomoth - Confusion - Bug Buzz - 0.949
-Venomoth - Confusion - Poison Fang - 0.949
-Venomoth - Confusion - Psychic - 0.949
-Arbok - Acid - Gunk Shot - 0.9399
-Arbok - Acid - Sludge Wave - 0.9399
-Arbok - Acid - Dark Pulse - 0.9399
-Magneton - Spark - Magnet Bomb - 0.9045
-Magneton - Spark - Discharge - 0.9045
-Magneton - Spark - Flash Cannon - 0.9045
-Magneton - Thunder Shock - Magnet Bomb - 0.9045
-Magneton - Thunder Shock - Discharge - 0.9045
-Magneton - Thunder Shock - Flash Cannon - 0.9045
-Magmar - Karate Chop - Fire Blast - 0.8954
-Magmar - Karate Chop - Flamethrower - 0.8954
-Magmar - Karate Chop - Fire Punch - 0.8954
-Kabutops - Fury Cutter - Water Pulse - 0.8513
-Kabutops - Fury Cutter - Stone Edge - 0.8513
-Kabutops - Fury Cutter - Ancient Power - 0.8513
-Rapidash - Low Kick - Heat Wave - 0.844
-Rapidash - Low Kick - Fire Blast - 0.844
-Rapidash - Low Kick - Drill Run - 0.844
-Seaking - Poison Jab - Drill Run - 0.835
-Seaking - Poison Jab - Megahorn - 0.835
-Seaking - Poison Jab - Icy Wind - 0.835
-Alakazam - Confusion - Shadow Ball - 0.8324
-Alakazam - Confusion - Dazzling Gleam - 0.8324
-Alakazam - Confusion - Psychic - 0.8324
-Alakazam - Psycho Cut - Shadow Ball - 0.8324
-Alakazam - Psycho Cut - Dazzling Gleam - 0.8324
-Alakazam - Psycho Cut - Psychic - 0.8324
-Charmeleon - Ember - Flame Burst - 0.8264
-Charmeleon - Ember - Flamethrower - 0.8264
-Charmeleon - Ember - Fire Punch - 0.8264
-Weepinbell - Acid - Sludge Bomb - 0.8195
-Weepinbell - Acid - Power Whip - 0.8195
-Weepinbell - Acid - Seed Bomb - 0.8195
-Pinsir - Rock Smash - Submission - 0.7948
-Pinsir - Rock Smash - Vice Grip - 0.7948
-Pinsir - Rock Smash - X-Scissor - 0.7948
-Gloom - Acid - Moonblast - 0.7875
-Gloom - Acid - Seed Bomb - 0.7875
-Gloom - Acid - Sludge Bomb - 0.7875
-Ponyta - Ember - Flame Wheel - 0.7835
-Ponyta - Ember - Fire Blast - 0.7835
-Ponyta - Ember - Flame Charge - 0.7835
-Parasect - Bug Bite - Solar Beam - 0.7729
-Parasect - Bug Bite - X-Scissor - 0.7729
-Parasect - Bug Bite - Cross Poison - 0.7729
-Parasect - Fury Cutter - Solar Beam - 0.7729
-Parasect - Fury Cutter - X-Scissor - 0.7729
-Parasect - Fury Cutter - Cross Poison - 0.7729
-Tauros - Tackle - Earthquake - 0.7699
-Tauros - Tackle - Iron Head - 0.7699
-Tauros - Tackle - Horn Attack - 0.7699
-Dragonair - Dragon Breath - Wrap - 0.7632
-Dragonair - Dragon Breath - Aqua Tail - 0.7632
-Dragonair - Dragon Breath - Dragon Pulse - 0.7632
-Primeape - Karate Chop - Night Slash - 0.758
-Primeape - Karate Chop - Cross Chop - 0.758
-Primeape - Karate Chop - Low Sweep - 0.758
-Primeape - Low Kick - Night Slash - 0.758
-Primeape - Low Kick - Cross Chop - 0.758
-Primeape - Low Kick - Low Sweep - 0.758
-Arbok - Bite - Gunk Shot - 0.7519
-Arbok - Bite - Sludge Wave - 0.7519
-Arbok - Bite - Dark Pulse - 0.7519
-Dodrio - Steel Wing - Air Cutter - 0.7354
-Dodrio - Steel Wing - Aerial Ace - 0.7354
-Dodrio - Steel Wing - Drill Peck - 0.7354
-Dodrio - Feint Attack - Air Cutter - 0.7354
-Dodrio - Feint Attack - Aerial Ace - 0.7354
-Dodrio - Feint Attack - Drill Peck - 0.7354
-Seadra - Water Gun - Hydro Pump - 0.7338
-Seadra - Water Gun - Dragon Pulse - 0.7338
-Seadra - Water Gun - Blizzard - 0.7338
-Electabuzz - Low Kick - Thunderbolt - 0.7186
-Electabuzz - Low Kick - Thunder - 0.7186
-Electabuzz - Low Kick - Thunder Punch - 0.7186
-Haunter - Shadow Claw - Dark Pulse - 0.7166
-Haunter - Shadow Claw - Sludge Bomb - 0.7166
-Haunter - Shadow Claw - Shadow Ball - 0.7166
-Haunter - Lick - Dark Pulse - 0.7166
-Haunter - Lick - Sludge Bomb - 0.7166
-Haunter - Lick - Shadow Ball - 0.7166
-Butterfree - Bug Bite - Psychic - 0.7021
-Butterfree - Bug Bite - Bug Buzz - 0.7021
-Butterfree - Bug Bite - Signal Beam - 0.7021
-Beedrill - Bug Bite - Aerial Ace - 0.6877
-Beedrill - Bug Bite - Sludge Bomb - 0.6877
-Beedrill - Bug Bite - X-Scissor - 0.6877
-Beedrill - Poison Jab - Aerial Ace - 0.6877
-Beedrill - Poison Jab - Sludge Bomb - 0.6877
-Beedrill - Poison Jab - X-Scissor - 0.6877
-Kabutops - Mud Shot - Water Pulse - 0.681
-Kabutops - Mud Shot - Stone Edge - 0.681
-Kabutops - Mud Shot - Ancient Power - 0.681
-Mr. Mime - Confusion - Shadow Ball - 0.6799
-Mr. Mime - Confusion - Psybeam - 0.6799
-Mr. Mime - Confusion - Psychic - 0.6799
-Mr. Mime - Zen Headbutt - Shadow Ball - 0.6799
-Mr. Mime - Zen Headbutt - Psybeam - 0.6799
-Mr. Mime - Zen Headbutt - Psychic - 0.6799
-Electrode - Spark - Thunderbolt - 0.6775
-Electrode - Spark - Discharge - 0.6775
-Electrode - Spark - Hyper Beam - 0.6775
-Machoke - Low Kick - Brick Break - 0.6758
-Machoke - Low Kick - Cross Chop - 0.6758
-Machoke - Low Kick - Submission - 0.6758
-Machoke - Karate Chop - Brick Break - 0.6758
-Machoke - Karate Chop - Cross Chop - 0.6758
-Machoke - Karate Chop - Submission - 0.6758
-Jynx - Frost Breath - Psyshock - 0.6752
-Jynx - Frost Breath - Ice Punch - 0.6752
-Jynx - Frost Breath - Draining Kiss - 0.6752
-Fearow - Steel Wing - Aerial Ace - 0.6651
-Fearow - Steel Wing - Twister - 0.6651
-Fearow - Steel Wing - Drill Run - 0.6651
-Kingler - Metal Claw - Vice Grip - 0.6649
-Kingler - Metal Claw - Water Pulse - 0.6649
-Kingler - Metal Claw - X-Scissor - 0.6649
-Weepinbell - Razor Leaf - Sludge Bomb - 0.6556
-Weepinbell - Razor Leaf - Power Whip - 0.6556
-Weepinbell - Razor Leaf - Seed Bomb - 0.6556
-Sandslash - Metal Claw - Rock Tomb - 0.6554
-Sandslash - Metal Claw - Bulldoze - 0.6554
-Sandslash - Metal Claw - Earthquake - 0.6554
-Sandslash - Mud Shot - Rock Tomb - 0.6554
-Sandslash - Mud Shot - Bulldoze - 0.6554
-Sandslash - Mud Shot - Earthquake - 0.6554
-Porygon - Tackle - Discharge - 0.6474
-Porygon - Tackle - Psybeam - 0.6474
-Porygon - Tackle - Signal Beam - 0.6474
-Porygon - Quick Attack - Discharge - 0.6474
-Porygon - Quick Attack - Psybeam - 0.6474
-Porygon - Quick Attack - Signal Beam - 0.6474
-Gloom - Razor Leaf - Moonblast - 0.63
-Gloom - Razor Leaf - Seed Bomb - 0.63
-Gloom - Razor Leaf - Sludge Bomb - 0.63
-Wartortle - Water Gun - Aqua Jet - 0.6259
-Wartortle - Water Gun - Hydro Pump - 0.6259
-Wartortle - Water Gun - Ice Beam - 0.6259
-Tauros - Zen Headbutt - Earthquake - 0.6159
-Tauros - Zen Headbutt - Iron Head - 0.6159
-Tauros - Zen Headbutt - Horn Attack - 0.6159
-Growlithe - Ember - Flame Wheel - 0.6076
-Growlithe - Ember - Body Slam - 0.6076
-Growlithe - Ember - Flamethrower - 0.6076
-Kangaskhan - Low Kick - Earthquake - 0.6048
-Kangaskhan - Low Kick - Brick Break - 0.6048
-Kangaskhan - Low Kick - Stomp - 0.6048
-Kangaskhan - Mud Slap - Earthquake - 0.6048
-Kangaskhan - Mud Slap - Brick Break - 0.6048
-Kangaskhan - Mud Slap - Stomp - 0.6048
-Persian - Scratch - Play Rough - 0.6023
-Persian - Scratch - Power Gem - 0.6023
-Persian - Scratch - Night Slash - 0.6023
-Graveler - Rock Throw - Rock Slide - 0.602
-Graveler - Rock Throw - Dig - 0.602
-Graveler - Rock Throw - Stone Edge - 0.602
-Nidorina - Poison Sting - Poison Fang - 0.5934
-Nidorina - Poison Sting - Sludge Bomb - 0.5934
-Nidorina - Poison Sting - Dig - 0.5934
-Ivysaur - Razor Leaf - Sludge Bomb - 0.5882
-Ivysaur - Razor Leaf - Solar Beam - 0.5882
-Ivysaur - Razor Leaf - Power Whip - 0.5882
-Ivysaur - Vine Whip - Sludge Bomb - 0.5882
-Ivysaur - Vine Whip - Solar Beam - 0.5882
-Ivysaur - Vine Whip - Power Whip - 0.5882
-Seadra - Dragon Breath - Hydro Pump - 0.5871
-Seadra - Dragon Breath - Dragon Pulse - 0.5871
-Seadra - Dragon Breath - Blizzard - 0.5871
-Nidorino - Poison Jab - Horn Attack - 0.5666
-Nidorino - Poison Jab - Sludge Bomb - 0.5666
-Nidorino - Poison Jab - Dig - 0.5666
-Butterfree - Confusion - Psychic - 0.5617
-Butterfree - Confusion - Bug Buzz - 0.5617
-Butterfree - Confusion - Signal Beam - 0.5617
-Tangela - Vine Whip - Sludge Bomb - 0.5547
-Tangela - Vine Whip - Solar Beam - 0.5547
-Tangela - Vine Whip - Power Whip - 0.5547
-Marowak - Mud Slap - Bone Club - 0.5486
-Marowak - Mud Slap - Dig - 0.5486
-Marowak - Mud Slap - Earthquake - 0.5486
-Electrode - Tackle - Thunderbolt - 0.542
-Electrode - Tackle - Discharge - 0.542
-Electrode - Tackle - Hyper Beam - 0.542
-Jynx - Pound - Psyshock - 0.5401
-Jynx - Pound - Ice Punch - 0.5401
-Jynx - Pound - Draining Kiss - 0.5401
-Kingler - Mud Shot - Vice Grip - 0.5319
-Kingler - Mud Shot - Water Pulse - 0.5319
-Kingler - Mud Shot - X-Scissor - 0.5319
-Charmeleon - Scratch - Flame Burst - 0.5289
-Charmeleon - Scratch - Flamethrower - 0.5289
-Charmeleon - Scratch - Fire Punch - 0.5289
-Pidgeotto - Wing Attack - Twister - 0.5099
-Pidgeotto - Wing Attack - Aerial Ace - 0.5099
-Pidgeotto - Wing Attack - Air Cutter - 0.5099
-Ponyta - Tackle - Flame Wheel - 0.5014
-Ponyta - Tackle - Fire Blast - 0.5014
-Ponyta - Tackle - Flame Charge - 0.5014
-Hitmonchan - Rock Smash - Fire Punch - 0.5014
-Hitmonchan - Rock Smash - Ice Punch - 0.5014
-Hitmonchan - Rock Smash - Thunder Punch - 0.5014
-Hitmonchan - Rock Smash - Brick Break - 0.5014
-Hitmonchan - Bullet Punch - Fire Punch - 0.5014
-Hitmonchan - Bullet Punch - Ice Punch - 0.5014
-Hitmonchan - Bullet Punch - Thunder Punch - 0.5014
-Hitmonchan - Bullet Punch - Brick Break - 0.5014
-Wartortle - Bite - Aqua Jet - 0.5007
-Wartortle - Bite - Hydro Pump - 0.5007
-Wartortle - Bite - Ice Beam - 0.5007
-Grimer - Acid - Sludge - 0.4963
-Grimer - Acid - Sludge Bomb - 0.4963
-Grimer - Acid - Mud Bomb - 0.4963
-Rhydon - Mud Slap - Earthquake - 0.4942
-Rhydon - Mud Slap - Stone Edge - 0.4942
-Rhydon - Mud Slap - Megahorn - 0.4942
-Hitmonlee - Rock Smash - Low Sweep - 0.4857
-Hitmonlee - Rock Smash - Stone Edge - 0.4857
-Hitmonlee - Rock Smash - Stomp - 0.4857
-Hitmonlee - Low Kick - Low Sweep - 0.4857
-Hitmonlee - Low Kick - Stone Edge - 0.4857
-Hitmonlee - Low Kick - Stomp - 0.4857
-Persian - Feint Attack - Play Rough - 0.4818
-Persian - Feint Attack - Power Gem - 0.4818
-Persian - Feint Attack - Night Slash - 0.4818
-Lickitung - Lick - Hyper Beam - 0.4789
-Lickitung - Lick - Stomp - 0.4789
-Lickitung - Lick - Power Whip - 0.4789
-Lickitung - Zen Headbutt - Hyper Beam - 0.4789
-Lickitung - Zen Headbutt - Stomp - 0.4789
-Lickitung - Zen Headbutt - Power Whip - 0.4789
-Nidorina - Bite - Poison Fang - 0.4747
-Nidorina - Bite - Sludge Bomb - 0.4747
-Nidorina - Bite - Dig - 0.4747
-Raticate - Quick Attack - Dig - 0.4721
-Raticate - Quick Attack - Hyper Fang - 0.4721
-Raticate - Quick Attack - Hyper Beam - 0.4721
-Nidorino - Bite - Horn Attack - 0.4533
-Nidorino - Bite - Sludge Bomb - 0.4533
-Nidorino - Bite - Dig - 0.4533
-Poliwhirl - Bubble - Scald - 0.449
-Poliwhirl - Bubble - Bubble Beam - 0.449
-Poliwhirl - Bubble - Mud Bomb - 0.449
-Marowak - Rock Smash - Bone Club - 0.4389
-Marowak - Rock Smash - Dig - 0.4389
-Marowak - Rock Smash - Earthquake - 0.4389
-Farfetch'd - Cut - Air Cutter - 0.435
-Farfetch'd - Cut - Aerial Ace - 0.435
-Farfetch'd - Cut - Leaf Blade - 0.435
-Koffing - Acid - Dark Pulse - 0.3988
-Koffing - Acid - Sludge - 0.3988
-Koffing - Acid - Sludge Bomb - 0.3988
-Rhydon - Rock Smash - Earthquake - 0.3954
-Rhydon - Rock Smash - Stone Edge - 0.3954
-Rhydon - Rock Smash - Megahorn - 0.3954
-Growlithe - Bite - Flame Wheel - 0.3888
-Growlithe - Bite - Body Slam - 0.3888
-Growlithe - Bite - Flamethrower - 0.3888
-Graveler - Mud Shot - Rock Slide - 0.3853
-Graveler - Mud Shot - Dig - 0.3853
-Graveler - Mud Shot - Stone Edge - 0.3853
-Raticate - Bite - Dig - 0.3777
-Raticate - Bite - Hyper Fang - 0.3777
-Raticate - Bite - Hyper Beam - 0.3777
-Slowpoke - Water Gun - Psychic - 0.3757
-Slowpoke - Water Gun - Water Pulse - 0.3757
-Slowpoke - Water Gun - Psyshock - 0.3757
-Slowpoke - Confusion - Psychic - 0.3757
-Slowpoke - Confusion - Water Pulse - 0.3757
-Slowpoke - Confusion - Psyshock - 0.3757
-Oddish - Acid - Moonblast - 0.3638
-Oddish - Acid - Petal Blizzard - 0.3638
-Oddish - Acid - Sludge Bomb - 0.3638
-Venonat - Bug Bite - Signal Beam - 0.3516
-Venonat - Bug Bite - Poison Fang - 0.3516
-Venonat - Bug Bite - Psybeam - 0.3516
-Farfetch'd - Fury Cutter - Air Cutter - 0.348
-Farfetch'd - Fury Cutter - Aerial Ace - 0.348
-Farfetch'd - Fury Cutter - Leaf Blade - 0.348
-Clefairy - Zen Headbutt - Body Slam - 0.3468
-Clefairy - Zen Headbutt - Disarming Voice - 0.3468
-Clefairy - Zen Headbutt - Moonblast - 0.3468
-Clefairy - Pound - Body Slam - 0.3468
-Clefairy - Pound - Disarming Voice - 0.3468
-Clefairy - Pound - Moonblast - 0.3468
-Bellsprout - Acid - Sludge Bomb - 0.3444
-Bellsprout - Acid - Power Whip - 0.3444
-Bellsprout - Acid - Wrap - 0.3444
-Pidgeotto - Steel Wing - Twister - 0.3263
-Pidgeotto - Steel Wing - Aerial Ace - 0.3263
-Pidgeotto - Steel Wing - Air Cutter - 0.3263
-Kadabra - Confusion - Shadow Ball - 0.3239
-Kadabra - Confusion - Dazzling Gleam - 0.3239
-Kadabra - Confusion - Psybeam - 0.3239
-Kadabra - Psycho Cut - Shadow Ball - 0.3239
-Kadabra - Psycho Cut - Dazzling Gleam - 0.3239
-Kadabra - Psycho Cut - Psybeam - 0.3239
-Koffing - Tackle - Dark Pulse - 0.319
-Koffing - Tackle - Sludge - 0.319
-Koffing - Tackle - Sludge Bomb - 0.319
-Grimer - Mud Slap - Sludge - 0.3176
-Grimer - Mud Slap - Sludge Bomb - 0.3176
-Grimer - Mud Slap - Mud Bomb - 0.3176
-Charmander - Ember - Flame Burst - 0.3109
-Charmander - Ember - Flamethrower - 0.3109
-Charmander - Ember - Flame Charge - 0.3109
-Psyduck - Water Gun - Aqua Tail - 0.3076
-Psyduck - Water Gun - Cross Chop - 0.3076
-Psyduck - Water Gun - Psybeam - 0.3076
-Seel - Water Gun - Aqua Jet - 0.3065
-Seel - Water Gun - Icy Wind - 0.3065
-Seel - Water Gun - Aqua Tail - 0.3065
-Omanyte - Water Gun - Rock Tomb - 0.2937
-Omanyte - Water Gun - Ancient Power - 0.2937
-Omanyte - Water Gun - Brine - 0.2937
-Drowzee - Confusion - Psychic - 0.2926
-Drowzee - Confusion - Psyshock - 0.2926
-Drowzee - Confusion - Psybeam - 0.2926
-Oddish - Razor Leaf - Moonblast - 0.2911
-Oddish - Razor Leaf - Petal Blizzard - 0.2911
-Oddish - Razor Leaf - Sludge Bomb - 0.2911
-Poliwhirl - Mud Shot - Scald - 0.2874
-Poliwhirl - Mud Shot - Bubble Beam - 0.2874
-Poliwhirl - Mud Shot - Mud Bomb - 0.2874
-Venonat - Confusion - Signal Beam - 0.2813
-Venonat - Confusion - Poison Fang - 0.2813
-Venonat - Confusion - Psybeam - 0.2813
-Exeggcute - Confusion - Psychic - 0.2809
-Exeggcute - Confusion - Seed Bomb - 0.2809
-Exeggcute - Confusion - Ancient Power - 0.2809
-Bellsprout - Vine Whip - Sludge Bomb - 0.2756
-Bellsprout - Vine Whip - Power Whip - 0.2756
-Bellsprout - Vine Whip - Wrap - 0.2756
-Dugtrio - Sucker Punch - Stone Edge - 0.2729
-Dugtrio - Sucker Punch - Earthquake - 0.2729
-Dugtrio - Sucker Punch - Mud Bomb - 0.2729
-Dugtrio - Mud Shot - Stone Edge - 0.2729
-Dugtrio - Mud Shot - Earthquake - 0.2729
-Dugtrio - Mud Shot - Mud Bomb - 0.2729
-Eevee - Tackle - Body Slam - 0.2626
-Eevee - Tackle - Dig - 0.2626
-Eevee - Tackle - Swift - 0.2626
-Eevee - Quick Attack - Body Slam - 0.2626
-Eevee - Quick Attack - Dig - 0.2626
-Eevee - Quick Attack - Swift - 0.2626
-Rhyhorn - Mud Slap - Bulldoze - 0.2621
-Rhyhorn - Mud Slap - Stomp - 0.2621
-Rhyhorn - Mud Slap - Horn Attack - 0.2621
-Machop - Low Kick - Brick Break - 0.2587
-Machop - Low Kick - Cross Chop - 0.2587
-Machop - Low Kick - Low Sweep - 0.2587
-Machop - Karate Chop - Brick Break - 0.2587
-Machop - Karate Chop - Cross Chop - 0.2587
-Machop - Karate Chop - Low Sweep - 0.2587
-Squirtle - Bubble - Aqua Jet - 0.2541
-Squirtle - Bubble - Aqua Tail - 0.2541
-Squirtle - Bubble - Water Pulse - 0.2541
-Bulbasaur - Tackle - Sludge Bomb - 0.2533
-Bulbasaur - Tackle - Seed Bomb - 0.2533
-Bulbasaur - Tackle - Power Whip - 0.2533
-Bulbasaur - Vine Whip - Sludge Bomb - 0.2533
-Bulbasaur - Vine Whip - Seed Bomb - 0.2533
-Bulbasaur - Vine Whip - Power Whip - 0.2533
-Doduo - Peck - Swift - 0.2492
-Doduo - Peck - Aerial Ace - 0.2492
-Doduo - Peck - Drill Peck - 0.2492
-Tentacool - Bubble - Bubble Beam - 0.2465
-Tentacool - Bubble - Water Pulse - 0.2465
-Tentacool - Bubble - Wrap - 0.2465
-Tentacool - Poison Sting - Bubble Beam - 0.2465
-Tentacool - Poison Sting - Water Pulse - 0.2465
-Tentacool - Poison Sting - Wrap - 0.2465
-Psyduck - Zen Headbutt - Aqua Tail - 0.2461
-Psyduck - Zen Headbutt - Cross Chop - 0.2461
-Psyduck - Zen Headbutt - Psybeam - 0.2461
-Seel - Ice Shard - Aqua Jet - 0.2452
-Seel - Ice Shard - Icy Wind - 0.2452
-Seel - Ice Shard - Aqua Tail - 0.2452
-Gastly - Lick - Dark Pulse - 0.2432
-Gastly - Lick - Sludge Bomb - 0.2432
-Gastly - Lick - Ominous Wind - 0.2432
-Dratini - Dragon Breath - Wrap - 0.2416
-Dratini - Dragon Breath - Aqua Tail - 0.2416
-Dratini - Dragon Breath - Twister - 0.2416
-Vulpix - Ember - Body Slam - 0.2354
-Vulpix - Ember - Flame Charge - 0.2354
-Vulpix - Ember - Flamethrower - 0.2354
-Drowzee - Pound - Psychic - 0.2341
-Drowzee - Pound - Psyshock - 0.2341
-Drowzee - Pound - Psybeam - 0.2341
-Goldeen - Peck - Aqua Tail - 0.2329
-Goldeen - Peck - Horn Attack - 0.2329
-Goldeen - Peck - Water Pulse - 0.2329
-Nidoran (f) - Poison Sting - Poison Fang - 0.231
-Nidoran (f) - Poison Sting - Sludge Bomb - 0.231
-Nidoran (f) - Poison Sting - Body Slam - 0.231
-Jigglypuff - Pound - Disarming Voice - 0.2293
-Jigglypuff - Pound - Body Slam - 0.2293
-Jigglypuff - Pound - Play Rough - 0.2293
-Kabuto - Scratch - Aqua Jet - 0.2287
-Kabuto - Scratch - Rock Tomb - 0.2287
-Kabuto - Scratch - Ancient Power - 0.2287
-Staryu - Water Gun - Bubble Beam - 0.2196
-Staryu - Water Gun - Power Gem - 0.2196
-Staryu - Water Gun - Swift - 0.2196
-Onix - Rock Throw - Rock Slide - 0.2153
-Onix - Rock Throw - Stone Edge - 0.2153
-Onix - Rock Throw - Iron Head - 0.2153
-Nidoran (m) - Poison Sting - Horn Attack - 0.2139
-Nidoran (m) - Poison Sting - Sludge Bomb - 0.2139
-Nidoran (m) - Poison Sting - Body Slam - 0.2139
-Nidoran (m) - Peck - Horn Attack - 0.2139
-Nidoran (m) - Peck - Sludge Bomb - 0.2139
-Nidoran (m) - Peck - Body Slam - 0.2139
-Paras - Bug Bite - Seed Bomb - 0.2125
-Paras - Bug Bite - X-Scissor - 0.2125
-Paras - Bug Bite - Cross Poison - 0.2125
-Geodude - Rock Throw - Rock Slide - 0.2113
-Geodude - Rock Throw - Dig - 0.2113
-Geodude - Rock Throw - Rock Tomb - 0.2113
-Rhyhorn - Rock Smash - Bulldoze - 0.2097
-Rhyhorn - Rock Smash - Stomp - 0.2097
-Rhyhorn - Rock Smash - Horn Attack - 0.2097
-Ekans - Acid - Gunk Shot - 0.2044
-Ekans - Acid - Sludge Bomb - 0.2044
-Ekans - Acid - Wrap - 0.2044
-Ekans - Poison Sting - Gunk Shot - 0.2044
-Ekans - Poison Sting - Sludge Bomb - 0.2044
-Ekans - Poison Sting - Wrap - 0.2044
-Squirtle - Tackle - Aqua Jet - 0.2033
-Squirtle - Tackle - Aqua Tail - 0.2033
-Squirtle - Tackle - Water Pulse - 0.2033
-Magnemite - Spark - Magnet Bomb - 0.2029
-Magnemite - Spark - Discharge - 0.2029
-Magnemite - Spark - Thunderbolt - 0.2029
-Magnemite - Thunder Shock - Magnet Bomb - 0.2029
-Magnemite - Thunder Shock - Discharge - 0.2029
-Magnemite - Thunder Shock - Thunderbolt - 0.2029
-Cubone - Mud Slap - Bone Club - 0.2025
-Cubone - Mud Slap - Dig - 0.2025
-Cubone - Mud Slap - Bulldoze - 0.2025
-Doduo - Quick Attack - Swift - 0.1994
-Doduo - Quick Attack - Aerial Ace - 0.1994
-Doduo - Quick Attack - Drill Peck - 0.1994
-Charmander - Scratch - Flame Burst - 0.199
-Charmander - Scratch - Flamethrower - 0.199
-Charmander - Scratch - Flame Charge - 0.199
-Pikachu - Thunder Shock - Thunderbolt - 0.1968
-Pikachu - Thunder Shock - Discharge - 0.1968
-Pikachu - Thunder Shock - Thunder - 0.1968
-Gastly - Sucker Punch - Dark Pulse - 0.1946
-Gastly - Sucker Punch - Sludge Bomb - 0.1946
-Gastly - Sucker Punch - Ominous Wind - 0.1946
-Ditto - Pound - Struggle - 0.1912
-Omanyte - Mud Shot - Rock Tomb - 0.188
-Omanyte - Mud Shot - Ancient Power - 0.188
-Omanyte - Mud Shot - Brine - 0.188
-Nidoran (f) - Bite - Poison Fang - 0.1848
-Nidoran (f) - Bite - Sludge Bomb - 0.1848
-Nidoran (f) - Bite - Body Slam - 0.1848
-Jigglypuff - Feint Attack - Disarming Voice - 0.1835
-Jigglypuff - Feint Attack - Body Slam - 0.1835
-Jigglypuff - Feint Attack - Play Rough - 0.1835
-Kabuto - Mud Shot - Aqua Jet - 0.1829
-Kabuto - Mud Shot - Rock Tomb - 0.1829
-Kabuto - Mud Shot - Ancient Power - 0.1829
-Voltorb - Spark - Thunderbolt - 0.176
-Voltorb - Spark - Discharge - 0.176
-Voltorb - Spark - Signal Beam - 0.176
-Staryu - Quick Attack - Bubble Beam - 0.1756
-Staryu - Quick Attack - Power Gem - 0.1756
-Staryu - Quick Attack - Swift - 0.1756
-Paras - Scratch - Seed Bomb - 0.17
-Paras - Scratch - X-Scissor - 0.17
-Paras - Scratch - Cross Poison - 0.17
-Cubone - Rock Smash - Bone Club - 0.162
-Cubone - Rock Smash - Dig - 0.162
-Cubone - Rock Smash - Bulldoze - 0.162
-Spearow - Peck - Aerial Ace - 0.1604
-Spearow - Peck - Twister - 0.1604
-Spearow - Peck - Drill Peck - 0.1604
-Poliwag - Bubble - Body Slam - 0.1581
-Poliwag - Bubble - Bubble Beam - 0.1581
-Poliwag - Bubble - Mud Bomb - 0.1581
-Horsea - Water Gun - Bubble Beam - 0.1577
-Horsea - Water Gun - Dragon Pulse - 0.1577
-Horsea - Water Gun - Flash Cannon - 0.1577
-Horsea - Bubble - Bubble Beam - 0.1577
-Horsea - Bubble - Dragon Pulse - 0.1577
-Horsea - Bubble - Flash Cannon - 0.1577
-Pikachu - Quick Attack - Thunderbolt - 0.1574
-Pikachu - Quick Attack - Discharge - 0.1574
-Pikachu - Quick Attack - Thunder - 0.1574
-Krabby - Bubble - Vice Grip - 0.1569
-Krabby - Bubble - Water Pulse - 0.1569
-Krabby - Bubble - Bubble Beam - 0.1569
-Vulpix - Quick Attack - Body Slam - 0.1507
-Vulpix - Quick Attack - Flame Charge - 0.1507
-Vulpix - Quick Attack - Flamethrower - 0.1507
-Goldeen - Mud Shot - Aqua Tail - 0.149
-Goldeen - Mud Shot - Horn Attack - 0.149
-Goldeen - Mud Shot - Water Pulse - 0.149
-Mankey - Karate Chop - Brick Break - 0.1446
-Mankey - Karate Chop - Cross Chop - 0.1446
-Mankey - Karate Chop - Low Sweep - 0.1446
-Mankey - Scratch - Brick Break - 0.1446
-Mankey - Scratch - Cross Chop - 0.1446
-Mankey - Scratch - Low Sweep - 0.1446
-Voltorb - Tackle - Thunderbolt - 0.1408
-Voltorb - Tackle - Discharge - 0.1408
-Voltorb - Tackle - Signal Beam - 0.1408
-Onix - Tackle - Rock Slide - 0.1378
-Onix - Tackle - Stone Edge - 0.1378
-Onix - Tackle - Iron Head - 0.1378
-Geodude - Tackle - Rock Slide - 0.1352
-Geodude - Tackle - Dig - 0.1352
-Geodude - Tackle - Rock Tomb - 0.1352
-Shellder - Tackle - Water Pulse - 0.1352
-Shellder - Tackle - Icy Wind - 0.1352
-Shellder - Tackle - Bubble Beam - 0.1352
-Shellder - Ice Shard - Water Pulse - 0.1352
-Shellder - Ice Shard - Icy Wind - 0.1352
-Shellder - Ice Shard - Bubble Beam - 0.1352
-Meowth - Scratch - Dark Pulse - 0.1294
-Meowth - Scratch - Body Slam - 0.1294
-Meowth - Scratch - Night Slash - 0.1294
-Spearow - Quick Attack - Aerial Ace - 0.1283
-Spearow - Quick Attack - Twister - 0.1283
-Spearow - Quick Attack - Drill Peck - 0.1283
-Sandshrew - Scratch - Dig - 0.1274
-Sandshrew - Scratch - Rock Slide - 0.1274
-Sandshrew - Scratch - Rock Tomb - 0.1274
-Sandshrew - Mud Shot - Dig - 0.1274
-Sandshrew - Mud Shot - Rock Slide - 0.1274
-Sandshrew - Mud Shot - Rock Tomb - 0.1274
-Pidgey - Tackle - Twister - 0.1257
-Pidgey - Tackle - Aerial Ace - 0.1257
-Pidgey - Tackle - Air Cutter - 0.1257
-Pidgey - Quick Attack - Twister - 0.1257
-Pidgey - Quick Attack - Aerial Ace - 0.1257
-Pidgey - Quick Attack - Air Cutter - 0.1257
-Zubat - Bite - Sludge Bomb - 0.1194
-Zubat - Bite - Poison Fang - 0.1194
-Zubat - Bite - Air Cutter - 0.1194
-Zubat - Quick Attack - Sludge Bomb - 0.1194
-Zubat - Quick Attack - Poison Fang - 0.1194
-Zubat - Quick Attack - Air Cutter - 0.1194
-Meowth - Bite - Dark Pulse - 0.1035
-Meowth - Bite - Body Slam - 0.1035
-Meowth - Bite - Night Slash - 0.1035
-Chansey - Pound - Dazzling Gleam - 0.1032
-Chansey - Pound - Psybeam - 0.1032
-Chansey - Pound - Psychic - 0.1032
-Poliwag - Mud Shot - Body Slam - 0.1012
-Poliwag - Mud Shot - Bubble Beam - 0.1012
-Poliwag - Mud Shot - Mud Bomb - 0.1012
-Krabby - Mud Shot - Vice Grip - 0.1004
-Krabby - Mud Shot - Water Pulse - 0.1004
-Krabby - Mud Shot - Bubble Beam - 0.1004
-Abra - Zen Headbutt - Shadow Ball - 0.0912
-Abra - Zen Headbutt - Signal Beam - 0.0912
-Abra - Zen Headbutt - Psyshock - 0.0912
-Chansey - Zen Headbutt - Dazzling Gleam - 0.0825
-Chansey - Zen Headbutt - Psybeam - 0.0825
-Chansey - Zen Headbutt - Psychic - 0.0825
-Kakuna - Bug Bite - Struggle - 0.0781
-Kakuna - Poison Sting - Struggle - 0.0781
-Rattata - Tackle - Dig - 0.0764
-Rattata - Tackle - Hyper Fang - 0.0764
-Rattata - Tackle - Body Slam - 0.0764
-Rattata - Quick Attack - Dig - 0.0764
-Rattata - Quick Attack - Hyper Fang - 0.0764
-Rattata - Quick Attack - Body Slam - 0.0764
-Weedle - Bug Bite - Struggle - 0.0669
-Weedle - Poison Sting - Struggle - 0.0669
-Metapod - Bug Bite - Struggle - 0.0628
-Caterpie - Bug Bite - Struggle - 0.0542
-Metapod - Tackle - Struggle - 0.0502
-Caterpie - Tackle - Struggle - 0.0433
-Diglett - Scratch - Rock Tomb - 0.0416
-Diglett - Scratch - Dig - 0.0416
-Diglett - Scratch - Mud Bomb - 0.0416
-Diglett - Mud Shot - Rock Tomb - 0.0416
-Diglett - Mud Shot - Dig - 0.0416
-Diglett - Mud Shot - Mud Bomb - 0.0416
-Magikarp - Splash - Struggle - 0.0172
+Charizard - Wing Attack - Fire Blast - 2.1982
+Nidoqueen - Poison Jab - Stone Edge - 2.1406
+Charizard - Ember - Fire Blast - 2.0572
+Pidgeot - Wing Attack - Hurricane - 2.0237
+Hitmonlee - Rock Smash - Stone Edge - 1.9899
+Arcanine - Fire Fang - Fire Blast - 1.9853
+Rhydon - Mud Slap - Stone Edge - 1.9683
+Golem - Mud Shot - Stone Edge - 1.957
+Dugtrio - Mud Shot - Stone Edge - 1.9145
+Tentacruel - Poison Jab - Blizzard - 1.8808
+Nidoqueen - Bite - Stone Edge - 1.8748
+Charizard - Wing Attack - Flamethrower - 1.8612
+Hitmonlee - Low Kick - Stone Edge - 1.8586
+Ninetales - Ember - Fire Blast - 1.8501
+Rapidash - Ember - Fire Blast - 1.8501
+Magmar - Ember - Fire Blast - 1.8501
+Flareon - Ember - Fire Blast - 1.8501
+Gengar - Shadow Claw - Sludge Wave - 1.8476
+Charizard - Wing Attack - Dragon Claw - 1.8422
+Golem - Rock Throw - Stone Edge - 1.8382
+Onix - Rock Throw - Stone Edge - 1.8382
+Machamp - Karate Chop - Stone Edge - 1.8115
+Nidoking - Poison Jab - Megahorn - 1.805
+Dragonite - Dragon Breath - Hyper Beam - 1.7912
+Vaporeon - Water Gun - Hydro Pump - 1.7764
+Tentacruel - Acid - Blizzard - 1.7722
+Wigglytuff - Pound - Hyper Beam - 1.767
+Dragonite - Dragon Breath - Dragon Claw - 1.7602
+Seadra - Water Gun - Blizzard - 1.7509
+Tentacruel - Poison Jab - Hydro Pump - 1.744
+Arcanine - Bite - Fire Blast - 1.7292
+Charizard - Ember - Flamethrower - 1.7203
+Pidgeot - Steel Wing - Hurricane - 1.7145
+Beedrill - Poison Jab - Sludge Bomb - 1.7138
+Ninetales - Feint Attack - Fire Blast - 1.703
+Charizard - Ember - Dragon Claw - 1.7013
+Beedrill - Bug Bite - Sludge Bomb - 1.6956
+Arcanine - Fire Fang - Flamethrower - 1.6944
+Onix - Tackle - Stone Edge - 1.6896
+Kabutops - Mud Shot - Stone Edge - 1.6896
+Rhydon - Rock Smash - Stone Edge - 1.6742
+Ninetales - Ember - Heat Wave - 1.6708
+Rapidash - Ember - Heat Wave - 1.6708
+Flareon - Ember - Heat Wave - 1.6708
+Rhydon - Mud Slap - Megahorn - 1.6674
+Omastar - Water Gun - Hydro Pump - 1.6633
+Starmie - Water Gun - Hydro Pump - 1.6565
+Tentacruel - Acid - Hydro Pump - 1.6354
+Poliwrath - Bubble - Hydro Pump - 1.6345
+Blastoise - Water Gun - Hydro Pump - 1.6321
+Golduck - Water Gun - Hydro Pump - 1.6321
+Seadra - Water Gun - Hydro Pump - 1.6321
+Dewgong - Frost Breath - Blizzard - 1.6304
+Cloyster - Frost Breath - Blizzard - 1.6304
+Lapras - Frost Breath - Blizzard - 1.6304
+Muk - Poison Jab - Sludge Bomb - 1.6271
+Butterfree - Bug Bite - Psychic - 1.6196
+Venomoth - Bug Bite - Psychic - 1.6196
+Dewgong - Ice Shard - Blizzard - 1.6077
+Cloyster - Ice Shard - Blizzard - 1.6077
+Lapras - Ice Shard - Blizzard - 1.6077
+Dugtrio - Sucker Punch - Stone Edge - 1.6039
+Nidoqueen - Poison Jab - Sludge Wave - 1.6012
+Nidoking - Poison Jab - Sludge Wave - 1.6012
+Tentacruel - Poison Jab - Sludge Wave - 1.6012
+Muk - Poison Jab - Sludge Wave - 1.6012
+Mr. Mime - Zen Headbutt - Psychic - 1.5826
+Aerodactyl - Bite - Hyper Beam - 1.582
+Machamp - Bullet Punch - Stone Edge - 1.5816
+Vaporeon - Water Gun - Aqua Tail - 1.567
+Ninetales - Feint Attack - Heat Wave - 1.5596
+Ninetales - Ember - Flamethrower - 1.5592
+Magmar - Ember - Flamethrower - 1.5592
+Flareon - Ember - Flamethrower - 1.5592
+Gyarados - Bite - Hydro Pump - 1.5575
+Gyarados - Dragon Breath - Hydro Pump - 1.5575
+Wigglytuff - Pound - Play Rough - 1.551
+Arbok - Acid - Gunk Shot - 1.5425
+Aerodactyl - Steel Wing - Hyper Beam - 1.5411
+Seadra - Dragon Breath - Blizzard - 1.5371
+Electrode - Spark - Hyper Beam - 1.5313
+Venusaur - Vine Whip - Sludge Bomb - 1.5301
+Nidoqueen - Poison Jab - Earthquake - 1.5299
+Nidoking - Poison Jab - Earthquake - 1.5299
+Dragonite - Steel Wing - Hyper Beam - 1.5284
+Rapidash - Low Kick - Fire Blast - 1.5206
+Gengar - Sucker Punch - Sludge Wave - 1.5199
+Butterfree - Bug Bite - Bug Buzz - 1.5195
+Venomoth - Bug Bite - Bug Buzz - 1.5195
+Cloyster - Frost Breath - Hydro Pump - 1.5194
+Muk - Acid - Sludge Bomb - 1.5185
+Weezing - Acid - Sludge Bomb - 1.5185
+Dragonite - Dragon Breath - Dragon Pulse - 1.5166
+Alakazam - Psycho Cut - Psychic - 1.5062
+Venusaur - Razor Leaf - Sludge Bomb - 1.5056
+Victreebel - Razor Leaf - Sludge Bomb - 1.5056
+Primeape - Low Kick - Cross Chop - 1.5039
+Dragonite - Steel Wing - Dragon Claw - 1.5036
+Clefable - Pound - Moonblast - 1.503
+Gengar - Shadow Claw - Shadow Ball - 1.5021
+Raichu - Spark - Thunder - 1.5016
+Mr. Mime - Confusion - Psychic - 1.4973
+Cloyster - Ice Shard - Hydro Pump - 1.4967
+Arcanine - Bite - Flamethrower - 1.4965
+Kabutops - Fury Cutter - Stone Edge - 1.4958
+Arbok - Acid - Sludge Wave - 1.4926
+Tentacruel - Acid - Sludge Wave - 1.4926
+Muk - Acid - Sludge Wave - 1.4926
+Omastar - Water Gun - Rock Slide - 1.4916
+Slowbro - Water Gun - Psychic - 1.4903
+Beedrill - Poison Jab - X-Scissor - 1.4884
+Vileplume - Razor Leaf - Moonblast - 1.4874
+Arbok - Bite - Gunk Shot - 1.4832
+Omastar - Rock Throw - Hydro Pump - 1.4825
+Wigglytuff - Feint Attack - Hyper Beam - 1.4802
+Magmar - Karate Chop - Fire Blast - 1.4735
+Chansey - Pound - Psychic - 1.473
+Ninetales - Feint Attack - Flamethrower - 1.4703
+Beedrill - Bug Bite - X-Scissor - 1.4702
+Golduck - Water Gun - Psychic - 1.47
+Clefable - Pound - Psychic - 1.4627
+Venusaur - Vine Whip - Solar Beam - 1.4625
+Victreebel - Acid - Sludge Bomb - 1.459
+Hypno - Zen Headbutt - Psychic - 1.4579
+Primeape - Karate Chop - Cross Chop - 1.4567
+Machamp - Karate Chop - Cross Chop - 1.4567
+Seaking - Poison Jab - Megahorn - 1.4521
+Snorlax - Zen Headbutt - Body Slam - 1.4488
+Arbok - Bite - Sludge Wave - 1.4432
+Nidoqueen - Bite - Sludge Wave - 1.4432
+Blastoise - Bite - Hydro Pump - 1.4421
+Seadra - Dragon Breath - Hydro Pump - 1.4421
+Vileplume - Acid - Moonblast - 1.4408
+Venusaur - Razor Leaf - Solar Beam - 1.438
+Vileplume - Razor Leaf - Solar Beam - 1.438
+Victreebel - Razor Leaf - Solar Beam - 1.438
+Parasect - Bug Bite - Solar Beam - 1.4377
+Rhydon - Rock Smash - Megahorn - 1.4335
+Poliwrath - Mud Shot - Hydro Pump - 1.4334
+Exeggutor - Zen Headbutt - Psychic - 1.4225
+Rhydon - Mud Slap - Earthquake - 1.4207
+Exeggutor - Zen Headbutt - Solar Beam - 1.4206
+Clefable - Zen Headbutt - Moonblast - 1.416
+Slowbro - Water Gun - Ice Beam - 1.4149
+Tangela - Vine Whip - Sludge Bomb - 1.4131
+Golem - Mud Shot - Earthquake - 1.4094
+Raichu - Thunder Shock - Thunder - 1.4067
+Electabuzz - Thunder Shock - Thunder - 1.4067
+Jolteon - Thunder Shock - Thunder - 1.4067
+Seadra - Water Gun - Dragon Pulse - 1.4066
+Weezing - Tackle - Sludge Bomb - 1.402
+Raticate - Bite - Hyper Beam - 1.402
+Gengar - Shadow Claw - Dark Pulse - 1.401
+Blastoise - Water Gun - Ice Beam - 1.3966
+Golduck - Water Gun - Ice Beam - 1.3966
+Marowak - Mud Slap - Earthquake - 1.3957
+Persian - Scratch - Play Rough - 1.3933
+Vileplume - Acid - Solar Beam - 1.3914
+Victreebel - Acid - Solar Beam - 1.3914
+Starmie - Water Gun - Power Gem - 1.3914
+Electrode - Tackle - Hyper Beam - 1.3904
+Nidoqueen - Bite - Earthquake - 1.3862
+Electrode - Spark - Thunderbolt - 1.3856
+Sandslash - Mud Shot - Earthquake - 1.3843
+Dugtrio - Mud Shot - Earthquake - 1.3843
+Rapidash - Low Kick - Heat Wave - 1.3772
+Clefable - Zen Headbutt - Psychic - 1.3757
+Alakazam - Confusion - Psychic - 1.3726
+Slowbro - Confusion - Psychic - 1.3726
+Hypno - Confusion - Psychic - 1.3726
+Hitmonchan - Rock Smash - Fire Punch - 1.3716
+Lickitung - Zen Headbutt - Hyper Beam - 1.3696
+Snorlax - Zen Headbutt - Hyper Beam - 1.3696
+Tangela - Vine Whip - Power Whip - 1.3696
+Snorlax - Lick - Body Slam - 1.3675
+Butterfree - Bug Bite - Signal Beam - 1.362
+Butterfree - Confusion - Psychic - 1.3549
+Venomoth - Confusion - Psychic - 1.3549
+Tangela - Vine Whip - Solar Beam - 1.3541
+Scyther - Steel Wing - Bug Buzz - 1.3515
+Nidoking - Fury Cutter - Megahorn - 1.3506
+Gyarados - Bite - Dragon Pulse - 1.3497
+Gyarados - Dragon Breath - Dragon Pulse - 1.3497
+Mr. Mime - Zen Headbutt - Shadow Ball - 1.3436
+Exeggutor - Confusion - Psychic - 1.3373
+Exeggutor - Confusion - Solar Beam - 1.3354
+Tauros - Tackle - Earthquake - 1.3343
+Sandslash - Metal Claw - Earthquake - 1.3332
+Persian - Scratch - Power Gem - 1.3284
+Raticate - Quick Attack - Hyper Beam - 1.3274
+Golduck - Confusion - Hydro Pump - 1.3244
+Hitmonchan - Rock Smash - Thunder Punch - 1.3204
+Parasect - Bug Bite - X-Scissor - 1.3174
+Parasect - Bug Bite - Cross Poison - 1.3174
+Venusaur - Vine Whip - Petal Blizzard - 1.3173
+Scyther - Fury Cutter - Bug Buzz - 1.3143
+Scyther - Steel Wing - X-Scissor - 1.3121
+Onix - Rock Throw - Rock Slide - 1.3109
+Omastar - Rock Throw - Rock Slide - 1.3109
+Dragonite - Steel Wing - Dragon Pulse - 1.3088
+Lapras - Frost Breath - Dragon Pulse - 1.3086
+Magmar - Ember - Fire Punch - 1.308
+Wigglytuff - Feint Attack - Play Rough - 1.3074
+Beedrill - Poison Jab - Aerial Ace - 1.2999
+Lapras - Frost Breath - Ice Beam - 1.2993
+Alakazam - Psycho Cut - Shadow Ball - 1.2992
+Blastoise - Water Gun - Flash Cannon - 1.2991
+Wigglytuff - Pound - Dazzling Gleam - 1.299
+Machamp - Bullet Punch - Cross Chop - 1.2978
+Slowbro - Confusion - Ice Beam - 1.2973
+Seaking - Peck - Megahorn - 1.2969
+Golbat - Wing Attack - Air Cutter - 1.2936
+Venusaur - Razor Leaf - Petal Blizzard - 1.2929
+Vileplume - Razor Leaf - Petal Blizzard - 1.2929
+Dodrio - Feint Attack - Drill Peck - 1.2917
+Electabuzz - Thunder Shock - Thunderbolt - 1.2907
+Jolteon - Thunder Shock - Thunderbolt - 1.2907
+Golem - Rock Throw - Earthquake - 1.2906
+Lickitung - Lick - Hyper Beam - 1.2883
+Snorlax - Lick - Hyper Beam - 1.2883
+Lapras - Ice Shard - Dragon Pulse - 1.2859
+Beedrill - Bug Bite - Aerial Ace - 1.2817
+Farfetch'd - Cut - Leaf Blade - 1.2782
+Dodrio - Steel Wing - Drill Peck - 1.2769
+Lapras - Ice Shard - Ice Beam - 1.2765
+Butterfree - Confusion - Bug Buzz - 1.2748
+Venomoth - Confusion - Bug Buzz - 1.2748
+Electrode - Tackle - Thunderbolt - 1.2739
+Victreebel - Razor Leaf - Leaf Blade - 1.2696
+Onix - Tackle - Rock Slide - 1.2677
+Scyther - Fury Cutter - X-Scissor - 1.265
+Seadra - Dragon Breath - Dragon Pulse - 1.2617
+Hypno - Zen Headbutt - Psyshock - 1.2591
+Mr. Mime - Confusion - Shadow Ball - 1.2584
+Kingler - Metal Claw - X-Scissor - 1.2568
+Blastoise - Bite - Ice Beam - 1.2537
+Hypno - Zen Headbutt - Shadow Ball - 1.2508
+Lickitung - Zen Headbutt - Power Whip - 1.2496
+Magneton - Spark - Flash Cannon - 1.2489
+Hitmonchan - Rock Smash - Brick Break - 1.2487
+Vileplume - Acid - Petal Blizzard - 1.2463
+Aerodactyl - Bite - Iron Head - 1.2445
+Muk - Poison Jab - Dark Pulse - 1.2439
+Gengar - Sucker Punch - Shadow Ball - 1.2435
+Golbat - Wing Attack - Poison Fang - 1.2429
+Magmar - Karate Chop - Flamethrower - 1.2407
+Chansey - Zen Headbutt - Psychic - 1.2388
+Raichu - Spark - Thunder Punch - 1.2372
+Alakazam - Psycho Cut - Dazzling Gleam - 1.237
+Pidgeot - Wing Attack - Aerial Ace - 1.2369
+Rhydon - Rock Smash - Earthquake - 1.2361
+Parasect - Fury Cutter - Solar Beam - 1.2325
+Chansey - Pound - Dazzling Gleam - 1.2278
+Persian - Feint Attack - Play Rough - 1.2249
+Victreebel - Acid - Leaf Blade - 1.223
+Tauros - Zen Headbutt - Earthquake - 1.221
+Snorlax - Zen Headbutt - Earthquake - 1.221
+Clefable - Pound - Dazzling Gleam - 1.2209
+Electabuzz - Low Kick - Thunder - 1.22
+Hitmonlee - Rock Smash - Stomp - 1.2182
+Weezing - Acid - Shadow Ball - 1.2163
+Marowak - Rock Smash - Earthquake - 1.2161
+Starmie - Quick Attack - Hydro Pump - 1.207
+Aerodactyl - Steel Wing - Iron Head - 1.2036
+Golbat - Wing Attack - Ominous Wind - 1.2031
+Kangaskhan - Mud Slap - Earthquake - 1.2028
+Golduck - Confusion - Psychic - 1.1948
+Jynx - Frost Breath - Psyshock - 1.1923
+Magneton - Spark - Discharge - 1.1878
+Nidoking - Fury Cutter - Sludge Wave - 1.1875
+Omastar - Water Gun - Ancient Power - 1.1855
+Jynx - Pound - Psyshock - 1.1853
+Pinsir - Rock Smash - X-Scissor - 1.1835
+Tauros - Tackle - Iron Head - 1.1825
+Raticate - Bite - Hyper Fang - 1.1821
+Dugtrio - Sucker Punch - Earthquake - 1.1797
+Blastoise - Bite - Flash Cannon - 1.1757
+Exeggutor - Zen Headbutt - Seed Bomb - 1.1744
+Hypno - Confusion - Psyshock - 1.1738
+Persian - Feint Attack - Power Gem - 1.173
+Vaporeon - Water Gun - Water Pulse - 1.1723
+Golbat - Bite - Air Cutter - 1.1713
+Raichu - Spark - Brick Break - 1.1702
+Poliwrath - Bubble - Ice Punch - 1.1699
+Pidgeot - Wing Attack - Air Cutter - 1.1698
+Lickitung - Lick - Power Whip - 1.1683
+Alakazam - Confusion - Shadow Ball - 1.1656
+Hypno - Confusion - Shadow Ball - 1.1656
+Porygon - Tackle - Signal Beam - 1.1645
+Gengar - Sucker Punch - Dark Pulse - 1.1627
+Weezing - Tackle - Shadow Ball - 1.1602
+Farfetch'd - Cut - Aerial Ace - 1.1585
+Arbok - Bite - Dark Pulse - 1.1574
+Hitmonchan - Rock Smash - Ice Punch - 1.1568
+Venomoth - Bug Bite - Poison Fang - 1.1557
+Kingler - Mud Shot - X-Scissor - 1.1551
+Magneton - Thunder Shock - Flash Cannon - 1.154
+Mr. Mime - Zen Headbutt - Psybeam - 1.1498
+Pinsir - Fury Cutter - X-Scissor - 1.1498
+Butterfree - Confusion - Signal Beam - 1.1488
+Porygon - Tackle - Discharge - 1.145
+Raichu - Thunder Shock - Thunder Punch - 1.1423
+Electabuzz - Thunder Shock - Thunder Punch - 1.1423
+Snorlax - Lick - Earthquake - 1.1397
+Aerodactyl - Bite - Ancient Power - 1.1376
+Golduck - Confusion - Ice Beam - 1.136
+Arbok - Acid - Dark Pulse - 1.1354
+Muk - Acid - Dark Pulse - 1.1354
+Weezing - Acid - Dark Pulse - 1.1354
+Clefable - Zen Headbutt - Dazzling Gleam - 1.1339
+Marowak - Mud Slap - Bone Club - 1.1331
+Chansey - Pound - Psybeam - 1.1314
+Golbat - Bite - Poison Fang - 1.1307
+Nidoking - Fury Cutter - Earthquake - 1.1305
+Electrode - Spark - Discharge - 1.13
+Electabuzz - Low Kick - Thunderbolt - 1.1273
+Jynx - Pound - Ice Punch - 1.1262
+Golem - Mud Shot - Ancient Power - 1.1235
+Onix - Rock Throw - Iron Head - 1.1228
+Slowbro - Water Gun - Water Pulse - 1.1186
+Jynx - Frost Breath - Ice Punch - 1.1185
+Onix - Tackle - Iron Head - 1.1173
+Starmie - Water Gun - Psybeam - 1.1153
+Parasect - Fury Cutter - X-Scissor - 1.1123
+Parasect - Fury Cutter - Cross Poison - 1.1123
+Poliwrath - Bubble - Submission - 1.1086
+Wigglytuff - Feint Attack - Dazzling Gleam - 1.1058
+Kingler - Metal Claw - Vice Grip - 1.1037
+Alakazam - Confusion - Dazzling Gleam - 1.1035
+Dodrio - Feint Attack - Aerial Ace - 1.0998
+Tauros - Zen Headbutt - Iron Head - 1.0996
+Golbat - Bite - Ominous Wind - 1.0988
+Persian - Scratch - Night Slash - 1.0986
+Aerodactyl - Steel Wing - Ancient Power - 1.0967
+Weezing - Tackle - Dark Pulse - 1.0955
+Magneton - Thunder Shock - Discharge - 1.0929
+Farfetch'd - Cut - Air Cutter - 1.0914
+Exeggutor - Confusion - Seed Bomb - 1.0892
+Scyther - Steel Wing - Night Slash - 1.0883
+Hitmonlee - Low Kick - Stomp - 1.087
+Hitmonchan - Bullet Punch - Fire Punch - 1.087
+Pidgeot - Steel Wing - Aerial Ace - 1.085
+Fearow - Steel Wing - Aerial Ace - 1.085
+Dodrio - Steel Wing - Aerial Ace - 1.085
+Kangaskhan - Mud Slap - Brick Break - 1.0814
+Lickitung - Zen Headbutt - Stomp - 1.0783
+Sandslash - Metal Claw - Rock Tomb - 1.0756
+Raichu - Thunder Shock - Brick Break - 1.0753
+Electrode - Tackle - Discharge - 1.0694
+Mr. Mime - Confusion - Psybeam - 1.0646
+Hitmonlee - Rock Smash - Low Sweep - 1.0625
+Sandslash - Mud Shot - Rock Tomb - 1.0624
+Kingler - Metal Claw - Water Pulse - 1.0623
+Poliwrath - Mud Shot - Ice Punch - 1.0617
+Kangaskhan - Mud Slap - Stomp - 1.0601
+Raticate - Quick Attack - Hyper Fang - 1.0525
+Fearow - Peck - Aerial Ace - 1.0494
+Rapidash - Ember - Drill Run - 1.0463
+Dodrio - Feint Attack - Air Cutter - 1.0461
+Tauros - Tackle - Horn Attack - 1.046
+Hitmonchan - Bullet Punch - Thunder Punch - 1.046
+Fearow - Steel Wing - Drill Run - 1.0453
+Kangaskhan - Low Kick - Earthquake - 1.0448
+Chansey - Zen Headbutt - Dazzling Gleam - 1.0426
+Magneton - Spark - Magnet Bomb - 1.0422
+Magmar - Karate Chop - Fire Punch - 1.0398
+Jolteon - Thunder Shock - Discharge - 1.0351
+Pidgeot - Steel Wing - Air Cutter - 1.0313
+Dodrio - Steel Wing - Air Cutter - 1.0313
+Dewgong - Frost Breath - Aqua Jet - 1.0304
+Arcanine - Fire Fang - Bulldoze - 1.0297
+Seaking - Poison Jab - Drill Run - 1.0273
+Gyarados - Bite - Twister - 1.0243
+Gyarados - Dragon Breath - Twister - 1.0243
+Kabutops - Mud Shot - Ancient Power - 1.0228
+Marowak - Mud Slap - Dig - 1.0188
+Pinsir - Rock Smash - Vice Grip - 1.0179
+Porygon - Tackle - Psybeam - 1.0149
+Poliwrath - Mud Shot - Submission - 1.0127
+Electabuzz - Low Kick - Thunder Punch - 1.0085
+Dewgong - Ice Shard - Aqua Jet - 1.0077
+Jynx - Pound - Draining Kiss - 1.0071
+Marowak - Rock Smash - Bone Club - 1.006
+Golem - Rock Throw - Ancient Power - 1.0047
+Omastar - Rock Throw - Ancient Power - 1.0047
+Kingler - Mud Shot - Vice Grip - 1.002
+Pinsir - Rock Smash - Submission - 1.0016
+Slowbro - Confusion - Water Pulse - 1.001
+Fearow - Peck - Drill Run - 0.9997
+Lickitung - Lick - Stomp - 0.997
+Starmie - Quick Attack - Power Gem - 0.9949
+Dugtrio - Mud Shot - Mud Bomb - 0.9904
+Tauros - Zen Headbutt - Horn Attack - 0.9904
+Persian - Feint Attack - Night Slash - 0.9891
+Hitmonchan - Bullet Punch - Brick Break - 0.9886
+Sandslash - Metal Claw - Bulldoze - 0.986
+Scyther - Fury Cutter - Night Slash - 0.9853
+Venomoth - Confusion - Poison Fang - 0.9838
+Porygon - Quick Attack - Signal Beam - 0.9719
+Kabutops - Mud Shot - Water Pulse - 0.9718
+Raticate - Bite - Dig - 0.9716
+Jynx - Frost Breath - Draining Kiss - 0.9696
+Farfetch'd - Fury Cutter - Leaf Blade - 0.9659
+Chansey - Zen Headbutt - Psybeam - 0.9655
+Arcanine - Bite - Bulldoze - 0.9647
+Kingler - Mud Shot - Water Pulse - 0.9606
+Fearow - Steel Wing - Twister - 0.9591
+Porygon - Quick Attack - Discharge - 0.9524
+Primeape - Low Kick - Night Slash - 0.9504
+Sandslash - Mud Shot - Bulldoze - 0.9503
+Magneton - Thunder Shock - Magnet Bomb - 0.9473
+Pinsir - Fury Cutter - Vice Grip - 0.9427
+Primeape - Low Kick - Low Sweep - 0.9313
+Hitmonlee - Low Kick - Low Sweep - 0.9313
+Kangaskhan - Low Kick - Brick Break - 0.9234
+Pinsir - Fury Cutter - Submission - 0.9224
+Machamp - Karate Chop - Submission - 0.9171
+Hitmonchan - Bullet Punch - Ice Punch - 0.9151
+Marowak - Rock Smash - Dig - 0.9146
+Primeape - Karate Chop - Night Slash - 0.9033
+Kangaskhan - Low Kick - Stomp - 0.9021
+Fearow - Peck - Twister - 0.892
+Primeape - Karate Chop - Low Sweep - 0.8841
+Dewgong - Frost Breath - Icy Wind - 0.8781
+Cloyster - Frost Breath - Icy Wind - 0.8781
+Rapidash - Low Kick - Drill Run - 0.8776
+Seaking - Peck - Drill Run - 0.8722
+Farfetch'd - Fury Cutter - Aerial Ace - 0.8702
+Machamp - Bullet Punch - Submission - 0.8661
+Dugtrio - Sucker Punch - Mud Bomb - 0.8646
+Seaking - Poison Jab - Icy Wind - 0.8608
+Dewgong - Ice Shard - Icy Wind - 0.8554
+Cloyster - Ice Shard - Icy Wind - 0.8554
+Kabutops - Fury Cutter - Ancient Power - 0.829
+Porygon - Quick Attack - Psybeam - 0.8222
+Farfetch'd - Fury Cutter - Air Cutter - 0.8165
+Raticate - Quick Attack - Dig - 0.7895
+Kabutops - Fury Cutter - Water Pulse - 0.778
+Starmie - Quick Attack - Psybeam - 0.7741
+Seaking - Peck - Icy Wind - 0.7056

@@ -58,12 +58,15 @@ namespace Optimizer.Lookup
                 : _pokemonTemplates.Values;
         }
 
-        public IList<Pokemon> GetAllPermutations(IPokemonFactory pokemonFactory)
+        public IList<Pokemon> GetAllPermutations(IPokemonFactory pokemonFactory, bool onlyMaxStage = false)
         {
             var permutations = new List<Pokemon>();
             foreach (var pokemonTemplate in _pokemonTemplates.Values)
             {
-                permutations.AddRange(pokemonTemplate.CreatePermutations(pokemonFactory));
+                if (pokemonTemplate.IsMaxStage)
+                {
+                    permutations.AddRange(pokemonTemplate.CreatePermutations(pokemonFactory));
+                }
             }
 
             return permutations;
