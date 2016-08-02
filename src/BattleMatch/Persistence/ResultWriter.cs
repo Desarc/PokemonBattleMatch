@@ -1,4 +1,5 @@
 ﻿using Optimizer.Analysis;
+using Optimizer.Data;
 using Optimizer.Lookup;
 using Optimizer.Model;
 using System;
@@ -13,8 +14,7 @@ namespace Optimizer.Persistence
     {
         private const string ResultsFolder = @"..\..\..\..\results";
 
-        private const double CPValueModifier = 4.0;
-        private const int Precision = 4;
+        
 
         private IPokemonTemplates _pokemonTemplates;
         private IPokemonFactory _pokemonFactory;
@@ -47,7 +47,7 @@ namespace Optimizer.Persistence
                 {
                     foreach (var matchup in matchups)
                     {
-                        var value = Math.Round(matchup.Value, Precision);
+                        var value = Math.Round(matchup.Value, Constants.MatchupValuePrecision);
                         var matchupString = $"{matchup.Key} - {value}";
                         file.WriteLine(matchupString);
                     }
@@ -75,7 +75,7 @@ namespace Optimizer.Persistence
                 {
                     foreach (var matchup in matchups)
                     {
-                        var value = Math.Round(matchup.Value, Precision);
+                        var value = Math.Round(matchup.Value, Constants.MatchupValuePrecision);
                         var matchupString = $"{matchup.Key} - {value}";
                         file.WriteLine(matchupString);
                     }
@@ -85,20 +85,26 @@ namespace Optimizer.Persistence
 
         public void WriteMatchupRankings()
         {
-            var allTemplates = _pokemonTemplates.GetAllTemplates(true);
+            var allTemplates = _pokemonTemplates.GetAllTemplates(onlyMaxStage: true);
             var allMatchups = new List<KeyValuePair<Pokemon, double>>();
 
             foreach (var template in allTemplates)
             {
-                allMatchups.AddRange(_matchupCalculator.FindFavorableAttackMatchups(template.Name, true, false, -1).ToList());
+                allMatchups.AddRange(_matchupCalculator.FindFavorableAttackMatchups(template.Name, onlyMaxStage: true, adjustForCP: false, modifierLimit: -1).ToList());
             }
 
-            var aggregatedMatchupValues = new Dictionary<PokemonTemplate, double>();
+            var aggregatedMatchupValues = new Dictionary<Pokemon, double>();
 
-            foreach (var template in allTemplates)
+            //foreach (var template in allTemplates)
+            //{
+            //    var aggregatedMatchupValue = allMatchups.Where(am => am.Key.Name == template.Name).Sum(am => am.Value);
+            //    aggregatedMatchupValues[template] = aggregatedMatchupValue;
+            //}
+
+            foreach (var pokemon in _pokemonTemplates.GetAllPermutations(_pokemonFactory, onlyMaxStage: true))
             {
-                var aggregatedMatchupValue = allMatchups.Where(am => am.Key.Name == template.Name).Sum(am => am.Value);
-                aggregatedMatchupValues[template] = aggregatedMatchupValue;
+                var aggregatedMatchupValue = allMatchups.Where(am => am.Key.Name == pokemon.Name && am.Key.FastMove == pokemon.FastMove && am.Key.SpecialMove == pokemon.SpecialMove).Sum(am => am.Value);
+                aggregatedMatchupValues[pokemon] = aggregatedMatchupValue;
             }
 
             var sortedMatchupValues = aggregatedMatchupValues.OrderByDescending(am => am.Value);
@@ -111,7 +117,7 @@ namespace Optimizer.Persistence
 
                 foreach (var matchupValue in sortedMatchupValues)
                 {
-                    var templateString = $"{rankingNumber} - ({matchupValue.Key.NumberString}) {matchupValue.Key.Name}: {matchupValue.Value}";
+                    var templateString = $"{rankingNumber} - {matchupValue.Key.ToString()}: {matchupValue.Value}";
                     file.WriteLine(templateString);
                     rankingNumber++;
                 }
@@ -120,20 +126,26 @@ namespace Optimizer.Persistence
 
         public void WriteCPAdjustedMatchupRankings()
         {
-            var allTemplates = _pokemonTemplates.GetAllTemplates(true);
+            var allTemplates = _pokemonTemplates.GetAllTemplates(onlyMaxStage: true);
             var allMatchups = new List<KeyValuePair<Pokemon, double>>();
 
             foreach (var template in allTemplates)
             {
-                allMatchups.AddRange(_matchupCalculator.FindFavorableAttackMatchups(template.Name, true, true, -1).ToList());
+                allMatchups.AddRange(_matchupCalculator.FindFavorableAttackMatchups(template.Name, onlyMaxStage: true, adjustForCP: true, modifierLimit: -1).ToList());
             }
 
-            var aggregatedMatchupValues = new Dictionary<PokemonTemplate, double>();
+            var aggregatedMatchupValues = new Dictionary<Pokemon, double>();
 
-            foreach (var template in allTemplates)
+            //foreach (var template in allTemplates)
+            //{
+            //    var aggregatedMatchupValue = allMatchups.Where(am => am.Key.Name == template.Name).Sum(am => am.Value);
+            //    aggregatedMatchupValues[template] = aggregatedMatchupValue;
+            //}
+
+            foreach (var pokemon in _pokemonTemplates.GetAllPermutations(_pokemonFactory, onlyMaxStage: true))
             {
-                var aggregatedMatchupValue = allMatchups.Where(am => am.Key.Name == template.Name).Sum(am => am.Value);
-                aggregatedMatchupValues[template] = aggregatedMatchupValue;
+                var aggregatedMatchupValue = allMatchups.Where(am => am.Key.Name == pokemon.Name && am.Key.FastMove == pokemon.FastMove && am.Key.SpecialMove == pokemon.SpecialMove).Sum(am => am.Value);
+                aggregatedMatchupValues[pokemon] = aggregatedMatchupValue;
             }
 
             var sortedMatchupValues = aggregatedMatchupValues.OrderByDescending(am => am.Value);
@@ -146,7 +158,7 @@ namespace Optimizer.Persistence
 
                 foreach (var matchupValue in sortedMatchupValues)
                 {
-                    var templateString = $"{rankingNumber} - ({matchupValue.Key.NumberString}) {matchupValue.Key.Name}: {matchupValue.Value}";
+                    var templateString = $"{rankingNumber} - {matchupValue.Key.ToString()}: {matchupValue.Value}";
                     file.WriteLine(templateString);
                     rankingNumber++;
                 }
@@ -223,7 +235,7 @@ namespace Optimizer.Persistence
         // TODO: make it right
         private double CalculateTotalValue(PokemonTemplate template, double totalMaxHP, double totalMaxCP)
         {
-            return (template.MaxHP / totalMaxHP) + (template.MaxCP / totalMaxCP) * CPValueModifier;
+            return (template.MaxHP / totalMaxHP) + (template.MaxCP / totalMaxCP) * Constants.CPValueModifier;
         }
     }
 }

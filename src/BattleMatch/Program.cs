@@ -11,7 +11,7 @@ namespace Optimizer
     {
         public static void Main(string[] args)
         {
-            var attacks = new Attacks();
+            var attacks = new Moves();
             var pokemonTemplates = new PokemonTemplates();
             var typeMatchups = new TypeMatchups();
             var pokemonFactory = new PokemonFactory(attacks, pokemonTemplates);

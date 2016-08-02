@@ -62,22 +62,20 @@ namespace Optimizer.Data {
         
         /// <summary>
         ///   Looks up a localized string similar to [
-        ///	{ &quot;name&quot;: &quot;Acid&quot;, &quot;type&quot;: &quot;POISON&quot; },
-        ///	{ &quot;name&quot;: &quot;Bite&quot;, &quot;type&quot;: &quot;DARK&quot; },
-        ///	{ &quot;name&quot;: &quot;Bubble&quot;, &quot;type&quot;: &quot;WATER&quot; },
-        ///	{ &quot;name&quot;: &quot;Bug Bite&quot;, &quot;type&quot;: &quot;BUG&quot; },
-        ///	{ &quot;name&quot;: &quot;Bullet Punch&quot;, &quot;type&quot;: &quot;STEEL&quot; },
-        ///	{ &quot;name&quot;: &quot;Confusion&quot;, &quot;type&quot;: &quot;PSYCHIC&quot; },
-        ///	{ &quot;name&quot;: &quot;Cut&quot;, &quot;type&quot;: &quot;NORMAL&quot; },
-        ///	{ &quot;name&quot;: &quot;Dragon Breath&quot;, &quot;type&quot;: &quot;DRAGON&quot; },
-        ///	{ &quot;name&quot;: &quot;Ember&quot;, &quot;type&quot;: &quot;FIRE&quot; },
-        ///	{ &quot;name&quot;: &quot;Feint Attack&quot;, &quot;type&quot;: &quot;DARK&quot; },
-        ///	{ &quot;name&quot;: &quot;Fire Fang&quot;, &quot;type&quot;: &quot;FIRE&quot; },
-        ///	{ &quot;name&quot;: &quot;Frost Breath&quot;, &quot;type&quot;: &quot;ICE&quot; [rest of string was truncate....
+        ///	{ &quot;name&quot;: &quot;Acid&quot;, &quot;type&quot;: &quot;POISON&quot;, dps: 9.52 },
+        ///	{ &quot;name&quot;: &quot;Bite&quot;, &quot;type&quot;: &quot;DARK&quot;, dps: 12 },
+        ///	{ &quot;name&quot;: &quot;Bubble&quot;, &quot;type&quot;: &quot;WATER&quot;, dps: 10.87 },
+        ///	{ &quot;name&quot;: &quot;Bug Bite&quot;, &quot;type&quot;: &quot;BUG&quot;, dps: 11.11 },
+        ///	{ &quot;name&quot;: &quot;Bullet Punch&quot;, &quot;type&quot;: &quot;STEEL&quot;, dps: 8.33 },
+        ///	{ &quot;name&quot;: &quot;Confusion&quot;, &quot;type&quot;: &quot;PSYCHIC&quot;, dps: 9.93 },
+        ///	{ &quot;name&quot;: &quot;Cut&quot;, &quot;type&quot;: &quot;NORMAL&quot;, dps: 10.62 },
+        ///	{ &quot;name&quot;: &quot;Dragon Breath&quot;, &quot;type&quot;: &quot;DRAGON&quot;, dps: 12 },
+        ///	{ &quot;name&quot;: &quot;Ember&quot;, &quot;type&quot;: &quot;FIRE&quot;, dps: 9.52 },
+        ///	{ &quot;name&quot;: &quot;Feint Attack&quot;, &quot;typ [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string FastAttacks {
+        internal static string FastMoves {
             get {
-                return ResourceManager.GetString("FastAttacks", resourceCulture);
+                return ResourceManager.GetString("FastMoves", resourceCulture);
             }
         }
         
@@ -86,6 +84,10 @@ namespace Optimizer.Data {
         ///	{ 
         ///		&quot;number&quot;: 1,
         ///		&quot;name&quot;: &quot;Bulbasaur&quot;, 
+        ///		&quot;stage&quot;: 1,
+        ///		&quot;maxStage&quot;: 3,
+        ///		&quot;maxCP&quot;: 1071,
+        ///		&quot;maxHP&quot;: 82,
         ///		&quot;firstType&quot;: &quot;GRASS&quot;,
         ///		&quot;secondType&quot;: &quot;POISON&quot;,
         ///		&quot;fastAttacks&quot;: [ &quot;Tackle&quot;, &quot;Vine Whip&quot; ],
@@ -94,16 +96,14 @@ namespace Optimizer.Data {
         ///	{ 
         ///		&quot;number&quot;: 2,
         ///		&quot;name&quot;: &quot;Ivysaur&quot;, 
+        ///		&quot;stage&quot;: 2,
+        ///		&quot;maxStage&quot;: 3,
+        ///		&quot;maxCP&quot;: 1632,
+        ///		&quot;maxHP&quot;: 106,
         ///		&quot;firstType&quot;: &quot;GRASS&quot;,
         ///		&quot;secondType&quot;: &quot;POISON&quot;,
         ///		&quot;fastAttacks&quot;: [ &quot;Razor Leaf&quot;, &quot;Vine Whip&quot; ],
-        ///		&quot;specialAttacks&quot;: [ &quot;Sludge Bomb&quot;, &quot;Solar Beam&quot;, &quot;Power Whip&quot; ]
-        ///	},
-        ///	{ 
-        ///		&quot;number&quot;: 3,
-        ///		&quot;name&quot;: &quot;Venusaur&quot;, 
-        ///		&quot;firstType&quot;: &quot;GRASS&quot;,
-        ///		&quot;secon [rest of string was truncated]&quot;;.
+        ///		&quot;specialAttac [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string PokemonTemplates {
             get {
@@ -113,22 +113,17 @@ namespace Optimizer.Data {
         
         /// <summary>
         ///   Looks up a localized string similar to [
-        ///	{ &quot;name&quot;: &quot;Aerial Ace&quot;, &quot;type&quot;: &quot;FLYING&quot; },
-        ///	{ &quot;name&quot;: &quot;Air Cutter&quot;, &quot;type&quot;: &quot;FLYING&quot; },
-        ///	{ &quot;name&quot;: &quot;Ancient Power&quot;, &quot;type&quot;: &quot;ROCK&quot; },
-        ///	{ &quot;name&quot;: &quot;Aqua Jet&quot;, &quot;type&quot;: &quot;WATER&quot; },
-        ///	{ &quot;name&quot;: &quot;Aqua Tail&quot;, &quot;type&quot;: &quot;WATER&quot; },
-        ///	{ &quot;name&quot;: &quot;Blizzard&quot;, &quot;type&quot;: &quot;ICE&quot; },
-        ///	{ &quot;name&quot;: &quot;Body Slam&quot;, &quot;type&quot;: &quot;NORMAL&quot; },
-        ///	{ &quot;name&quot;: &quot;Bone Club&quot;, &quot;type&quot;: &quot;GROUND&quot; },
-        ///	{ &quot;name&quot;: &quot;Brick Break&quot;, &quot;type&quot;: &quot;FIGHTING&quot; },
-        ///	{ &quot;name&quot;: &quot;Brine&quot;, &quot;type&quot;: &quot;WATER&quot; },
-        ///	{ &quot;name&quot;: &quot;Bubble Beam&quot;, &quot;type&quot;: &quot;WATER&quot; },
-        ///	{ &quot;name&quot;: &quot;Bug B [rest of string was truncated]&quot;;.
+        ///	{ &quot;name&quot;: &quot;Aerial Ace&quot;, &quot;type&quot;: &quot;FLYING&quot;, dps: 10.34, criticalHitChance: 0.05 },
+        ///	{ &quot;name&quot;: &quot;Air Cutter&quot;, &quot;type&quot;: &quot;FLYING&quot;, dps: 9.09, criticalHitChance: 0.25 },
+        ///	{ &quot;name&quot;: &quot;Ancient Power&quot;, &quot;type&quot;: &quot;ROCK&quot;, dps: 9.72, criticalHitChance: 0.05 },
+        ///	{ &quot;name&quot;: &quot;Aqua Jet&quot;, &quot;type&quot;: &quot;WATER&quot;, dps: 10.64, criticalHitChance: 0.05 },
+        ///	{ &quot;name&quot;: &quot;Aqua Tail&quot;, &quot;type&quot;: &quot;WATER&quot;, dps: 19.15, criticalHitChance: 0.05 },
+        ///	{ &quot;name&quot;: &quot;Blizzard&quot;, &quot;type&quot;: &quot;ICE&quot;, dps: 26.64, criticalHitChance: 0.05 },
+        ///	{ &quot;name&quot;: &quot;Body Slam&quot; [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string SpecialAttacks {
+        internal static string SpecialMoves {
             get {
-                return ResourceManager.GetString("SpecialAttacks", resourceCulture);
+                return ResourceManager.GetString("SpecialMoves", resourceCulture);
             }
         }
         
@@ -136,7 +131,7 @@ namespace Optimizer.Data {
         ///   Looks up a localized string similar to [
         ///	{ 
         ///		&quot;attackingType&quot;: &quot;NORMAL&quot;,
-        ///		&quot;Matchups&quot;: [ 
+        ///		&quot;typeModifiers&quot;: [ 
         ///			{ &quot;defendingType&quot;: &quot;NORMAL&quot;, &quot;modifier&quot;: 1 },
         ///			{ &quot;defendingType&quot;: &quot;FIRE&quot;, &quot;modifier&quot;: 1 },
         ///			{ &quot;defendingType&quot;: &quot;WATER&quot;, &quot;modifier&quot;: 1 },
@@ -146,7 +141,7 @@ namespace Optimizer.Data {
         ///			{ &quot;defendingType&quot;: &quot;FIGHTING&quot;, &quot;modifier&quot;: 1 },
         ///			{ &quot;defendingType&quot;: &quot;POISON&quot;, &quot;modifier&quot;: 1 },
         ///			{ &quot;defendingType&quot;: &quot;GROUND&quot;, &quot;modifier&quot;: 1 },
-        ///			{ &quot;def [rest of string was truncated]&quot;;.
+        ///			{ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string TypeMathcups {
             get {

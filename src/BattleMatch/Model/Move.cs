@@ -1,8 +1,8 @@
 ﻿namespace Optimizer.Model
 {
-    internal class Attack
+    internal class Move
     {
-        public Attack(string name, string type, double dps, double criticalHitChance)
+        public Move(string name, string type, double dps, double criticalHitChance)
         {
             Name = name;
             Type = type;

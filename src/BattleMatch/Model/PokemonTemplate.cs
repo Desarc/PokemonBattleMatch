@@ -5,7 +5,7 @@ namespace Optimizer.Model
 {
     internal class PokemonTemplate
     {
-        public PokemonTemplate(int number, string name, int stage, int maxStage, double maxCP, double maxHP, IEnumerable<string> fastAttacks, IEnumerable<string> specialAttacks, string firstType, string secondType = null)
+        public PokemonTemplate(int number, string name, int stage, int maxStage, double maxCP, double maxHP, IEnumerable<string> fastMoves, IEnumerable<string> specialMoves, string firstType, string secondType = null)
         {
             Number = number;
             Name = name;
@@ -13,8 +13,8 @@ namespace Optimizer.Model
             MaxStage = maxStage;
             MaxCP = maxCP;
             MaxHP = maxHP;
-            FastAttacks = new List<string>(fastAttacks.Select(fa => fa.ToLower()));
-            SpecialAttacks = new List<string>(specialAttacks.Select(fa => fa.ToLower()));
+            FastMoves = new List<string>(fastMoves.Select(fa => fa.ToLower()));
+            SpecialMoves = new List<string>(specialMoves.Select(fa => fa.ToLower()));
             FirstType = firstType;
             SecondType = secondType;
         }
@@ -35,32 +35,32 @@ namespace Optimizer.Model
 
         public double MaxHP { get; }
 
-        public IList<string> FastAttacks { get; }
+        public IList<string> FastMoves { get; }
 
-        public IList<string> SpecialAttacks { get; }
+        public IList<string> SpecialMoves { get; }
 
         public string FirstType { get; }
 
         public string SecondType { get; }
 
-        public bool FastAttackValid(string attackName)
+        public bool FastMoveValid(string attackName)
         {
-            return FastAttacks.Contains(attackName.ToLower());
+            return FastMoves.Contains(attackName.ToLower());
         }
 
-        public bool SpecialAttackValid(string attackName)
+        public bool SpecialMoveValid(string attackName)
         {
-            return SpecialAttacks.Contains(attackName.ToLower());
+            return SpecialMoves.Contains(attackName.ToLower());
         }
 
         public IList<Pokemon> CreatePermutations(IPokemonFactory pokemonFactory)
         {
             var permutations = new List<Pokemon>();
-            foreach (var fastAttack in FastAttacks)
+            foreach (var fastMove in FastMoves)
             {
-                foreach (var specialAttack in SpecialAttacks)
+                foreach (var specialMove in SpecialMoves)
                 {
-                    permutations.Add(pokemonFactory.CreatePokemon(Name, fastAttack, specialAttack));
+                    permutations.Add(pokemonFactory.CreatePokemon(Name, fastMove, specialMove));
                 }
             }
 

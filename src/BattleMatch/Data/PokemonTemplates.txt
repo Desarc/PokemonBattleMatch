@@ -8,8 +8,8 @@
 		"maxHP": 82,
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Tackle", "Vine Whip" ],
-		"specialAttacks": [ "Sludge Bomb", "Seed Bomb", "Power Whip" ]
+		"fastMoves": [ "Tackle", "Vine Whip" ],
+		"specialMoves": [ "Sludge Bomb", "Seed Bomb", "Power Whip" ]
 	},
 	{ 
 		"number": 2,
@@ -20,8 +20,8 @@
 		"maxHP": 106,
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Razor Leaf", "Vine Whip" ],
-		"specialAttacks": [ "Sludge Bomb", "Solar Beam", "Power Whip" ]
+		"fastMoves": [ "Razor Leaf", "Vine Whip" ],
+		"specialMoves": [ "Sludge Bomb", "Solar Beam", "Power Whip" ]
 	},
 	{ 
 		"number": 3,
@@ -32,8 +32,8 @@
 		"maxHP": 138,
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Razor Leaf", "Vine Whip" ],
-		"specialAttacks": [ "Sludge Bomb", "Solar Beam", "Petal Blizzard" ]
+		"fastMoves": [ "Razor Leaf", "Vine Whip" ],
+		"specialMoves": [ "Sludge Bomb", "Solar Beam", "Petal Blizzard" ]
 	},
 	{ 
 		"number": 4,
@@ -44,8 +44,8 @@
 		"maxHP": 73,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Scratch", "Ember" ],
-		"specialAttacks": [ "Flame Burst", "Flamethrower", "Flame Charge" ]
+		"fastMoves": [ "Scratch", "Ember" ],
+		"specialMoves": [ "Flame Burst", "Flamethrower", "Flame Charge" ]
 	},
 	{ 
 		"number": 5,
@@ -56,8 +56,8 @@
 		"maxHP": 103,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Scratch", "Ember" ],
-		"specialAttacks": [ "Flame Burst", "Flamethrower", "Fire Punch" ]
+		"fastMoves": [ "Scratch", "Ember" ],
+		"specialMoves": [ "Flame Burst", "Flamethrower", "Fire Punch" ]
 	},
 	{ 
 		"number": 6,
@@ -68,8 +68,8 @@
 		"maxHP": 135,
 		"firstType": "FIRE",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Wing Attack", "Ember" ],
-		"specialAttacks": [ "Dragon Claw", "Flamethrower", "Fire Blast" ]
+		"fastMoves": [ "Wing Attack", "Ember" ],
+		"specialMoves": [ "Dragon Claw", "Flamethrower", "Fire Blast" ]
 	},
 	{ 
 		"number": 7,
@@ -80,8 +80,8 @@
 		"maxHP": 81,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Bubble" ],
-		"specialAttacks": [ "Aqua Jet", "Aqua Tail", "Water Pulse" ]
+		"fastMoves": [ "Tackle", "Bubble" ],
+		"specialMoves": [ "Aqua Jet", "Aqua Tail", "Water Pulse" ]
 	},
 	{ 
 		"number": 8,
@@ -92,8 +92,8 @@
 		"maxHP": 105,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Bite", "Water Gun" ],
-		"specialAttacks": [ "Aqua Jet", "Hydro Pump", "Ice Beam" ]
+		"fastMoves": [ "Bite", "Water Gun" ],
+		"specialMoves": [ "Aqua Jet", "Hydro Pump", "Ice Beam" ]
 	},
 	{ 
 		"number": 9,
@@ -104,8 +104,8 @@
 		"maxHP": 136,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Bite", "Water Gun" ],
-		"specialAttacks": [ "Ice Beam", "Hydro Pump", "Flash Cannon" ]
+		"fastMoves": [ "Bite", "Water Gun" ],
+		"specialMoves": [ "Ice Beam", "Hydro Pump", "Flash Cannon" ]
 	},
 	{ 
 		"number": 10,
@@ -116,8 +116,8 @@
 		"maxHP": 82,
 		"firstType": "BUG",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Bug Bite" ],
-		"specialAttacks": [ "Struggle" ]
+		"fastMoves": [ "Tackle", "Bug Bite" ],
+		"specialMoves": [ "Struggle" ]
 	},
 	{ 
 		"number": 11,
@@ -128,8 +128,8 @@
 		"maxHP": 90,
 		"firstType": "BUG",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Bug Bite" ],
-		"specialAttacks": [ "Struggle" ]
+		"fastMoves": [ "Tackle", "Bug Bite" ],
+		"specialMoves": [ "Struggle" ]
 	},
 	{ 
 		"number": 12,
@@ -140,8 +140,8 @@
 		"maxHP": 106,
 		"firstType": "BUG",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Confusion", "Bug Bite" ],
-		"specialAttacks": [ "Psychic", "Bug Buzz", "Signal Beam" ]
+		"fastMoves": [ "Confusion", "Bug Bite" ],
+		"specialMoves": [ "Psychic", "Bug Buzz", "Signal Beam" ]
 	},
 	{ 
 		"number": 13,
@@ -152,8 +152,8 @@
 		"maxHP": 75,
 		"firstType": "BUG",
 		"secondType": "POISON",
-		"fastAttacks": [ "Bug Bite", "Poison Sting" ],
-		"specialAttacks": [ "Struggle" ]
+		"fastMoves": [ "Bug Bite", "Poison Sting" ],
+		"specialMoves": [ "Struggle" ]
 	},
 	{ 
 		"number": 14,
@@ -164,8 +164,8 @@
 		"maxHP": 82,
 		"firstType": "BUG",
 		"secondType": "POISON",
-		"fastAttacks": [ "Bug Bite", "Poison Sting" ],
-		"specialAttacks": [ "Struggle" ]
+		"fastMoves": [ "Bug Bite", "Poison Sting" ],
+		"specialMoves": [ "Struggle" ]
 	},
 	{ 
 		"number": 15,
@@ -176,8 +176,8 @@
 		"maxHP": 114,
 		"firstType": "BUG",
 		"secondType": "POISON",
-		"fastAttacks": [ "Bug Bite", "Poison Jab" ],
-		"specialAttacks": [ "Aerial Ace", "Sludge Bomb", "X-Scissor" ]
+		"fastMoves": [ "Bug Bite", "Poison Jab" ],
+		"specialMoves": [ "Aerial Ace", "Sludge Bomb", "X-Scissor" ]
 	},
 	{ 
 		"number": 16,
@@ -188,8 +188,8 @@
 		"maxHP": 75,
 		"firstType": "NORMAL",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Tackle", "Quick Attack" ],
-		"specialAttacks": [ "Twister", "Aerial Ace", "Air Cutter" ]
+		"fastMoves": [ "Tackle", "Quick Attack" ],
+		"specialMoves": [ "Twister", "Aerial Ace", "Air Cutter" ]
 	},
 	{ 
 		"number": 17,
@@ -200,8 +200,8 @@
 		"maxHP": 111,
 		"firstType": "NORMAL",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Wing Attack", "Steel Wing" ],
-		"specialAttacks": [ "Twister", "Aerial Ace", "Air Cutter" ]
+		"fastMoves": [ "Wing Attack", "Steel Wing" ],
+		"specialMoves": [ "Twister", "Aerial Ace", "Air Cutter" ]
 	},
 	{ 
 		"number": 18,
@@ -212,8 +212,8 @@
 		"maxHP": 143,
 		"firstType": "NORMAL",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Wing Attack", "Steel Wing" ],
-		"specialAttacks": [ "Hurricane", "Aerial Ace", "Air Cutter" ]
+		"fastMoves": [ "Wing Attack", "Steel Wing" ],
+		"specialMoves": [ "Hurricane", "Aerial Ace", "Air Cutter" ]
 	},
 	{ 
 		"number": 19,
@@ -224,8 +224,8 @@
 		"maxHP": 59,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Quick Attack" ],
-		"specialAttacks": [ "Dig", "Hyper Fang", "Body Slam" ]
+		"fastMoves": [ "Tackle", "Quick Attack" ],
+		"specialMoves": [ "Dig", "Hyper Fang", "Body Slam" ]
 	},
 	{ 
 		"number": 20,
@@ -236,8 +236,8 @@
 		"maxHP": 98,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Bite", "Quick Attack" ],
-		"specialAttacks": [ "Dig", "Hyper Fang", "Hyper Beam" ]
+		"fastMoves": [ "Bite", "Quick Attack" ],
+		"specialMoves": [ "Dig", "Hyper Fang", "Hyper Beam" ]
 	},
 	{ 
 		"number": 21,
@@ -248,8 +248,8 @@
 		"maxHP": 75,
 		"firstType": "NORMAL",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Quick Attack", "Peck" ],
-		"specialAttacks": [ "Aerial Ace", "Twister", "Drill Peck" ]
+		"fastMoves": [ "Quick Attack", "Peck" ],
+		"specialMoves": [ "Aerial Ace", "Twister", "Drill Peck" ]
 	},
 	{ 
 		"number": 22,
@@ -260,8 +260,8 @@
 		"maxHP": 114,
 		"firstType": "NORMAL",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Steel Wing", "Peck" ],
-		"specialAttacks": [ "Aerial Ace", "Twister", "Drill Run" ]
+		"fastMoves": [ "Steel Wing", "Peck" ],
+		"specialMoves": [ "Aerial Ace", "Twister", "Drill Run" ]
 	},
 	{ 
 		"number": 23,
@@ -272,8 +272,8 @@
 		"maxHP": 67,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Acid", "Poison Sting" ],
-		"specialAttacks": [ "Gunk Shot", "Sludge Bomb", "Wrap" ]
+		"fastMoves": [ "Acid", "Poison Sting" ],
+		"specialMoves": [ "Gunk Shot", "Sludge Bomb", "Wrap" ]
 	},
 	{ 
 		"number": 24,
@@ -284,8 +284,8 @@
 		"maxHP": 106,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Acid", "Bite" ],
-		"specialAttacks": [ "Gunk Shot", "Sludge Wave", "Dark Pulse" ]
+		"fastMoves": [ "Acid", "Bite" ],
+		"specialMoves": [ "Gunk Shot", "Sludge Wave", "Dark Pulse" ]
 	},
 	{ 
 		"number": 25,
@@ -296,8 +296,8 @@
 		"maxHP": 67,
 		"firstType": "ELECTRIC",
 		"secondType": null,
-		"fastAttacks": [ "Thunder Shock", "Quick Attack" ],
-		"specialAttacks": [ "Thunderbolt", "Discharge", "Thunder" ]
+		"fastMoves": [ "Thunder Shock", "Quick Attack" ],
+		"specialMoves": [ "Thunderbolt", "Discharge", "Thunder" ]
 	},
 	{ 
 		"number": 26,
@@ -308,8 +308,8 @@
 		"maxHP": 106,
 		"firstType": "ELECTRIC",
 		"secondType": null,
-		"fastAttacks": [ "Thunder Shock", "Spark" ],
-		"specialAttacks": [ "Brick Break", "Thunder Punch", "Thunder" ]
+		"fastMoves": [ "Thunder Shock", "Spark" ],
+		"specialMoves": [ "Brick Break", "Thunder Punch", "Thunder" ]
 	},
 	{ 
 		"number": 27,
@@ -320,8 +320,8 @@
 		"maxHP": 90,
 		"firstType": "GROUND",
 		"secondType": null,
-		"fastAttacks": [ "Scratch", "Mud Shot" ],
-		"specialAttacks": [ "Dig", "Rock Slide", "Rock Tomb" ]
+		"fastMoves": [ "Scratch", "Mud Shot" ],
+		"specialMoves": [ "Dig", "Rock Slide", "Rock Tomb" ]
 	},
 	{ 
 		"number": 28,
@@ -332,8 +332,8 @@
 		"maxHP": 130,
 		"firstType": "GROUND",
 		"secondType": null,
-		"fastAttacks": [ "Metal Claw", "Mud Shot" ],
-		"specialAttacks": [ "Rock Tomb", "Bulldoze", "Earthquake" ]
+		"fastMoves": [ "Metal Claw", "Mud Shot" ],
+		"specialMoves": [ "Rock Tomb", "Bulldoze", "Earthquake" ]
 	},
 	{ 
 		"number": 29,
@@ -344,8 +344,8 @@
 		"maxHP": 98,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Poison Sting", "Bite" ],
-		"specialAttacks": [ "Poison Fang", "Sludge Bomb", "Body Slam" ]
+		"fastMoves": [ "Poison Sting", "Bite" ],
+		"specialMoves": [ "Poison Fang", "Sludge Bomb", "Body Slam" ]
 	},
 	{ 
 		"number": 30,
@@ -356,8 +356,8 @@
 		"maxHP":122,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Poison Sting", "Bite" ],
-		"specialAttacks": [ "Poison Fang", "Sludge Bomb", "Dig" ]
+		"fastMoves": [ "Poison Sting", "Bite" ],
+		"specialMoves": [ "Poison Fang", "Sludge Bomb", "Dig" ]
 	},
 	{ 
 		"number": 31,
@@ -368,8 +368,8 @@
 		"maxHP": 154,
 		"firstType": "POISON",
 		"secondType": "GROUND",
-		"fastAttacks": [ "Poison Jab", "Bite" ],
-		"specialAttacks": [ "Stone Edge", "Sludge Wave", "Earthquake" ]
+		"fastMoves": [ "Poison Jab", "Bite" ],
+		"specialMoves": [ "Stone Edge", "Sludge Wave", "Earthquake" ]
 	},
 	{ 
 		"number": 32,
@@ -380,8 +380,8 @@
 		"maxHP": 84,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Poison Sting", "Peck" ],
-		"specialAttacks": [ "Horn Attack", "Sludge Bomb", "Body Slam" ]
+		"fastMoves": [ "Poison Sting", "Peck" ],
+		"specialMoves": [ "Horn Attack", "Sludge Bomb", "Body Slam" ]
 	},
 	{ 
 		"number": 33,
@@ -392,8 +392,8 @@
 		"maxHP": 108,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Poison Jab", "Bite" ],
-		"specialAttacks": [ "Horn Attack", "Sludge Bomb", "Dig" ]
+		"fastMoves": [ "Poison Jab", "Bite" ],
+		"specialMoves": [ "Horn Attack", "Sludge Bomb", "Dig" ]
 	},
 	{ 
 		"number": 34,
@@ -404,8 +404,8 @@
 		"maxHP": 139,
 		"firstType": "POISON",
 		"secondType": "GROUND",
-		"fastAttacks": [ "Poison Jab", "Fury Cutter" ],
-		"specialAttacks": [ "Megahorn", "Earthquake", "Sludge Wave" ]
+		"fastMoves": [ "Poison Jab", "Fury Cutter" ],
+		"specialMoves": [ "Megahorn", "Earthquake", "Sludge Wave" ]
 	},
 	{ 
 		"number": 35,
@@ -416,8 +416,8 @@
 		"maxHP": 122,
 		"firstType": "FAIRY",
 		"secondType": null,
-		"fastAttacks": [ "Zen Headbutt", "Pound" ],
-		"specialAttacks": [ "Body Slam", "Disarming Voice", "Moonblast" ]
+		"fastMoves": [ "Zen Headbutt", "Pound" ],
+		"specialMoves": [ "Body Slam", "Disarming Voice", "Moonblast" ]
 	},
 	{ 
 		"number": 36,
@@ -428,8 +428,8 @@
 		"maxHP": 162,
 		"firstType": "FAIRY",
 		"secondType": null,
-		"fastAttacks": [ "Zen Headbutt", "Pound" ],
-		"specialAttacks": [ "Psychic", "Dazzling Gleam", "Moonblast" ]
+		"fastMoves": [ "Zen Headbutt", "Pound" ],
+		"specialMoves": [ "Psychic", "Dazzling Gleam", "Moonblast" ]
 	},
 	{ 
 		"number": 37,
@@ -440,8 +440,8 @@
 		"maxHP": 71,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Quick Attack", "Ember" ],
-		"specialAttacks": [ "Body Slam", "Flame Charge", "Flamethrower" ]
+		"fastMoves": [ "Quick Attack", "Ember" ],
+		"specialMoves": [ "Body Slam", "Flame Charge", "Flamethrower" ]
 	},
 	{ 
 		"number": 38,
@@ -452,8 +452,8 @@
 		"maxHP": 127,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Feint Attack", "Ember" ],
-		"specialAttacks": [ "Heat Wave", "Fire Blast", "Flamethrower" ]
+		"fastMoves": [ "Feint Attack", "Ember" ],
+		"specialMoves": [ "Heat Wave", "Fire Blast", "Flamethrower" ]
 	},
 	{ 
 		"number": 39,
@@ -464,8 +464,8 @@
 		"maxHP": 193, 
 		"firstType": "NORMAL",
 		"secondType": "FAIRY",
-		"fastAttacks": [ "Feint Attack", "Pound" ],
-		"specialAttacks": [ "Disarming Voice", "Body Slam", "Play Rough" ]
+		"fastMoves": [ "Feint Attack", "Pound" ],
+		"specialMoves": [ "Disarming Voice", "Body Slam", "Play Rough" ]
 	},
 	{ 
 		"number": 40,
@@ -476,8 +476,8 @@
 		"maxHP": 233,
 		"firstType": "NORMAL",
 		"secondType": "FAIRY",
-		"fastAttacks": [ "Feint Attack", "Pound" ],
-		"specialAttacks": [ "Dazzling Gleam", "Hyper Beam", "Play Rough" ]
+		"fastMoves": [ "Feint Attack", "Pound" ],
+		"specialMoves": [ "Dazzling Gleam", "Hyper Beam", "Play Rough" ]
 	},
 	{ 
 		"number": 41,
@@ -488,8 +488,8 @@
 		"maxHP": 75,
 		"firstType": "POISON",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Bite", "Quick Attack" ],
-		"specialAttacks": [ "Sludge Bomb", "Poison Fang", "Air Cutter" ]
+		"fastMoves": [ "Bite", "Quick Attack" ],
+		"specialMoves": [ "Sludge Bomb", "Poison Fang", "Air Cutter" ]
 	},
 	{ 
 		"number": 42,
@@ -500,8 +500,8 @@
 		"maxHP": 130,
 		"firstType": "POISON",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Bite", "Wing Attack" ],
-		"specialAttacks": [ "Ominous Wind", "Poison Fang", "Air Cutter" ]
+		"fastMoves": [ "Bite", "Wing Attack" ],
+		"specialMoves": [ "Ominous Wind", "Poison Fang", "Air Cutter" ]
 	},
 	{ 
 		"number": 43,
@@ -512,8 +512,8 @@
 		"maxHP": 82,
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Razor Leaf", "Acid" ],
-		"specialAttacks": [ "Moonblast", "Petal Blizzard", "Sludge Bomb" ]
+		"fastMoves": [ "Razor Leaf", "Acid" ],
+		"specialMoves": [ "Moonblast", "Petal Blizzard", "Sludge Bomb" ]
 	},
 	{ 
 		"number": 44,
@@ -524,8 +524,8 @@
 		"maxHP": 106,
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Razor Leaf", "Acid" ],
-		"specialAttacks": [ "Moonblast", "Seed Bomb", "Sludge Bomb" ]
+		"fastMoves": [ "Razor Leaf", "Acid" ],
+		"specialMoves": [ "Moonblast", "Seed Bomb", "Sludge Bomb" ]
 	},
 	{ 
 		"number": 45,
@@ -536,8 +536,8 @@
 		"maxHP": 130,
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Razor Leaf", "Acid" ],
-		"specialAttacks": [ "Moonblast", "Petal Blizzard", "Solar Beam" ]
+		"fastMoves": [ "Razor Leaf", "Acid" ],
+		"specialMoves": [ "Moonblast", "Petal Blizzard", "Solar Beam" ]
 	},
 	{ 
 		"number": 46,
@@ -548,8 +548,8 @@
 		"maxHP": 67,
 		"firstType": "BUG",
 		"secondType": "GRASS",
-		"fastAttacks": [ "Bug Bite", "Scratch" ],
-		"specialAttacks": [ "Seed Bomb", "X-Scissor", "Cross Poison" ]
+		"fastMoves": [ "Bug Bite", "Scratch" ],
+		"specialMoves": [ "Seed Bomb", "X-Scissor", "Cross Poison" ]
 	},
 	{ 
 		"number": 47,
@@ -560,8 +560,8 @@
 		"maxHP": 106,
 		"firstType": "BUG",
 		"secondType": "GRASS",
-		"fastAttacks": [ "Bug Bite", "Fury Cutter" ],
-		"specialAttacks": [ "Solar Beam", "X-Scissor", "Cross Poison" ]
+		"fastMoves": [ "Bug Bite", "Fury Cutter" ],
+		"specialMoves": [ "Solar Beam", "X-Scissor", "Cross Poison" ]
 	},
 	{ 
 		"number": 48,
@@ -572,8 +572,8 @@
 		"maxHP": 106,
 		"firstType": "BUG",
 		"secondType": "Poison",
-		"fastAttacks": [ "Bug Bite", "Confusion" ],
-		"specialAttacks": [ "Signal Beam", "Poison Fang", "Psybeam" ]
+		"fastMoves": [ "Bug Bite", "Confusion" ],
+		"specialMoves": [ "Signal Beam", "Poison Fang", "Psybeam" ]
 	},
 	{ 
 		"number": 49,
@@ -584,8 +584,8 @@
 		"maxHP": 122,
 		"firstType": "BUG",
 		"secondType": "POISON",
-		"fastAttacks": [ "Bug Bite", "Confusion" ],
-		"specialAttacks": [ "Bug Buzz", "Poison Fang", "Psychic" ]
+		"fastMoves": [ "Bug Bite", "Confusion" ],
+		"specialMoves": [ "Bug Buzz", "Poison Fang", "Psychic" ]
 	},
 	{ 
 		"number": 50,
@@ -596,8 +596,8 @@
 		"maxHP": 27,
 		"firstType": "GROUND",
 		"secondType": null,
-		"fastAttacks": [ "Scratch", "Mud Shot" ],
-		"specialAttacks": [ "Rock Tomb", "Dig", "Mud Bomb" ]
+		"fastMoves": [ "Scratch", "Mud Shot" ],
+		"specialMoves": [ "Rock Tomb", "Dig", "Mud Bomb" ]
 	},
 	{ 
 		"number": 51,
@@ -608,8 +608,8 @@
 		"maxHP": 67,
 		"firstType": "GROUND",
 		"secondType": null,
-		"fastAttacks": [ "Sucker Punch", "Mud Shot" ],
-		"specialAttacks": [ "Stone Edge", "Earthquake", "Mud Bomb" ]
+		"fastMoves": [ "Sucker Punch", "Mud Shot" ],
+		"specialMoves": [ "Stone Edge", "Earthquake", "Mud Bomb" ]
 	},
 	{ 
 		"number": 52,
@@ -620,8 +620,8 @@
 		"maxHP": 75,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Scratch", "Bite" ],
-		"specialAttacks": [ "Dark Pulse", "Body Slam", "Night Slash" ]
+		"fastMoves": [ "Scratch", "Bite" ],
+		"specialMoves": [ "Dark Pulse", "Body Slam", "Night Slash" ]
 	},
 	{ 
 		"number": 53,
@@ -632,8 +632,8 @@
 		"maxHP": 114,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Scratch", "Feint Attack" ],
-		"specialAttacks": [ "Play Rough", "Power Gem", "Night Slash" ]
+		"fastMoves": [ "Scratch", "Feint Attack" ],
+		"specialMoves": [ "Play Rough", "Power Gem", "Night Slash" ]
 	},
 	{ 
 		"number": 54,
@@ -644,8 +644,8 @@
 		"maxHP": 90,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Zen Headbutt", "Water Gun" ],
-		"specialAttacks": [ "Aqua Tail", "Cross Chop", "Psybeam" ]
+		"fastMoves": [ "Zen Headbutt", "Water Gun" ],
+		"specialMoves": [ "Aqua Tail", "Cross Chop", "Psybeam" ]
 	},
 	{ 
 		"number": 55,
@@ -656,8 +656,8 @@
 		"maxHP": 138,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Confusion", "Water Gun" ],
-		"specialAttacks": [ "Hydro Pump", "Ice Beam", "Psychic" ]
+		"fastMoves": [ "Confusion", "Water Gun" ],
+		"specialMoves": [ "Hydro Pump", "Ice Beam", "Psychic" ]
 	},
 	{ 
 		"number": 56,
@@ -668,8 +668,8 @@
 		"maxHP": 75,
 		"firstType": "FIGHTING",
 		"secondType": null,
-		"fastAttacks": [ "Karate Chop", "Scratch" ],
-		"specialAttacks": [ "Brick Break", "Cross Chop", "Low Sweep" ]
+		"fastMoves": [ "Karate Chop", "Scratch" ],
+		"specialMoves": [ "Brick Break", "Cross Chop", "Low Sweep" ]
 	},
 	{ 
 		"number": 57,
@@ -680,8 +680,8 @@
 		"maxHP": 114,
 		"firstType": "FIGHTING",
 		"secondType": null,
-		"fastAttacks": [ "Karate Chop", "Low Kick" ],
-		"specialAttacks": [ "Night Slash", "Cross Chop", "Low Sweep" ]
+		"fastMoves": [ "Karate Chop", "Low Kick" ],
+		"specialMoves": [ "Night Slash", "Cross Chop", "Low Sweep" ]
 	},
 	{ 
 		"number": 58,
@@ -692,8 +692,8 @@
 		"maxHP": 98,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Ember", "Bite" ],
-		"specialAttacks": [ "Flame Wheel", "Body Slam", "Flamethrower" ]
+		"fastMoves": [ "Ember", "Bite" ],
+		"specialMoves": [ "Flame Wheel", "Body Slam", "Flamethrower" ]
 	},
 	{ 
 		"number": 59,
@@ -704,8 +704,8 @@
 		"maxHP": 154,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Fire Fang", "Bite" ],
-		"specialAttacks": [ "Fire Blast", "Bulldoze", "Flamethrower" ]
+		"fastMoves": [ "Fire Fang", "Bite" ],
+		"specialMoves": [ "Fire Blast", "Bulldoze", "Flamethrower" ]
 	},
 	{ 
 		"number": 60,
@@ -716,8 +716,8 @@
 		"maxHP": 75,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Bubble", "Mud Shot" ],
-		"specialAttacks": [ "Body Slam", "Bubble Beam", "Mud Bomb" ]
+		"fastMoves": [ "Bubble", "Mud Shot" ],
+		"specialMoves": [ "Body Slam", "Bubble Beam", "Mud Bomb" ]
 	},
 	{ 
 		"number": 61,
@@ -728,8 +728,8 @@
 		"maxHP": 114,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Bubble", "Mud Shot" ],
-		"specialAttacks": [ "Scald", "Bubble Beam", "Mud Bomb" ]
+		"fastMoves": [ "Bubble", "Mud Shot" ],
+		"specialMoves": [ "Scald", "Bubble Beam", "Mud Bomb" ]
 	},
 	{ 
 		"number": 62,
@@ -740,8 +740,8 @@
 		"maxHP": 154,
 		"firstType": "WATER",
 		"secondType": "FIGHTING",
-		"fastAttacks": [ "Bubble", "Mud Shot" ],
-		"specialAttacks": [ "Ice Punch", "Hydro Pump", "Submission" ]
+		"fastMoves": [ "Bubble", "Mud Shot" ],
+		"specialMoves": [ "Ice Punch", "Hydro Pump", "Submission" ]
 	},
 	{ 
 		"number": 63,
@@ -752,8 +752,8 @@
 		"maxHP": 51,
 		"firstType": "PSYCHIC",
 		"secondType": null,
-		"fastAttacks": [ "Zen Headbutt" ],
-		"specialAttacks": [ "Shadow Ball", "Signal Beam", "Psyshock" ]
+		"fastMoves": [ "Zen Headbutt" ],
+		"specialMoves": [ "Shadow Ball", "Signal Beam", "Psyshock" ]
 	},
 	{ 
 		"number": 64,
@@ -764,8 +764,8 @@
 		"maxHP": 75,
 		"firstType": "PSYCHIC",
 		"secondType": null,
-		"fastAttacks": [ "Confusion", "Psycho Cut" ],
-		"specialAttacks": [ "Shadow Ball", "Dazzling Gleam", "Psybeam" ]
+		"fastMoves": [ "Confusion", "Psycho Cut" ],
+		"specialMoves": [ "Shadow Ball", "Dazzling Gleam", "Psybeam" ]
 	},
 	{ 
 		"number": 65,
@@ -776,8 +776,8 @@
 		"maxHP": 98,
 		"firstType": "PSYCHIC",
 		"secondType": null,
-		"fastAttacks": [ "Confusion", "Psycho Cut" ],
-		"specialAttacks": [ "Shadow Ball", "Dazzling Gleam", "Psychic" ]
+		"fastMoves": [ "Confusion", "Psycho Cut" ],
+		"specialMoves": [ "Shadow Ball", "Dazzling Gleam", "Psychic" ]
 	},
 	{ 
 		"number": 66,
@@ -788,8 +788,8 @@
 		"maxHP": 122,
 		"firstType": "FIGHTING",
 		"secondType": null,
-		"fastAttacks": [ "Low Kick", "Karate Chop" ],
-		"specialAttacks": [ "Brick Break", "Cross Chop", "Low Sweep" ]
+		"fastMoves": [ "Low Kick", "Karate Chop" ],
+		"specialMoves": [ "Brick Break", "Cross Chop", "Low Sweep" ]
 	},
 	{ 
 		"number": 67,
@@ -800,8 +800,8 @@
 		"maxHP": 138,
 		"firstType": "FIGHTING",
 		"secondType": null,
-		"fastAttacks": [ "Low Kick", "Karate Chop" ],
-		"specialAttacks": [ "Brick Break", "Cross Chop", "Submission" ]
+		"fastMoves": [ "Low Kick", "Karate Chop" ],
+		"specialMoves": [ "Brick Break", "Cross Chop", "Submission" ]
 	},
 	{ 
 		"number": 68,
@@ -812,8 +812,8 @@
 		"maxHP": 154,
 		"firstType": "FIGHTING",
 		"secondType": null,
-		"fastAttacks": [ "Bullet Punch", "Karate Chop" ],
-		"specialAttacks": [ "Stone Edge", "Cross Chop", "Submission" ]
+		"fastMoves": [ "Bullet Punch", "Karate Chop" ],
+		"specialMoves": [ "Stone Edge", "Cross Chop", "Submission" ]
 	},
 	{ 
 		"number": 69,
@@ -824,8 +824,8 @@
 		"maxHP": 90,
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Acid", "Vine Whip" ],
-		"specialAttacks": [ "Sludge Bomb", "Power Whip", "Wrap" ]
+		"fastMoves": [ "Acid", "Vine Whip" ],
+		"specialMoves": [ "Sludge Bomb", "Power Whip", "Wrap" ]
 	},
 	{ 
 		"number": 70,
@@ -836,8 +836,8 @@
 		"maxHP": 114, 
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Acid", "Razor Leaf" ],
-		"specialAttacks": [ "Sludge Bomb", "Power Whip", "Seed Bomb" ]
+		"fastMoves": [ "Acid", "Razor Leaf" ],
+		"specialMoves": [ "Sludge Bomb", "Power Whip", "Seed Bomb" ]
 	},
 	{ 
 		"number": 71,
@@ -848,8 +848,8 @@
 		"maxHP": 138,
 		"firstType": "GRASS",
 		"secondType": "POISON",
-		"fastAttacks": [ "Acid", "Razor Leaf" ],
-		"specialAttacks": [ "Sludge Bomb", "Leaf Blade", "Solar Beam" ]
+		"fastMoves": [ "Acid", "Razor Leaf" ],
+		"specialMoves": [ "Sludge Bomb", "Leaf Blade", "Solar Beam" ]
 	},
 	{ 
 		"number": 72,
@@ -860,8 +860,8 @@
 		"maxHP": 75,
 		"firstType": "WATER",
 		"secondType": "POISON",
-		"fastAttacks": [ "Bubble", "Poison Sting" ],
-		"specialAttacks": [ "Bubble Beam", "Water Pulse", "Wrap" ]
+		"fastMoves": [ "Bubble", "Poison Sting" ],
+		"specialMoves": [ "Bubble Beam", "Water Pulse", "Wrap" ]
 	},
 	{ 
 		"number": 73,
@@ -872,8 +872,8 @@
 		"maxHP": 138,
 		"firstType": "WATER",
 		"secondType": "POISON",
-		"fastAttacks": [ "Acid", "Poison Jab" ],
-		"specialAttacks": [ "Blizzard", "Hydro Pump", "Sludge Wave" ]
+		"fastMoves": [ "Acid", "Poison Jab" ],
+		"specialMoves": [ "Blizzard", "Hydro Pump", "Sludge Wave" ]
 	},
 	{ 
 		"number": 74,
@@ -884,8 +884,8 @@
 		"maxHP": 75,
 		"firstType": "ROCK",
 		"secondType": "GROUND",
-		"fastAttacks": [ "Rock Throw", "Tackle" ],
-		"specialAttacks": [ "Rock Slide", "Dig", "Rock Tomb" ]
+		"fastMoves": [ "Rock Throw", "Tackle" ],
+		"specialMoves": [ "Rock Slide", "Dig", "Rock Tomb" ]
 	},
 	{ 
 		"number": 75,
@@ -896,8 +896,8 @@
 		"maxHP": 98, 
 		"firstType": "ROCK",
 		"secondType": "GROUND",
-		"fastAttacks": [ "Rock Throw", "Mud Shot" ],
-		"specialAttacks": [ "Rock Slide", "Dig", "Stone Edge" ]
+		"fastMoves": [ "Rock Throw", "Mud Shot" ],
+		"specialMoves": [ "Rock Slide", "Dig", "Stone Edge" ]
 	},
 	{ 
 		"number": 76,
@@ -908,8 +908,8 @@
 		"maxHP": 138,
 		"firstType": "ROCK",
 		"secondType": "GROUND",
-		"fastAttacks": [ "Rock Throw", "Mud Shot" ],
-		"specialAttacks": [ "Ancient Power", "Earthquake", "Stone Edge" ]
+		"fastMoves": [ "Rock Throw", "Mud Shot" ],
+		"specialMoves": [ "Ancient Power", "Earthquake", "Stone Edge" ]
 	},
 	{ 
 		"number": 77,
@@ -920,8 +920,8 @@
 		"maxHP": 90,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Ember" ],
-		"specialAttacks": [ "Flame Wheel", "Fire Blast", "Flame Charge" ]
+		"fastMoves": [ "Tackle", "Ember" ],
+		"specialMoves": [ "Flame Wheel", "Fire Blast", "Flame Charge" ]
 	},
 	{ 
 		"number": 78,
@@ -932,8 +932,8 @@
 		"maxHP": 114,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Low Kick", "Ember" ],
-		"specialAttacks": [ "Heat Wave", "Fire Blast", "Drill Run" ]
+		"fastMoves": [ "Low Kick", "Ember" ],
+		"specialMoves": [ "Heat Wave", "Fire Blast", "Drill Run" ]
 	},
 	{ 
 		"number": 79,
@@ -944,8 +944,8 @@
 		"maxHP": 154,
 		"firstType": "WATER",
 		"secondType": "PSYCHIC",
-		"fastAttacks": [ "Water Gun", "Confusion" ],
-		"specialAttacks": [ "Psychic", "Water Pulse", "Psyshock" ]
+		"fastMoves": [ "Water Gun", "Confusion" ],
+		"specialMoves": [ "Psychic", "Water Pulse", "Psyshock" ]
 	},
 	{ 
 		"number": 80,
@@ -956,8 +956,8 @@
 		"maxHP": 162,
 		"firstType": "WATER",
 		"secondType": "PSYCHIC",
-		"fastAttacks": [ "Water Gun", "Confusion" ],
-		"specialAttacks": [ "Psychic", "Water Pulse", "Ice Beam" ]
+		"fastMoves": [ "Water Gun", "Confusion" ],
+		"specialMoves": [ "Psychic", "Water Pulse", "Ice Beam" ]
 	},
 	{ 
 		"number": 81,
@@ -968,8 +968,8 @@
 		"maxHP": 51,
 		"firstType": "ELECTRIC",
 		"secondType": "STEEL",
-		"fastAttacks": [ "Spark", "Thunder Shock" ],
-		"specialAttacks": [ "Magnet Bomb", "Discharge", "Thunderbolt" ]
+		"fastMoves": [ "Spark", "Thunder Shock" ],
+		"specialMoves": [ "Magnet Bomb", "Discharge", "Thunderbolt" ]
 	},
 	{ 
 		"number": 82,
@@ -980,8 +980,8 @@
 		"maxHP": 90,
 		"firstType": "ELECTRIC",
 		"secondType": "STEEL",
-		"fastAttacks": [ "Spark", "Thunder Shock" ],
-		"specialAttacks": [ "Magnet Bomb", "Discharge", "Flash Cannon" ]
+		"fastMoves": [ "Spark", "Thunder Shock" ],
+		"specialMoves": [ "Magnet Bomb", "Discharge", "Flash Cannon" ]
 	},
 	{ 
 		"number": 83,
@@ -992,8 +992,8 @@
 		"maxHP": 94,
 		"firstType": "NORMAL",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Fury Cutter", "Cut" ],
-		"specialAttacks": [ "Air Cutter", "Aerial Ace", "Leaf Blade" ]
+		"fastMoves": [ "Fury Cutter", "Cut" ],
+		"specialMoves": [ "Air Cutter", "Aerial Ace", "Leaf Blade" ]
 	},
 	{ 
 		"number": 84,
@@ -1004,8 +1004,8 @@
 		"maxHP": 67,
 		"firstType": "NORMAL",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Peck", "Quick Attack" ],
-		"specialAttacks": [ "Swift", "Aerial Ace", "Drill Peck" ]
+		"fastMoves": [ "Peck", "Quick Attack" ],
+		"specialMoves": [ "Swift", "Aerial Ace", "Drill Peck" ]
 	},
 	{ 
 		"number": 85,
@@ -1016,8 +1016,8 @@
 		"maxHP": 106,
 		"firstType": "NORMAL",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Steel Wing", "Feint Attack" ],
-		"specialAttacks": [ "Air Cutter", "Aerial Ace", "Drill Peck" ]
+		"fastMoves": [ "Steel Wing", "Feint Attack" ],
+		"specialMoves": [ "Air Cutter", "Aerial Ace", "Drill Peck" ]
 	},
 	{ 
 		"number": 86,
@@ -1028,8 +1028,8 @@
 		"maxHP": 114,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Water Gun", "Ice Shard" ],
-		"specialAttacks": [ "Aqua Jet", "Icy Wind", "Aqua Tail" ]
+		"fastMoves": [ "Water Gun", "Ice Shard" ],
+		"specialMoves": [ "Aqua Jet", "Icy Wind", "Aqua Tail" ]
 	},
 	{ 
 		"number": 87,
@@ -1040,8 +1040,8 @@
 		"maxHP": 154,
 		"firstType": "WATER",
 		"secondType": "ICE",
-		"fastAttacks": [ "Frost Breath", "Ice Shard" ],
-		"specialAttacks": [ "Aqua Jet", "Icy Wind", "Blizzard" ]
+		"fastMoves": [ "Frost Breath", "Ice Shard" ],
+		"specialMoves": [ "Aqua Jet", "Icy Wind", "Blizzard" ]
 	},
 	{ 
 		"number": 88,
@@ -1052,8 +1052,8 @@
 		"maxHP": 138,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Mud Slap", "Acid" ],
-		"specialAttacks": [ "Sludge", "Sludge Bomb", "Mud Bomb" ]
+		"fastMoves": [ "Mud Slap", "Acid" ],
+		"specialMoves": [ "Sludge", "Sludge Bomb", "Mud Bomb" ]
 	},
 	{ 
 		"number": 89,
@@ -1064,8 +1064,8 @@
 		"maxHP": 177,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Poison Jab", "Acid" ],
-		"specialAttacks": [ "Sludge Wave", "Sludge Bomb", "Dark Pulse" ]
+		"fastMoves": [ "Poison Jab", "Acid" ],
+		"specialMoves": [ "Sludge Wave", "Sludge Bomb", "Dark Pulse" ]
 	},
 	{ 
 		"number": 90,
@@ -1076,8 +1076,8 @@
 		"maxHP": 59,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Ice Shard" ],
-		"specialAttacks": [ "Water Pulse", "Icy Wind", "Bubble Beam" ]
+		"fastMoves": [ "Tackle", "Ice Shard" ],
+		"specialMoves": [ "Water Pulse", "Icy Wind", "Bubble Beam" ]
 	},
 	{ 
 		"number": 91,
@@ -1088,8 +1088,8 @@
 		"maxHP": 90,
 		"firstType": "WATER",
 		"secondType": "ICE",
-		"fastAttacks": [ "Frost Breath", "Ice Shard" ],
-		"specialAttacks": [ "Hydro Pump", "Icy Wind", "Blizzard" ]
+		"fastMoves": [ "Frost Breath", "Ice Shard" ],
+		"specialMoves": [ "Hydro Pump", "Icy Wind", "Blizzard" ]
 	},
 	{ 
 		"number": 92,
@@ -1100,8 +1100,8 @@
 		"maxHP": 59,
 		"firstType": "GHOST",
 		"secondType": "POISON",
-		"fastAttacks": [ "Lick", "Sucker Punch" ],
-		"specialAttacks": [ "Dark Pulse", "Sludge Bomb", "Ominous Wind" ]
+		"fastMoves": [ "Lick", "Sucker Punch" ],
+		"specialMoves": [ "Dark Pulse", "Sludge Bomb", "Ominous Wind" ]
 	},
 	{ 
 		"number": 93,
@@ -1112,8 +1112,8 @@
 		"maxHP": 82,
 		"firstType": "GHOST",
 		"secondType": "POISON",
-		"fastAttacks": [ "Shadow Claw", "Lick" ],
-		"specialAttacks": [ "Dark Pulse", "Sludge Bomb", "Shadow Ball" ]
+		"fastMoves": [ "Shadow Claw", "Lick" ],
+		"specialMoves": [ "Dark Pulse", "Sludge Bomb", "Shadow Ball" ]
 	},
 	{ 
 		"number": 94,
@@ -1124,8 +1124,8 @@
 		"maxHP": 106,
 		"firstType": "GHOST",
 		"secondType": "POISON",
-		"fastAttacks": [ "Shadow Claw", "Sucker Punch" ],
-		"specialAttacks": [ "Dark Pulse", "Sludge Wave", "Shadow Ball" ]
+		"fastMoves": [ "Shadow Claw", "Sucker Punch" ],
+		"specialMoves": [ "Dark Pulse", "Sludge Wave", "Shadow Ball" ]
 	},
 	{ 
 		"number": 95,
@@ -1136,8 +1136,8 @@
 		"maxHP": 67,
 		"firstType": "ROCK",
 		"secondType": "GROUND",
-		"fastAttacks": [ "Rock Throw", "Tackle" ],
-		"specialAttacks": [ "Rock Slide", "Stone Edge", "Iron Head" ]
+		"fastMoves": [ "Rock Throw", "Tackle" ],
+		"specialMoves": [ "Rock Slide", "Stone Edge", "Iron Head" ]
 	},
 	{ 
 		"number": 96,
@@ -1148,8 +1148,8 @@
 		"maxHP": 106,
 		"firstType": "PSYCHIC",
 		"secondType": null,
-		"fastAttacks": [ "Pound", "Confusion" ],
-		"specialAttacks": [ "Psychic", "Psyshock", "Psybeam" ]
+		"fastMoves": [ "Pound", "Confusion" ],
+		"specialMoves": [ "Psychic", "Psyshock", "Psybeam" ]
 	},
 	{ 
 		"number": 97,
@@ -1160,8 +1160,8 @@
 		"maxHP": 146,
 		"firstType": "PSYCHIC",
 		"secondType": null,
-		"fastAttacks": [ "Zen Headbutt", "Confusion" ],
-		"specialAttacks": [ "Psychic", "Psyshock", "Shadow Ball" ]
+		"fastMoves": [ "Zen Headbutt", "Confusion" ],
+		"specialMoves": [ "Psychic", "Psyshock", "Shadow Ball" ]
 	},
 	{ 
 		"number": 98,
@@ -1172,8 +1172,8 @@
 		"maxHP": 59,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Bubble", "Mud Shot" ],
-		"specialAttacks": [ "Vice Grip", "Water Pulse", "Bubble Beam" ]
+		"fastMoves": [ "Bubble", "Mud Shot" ],
+		"specialMoves": [ "Vice Grip", "Water Pulse", "Bubble Beam" ]
 	},
 	{ 
 		"number": 99,
@@ -1184,8 +1184,8 @@
 		"maxHP": 98,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Metal Claw", "Mud Shot" ],
-		"specialAttacks": [ "Vice Grip", "Water Pulse", "X-Scissor" ]
+		"fastMoves": [ "Metal Claw", "Mud Shot" ],
+		"specialMoves": [ "Vice Grip", "Water Pulse", "X-Scissor" ]
 	},
 	{ 
 		"number": 100,
@@ -1196,8 +1196,8 @@
 		"maxHP": 75,
 		"firstType": "ELECTRIC",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Spark" ],
-		"specialAttacks": [ "Thunderbolt", "Discharge", "Signal Beam" ]
+		"fastMoves": [ "Tackle", "Spark" ],
+		"specialMoves": [ "Thunderbolt", "Discharge", "Signal Beam" ]
 	},
 	{ 
 		"number": 101,
@@ -1208,8 +1208,8 @@
 		"maxHP": 106,
 		"firstType": "ELECTRIC",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Spark" ],
-		"specialAttacks": [ "Thunderbolt", "Discharge", "Hyper Beam" ]
+		"fastMoves": [ "Tackle", "Spark" ],
+		"specialMoves": [ "Thunderbolt", "Discharge", "Hyper Beam" ]
 	},
 	{ 
 		"number": 102,
@@ -1220,8 +1220,8 @@
 		"maxHP": 106,
 		"firstType": "GRASS",
 		"secondType": "PSYCHIC",
-		"fastAttacks": [ "Confusion" ],
-		"specialAttacks": [ "Psychic", "Seed Bomb", "Ancient Power" ]
+		"fastMoves": [ "Confusion" ],
+		"specialMoves": [ "Psychic", "Seed Bomb", "Ancient Power" ]
 	},
 	{ 
 		"number": 103,
@@ -1232,8 +1232,8 @@
 		"maxHP": 162,
 		"firstType": "GRASS",
 		"secondType": "PSYCHIC",
-		"fastAttacks": [ "Confusion", "Zen Headbutt" ],
-		"specialAttacks": [ "Psychic", "Seed Bomb", "Solar Beam" ]
+		"fastMoves": [ "Confusion", "Zen Headbutt" ],
+		"specialMoves": [ "Psychic", "Seed Bomb", "Solar Beam" ]
 	},
 	{ 
 		"number": 104,
@@ -1244,8 +1244,8 @@
 		"name": "Cubone", 
 		"firstType": "GROUND",
 		"secondType": null,
-		"fastAttacks": [ "Rock Smash", "Mud Slap" ],
-		"specialAttacks": [ "Bone Club", "Dig", "Bulldoze" ]
+		"fastMoves": [ "Rock Smash", "Mud Slap" ],
+		"specialMoves": [ "Bone Club", "Dig", "Bulldoze" ]
 	},
 	{ 
 		"number": 105,
@@ -1256,8 +1256,8 @@
 		"maxHP": 106,
 		"firstType": "GROUND",
 		"secondType": null,
-		"fastAttacks": [ "Rock Smash", "Mud Slap" ],
-		"specialAttacks": [ "Bone Club", "Dig", "Earthquake" ]
+		"fastMoves": [ "Rock Smash", "Mud Slap" ],
+		"specialMoves": [ "Bone Club", "Dig", "Earthquake" ]
 	},
 	{ 
 		"number": 106,
@@ -1268,8 +1268,8 @@
 		"maxHP": 90,
 		"firstType": "FIGHTING",
 		"secondType": null,
-		"fastAttacks": [ "Rock Smash", "Low Kick" ],
-		"specialAttacks": [ "Low Sweep", "Stone Edge", "Stomp" ]
+		"fastMoves": [ "Rock Smash", "Low Kick" ],
+		"specialMoves": [ "Low Sweep", "Stone Edge", "Stomp" ]
 	},
 	{ 
 		"number": 107,
@@ -1280,8 +1280,8 @@
 		"maxHP": 90,
 		"firstType": "FIGHTING",
 		"secondType": null,
-		"fastAttacks": [ "Rock Smash", "Bullet Punch" ],
-		"specialAttacks": [ "Fire Punch", "Ice Punch", "Thunder Punch", "Brick Break" ]
+		"fastMoves": [ "Rock Smash", "Bullet Punch" ],
+		"specialMoves": [ "Fire Punch", "Ice Punch", "Thunder Punch", "Brick Break" ]
 	},
 	{ 
 		"number": 108,
@@ -1292,8 +1292,8 @@
 		"maxHP": 154,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Lick", "Zen Headbutt" ],
-		"specialAttacks": [ "Hyper Beam", "Stomp", "Power Whip" ]
+		"fastMoves": [ "Lick", "Zen Headbutt" ],
+		"specialMoves": [ "Hyper Beam", "Stomp", "Power Whip" ]
 	},
 	{ 
 		"number": 109,
@@ -1304,8 +1304,8 @@
 		"maxHP": 75,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Acid" ],
-		"specialAttacks": [ "Dark Pulse", "Sludge", "Sludge Bomb" ]
+		"fastMoves": [ "Tackle", "Acid" ],
+		"specialMoves": [ "Dark Pulse", "Sludge", "Sludge Bomb" ]
 	},
 	{ 
 		"number": 110,
@@ -1316,8 +1316,8 @@
 		"maxHP": 114,
 		"firstType": "POISON",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Acid" ],
-		"specialAttacks": [ "Dark Pulse", "Shadow Ball", "Sludge Bomb" ]
+		"fastMoves": [ "Tackle", "Acid" ],
+		"specialMoves": [ "Dark Pulse", "Shadow Ball", "Sludge Bomb" ]
 	},
 	{ 
 		"number": 111,
@@ -1328,8 +1328,8 @@
 		"maxHP": 138,
 		"firstType": "GROUND",
 		"secondType": "ROCK",
-		"fastAttacks": [ "Rock Smash", "Mud Slap" ],
-		"specialAttacks": [ "Bulldoze", "Stomp", "Horn Attack" ]
+		"fastMoves": [ "Rock Smash", "Mud Slap" ],
+		"specialMoves": [ "Bulldoze", "Stomp", "Horn Attack" ]
 	},
 	{ 
 		"number": 112,
@@ -1340,8 +1340,8 @@
 		"maxHP": 177,
 		"firstType": "GROUND",
 		"secondType": "ROCK",
-		"fastAttacks": [ "Rock Smash", "Mud Slap" ],
-		"specialAttacks": [ "Earthquake", "Stone Edge", "Megahorn" ]
+		"fastMoves": [ "Rock Smash", "Mud Slap" ],
+		"specialMoves": [ "Earthquake", "Stone Edge", "Megahorn" ]
 	},
 	{ 
 		"number": 113,
@@ -1352,8 +1352,8 @@
 		"maxHP": 407,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Pound", "Zen Headbutt" ],
-		"specialAttacks": [ "Dazzling Gleam", "Psybeam", "Psychic" ]
+		"fastMoves": [ "Pound", "Zen Headbutt" ],
+		"specialMoves": [ "Dazzling Gleam", "Psybeam", "Psychic" ]
 	},
 	{ 
 		"number": 114,
@@ -1364,8 +1364,8 @@
 		"maxHP": 114,
 		"firstType": "GRASS",
 		"secondType": null,
-		"fastAttacks": [ "Vine Whip" ],
-		"specialAttacks": [ "Sludge Bomb", "Solar Beam", "Power Whip" ]
+		"fastMoves": [ "Vine Whip" ],
+		"specialMoves": [ "Sludge Bomb", "Solar Beam", "Power Whip" ]
 	},
 	{ 
 		"number": 115,
@@ -1376,8 +1376,8 @@
 		"maxHP": 177,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Low Kick", "Mud Slap" ],
-		"specialAttacks": [ "Earthquake", "Brick Break", "Stomp" ]
+		"fastMoves": [ "Low Kick", "Mud Slap" ],
+		"specialMoves": [ "Earthquake", "Brick Break", "Stomp" ]
 	},
 	{ 
 		"number": 116,
@@ -1388,8 +1388,8 @@
 		"maxHP": 59,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Water Gun", "Bubble" ],
-		"specialAttacks": [ "Bubble Beam", "Dragon Pulse", "Flash Cannon" ]
+		"fastMoves": [ "Water Gun", "Bubble" ],
+		"specialMoves": [ "Bubble Beam", "Dragon Pulse", "Flash Cannon" ]
 	},
 	{ 
 		"number": 117,
@@ -1400,8 +1400,8 @@
 		"maxHP": 98, 
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Water Gun", "Dragon Breath" ],
-		"specialAttacks": [ "Hydro Pump", "Dragon Pulse", "Blizzard" ]
+		"fastMoves": [ "Water Gun", "Dragon Breath" ],
+		"specialMoves": [ "Hydro Pump", "Dragon Pulse", "Blizzard" ]
 	},
 	{ 
 		"number": 118,
@@ -1412,8 +1412,8 @@
 		"maxHP": 82,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Mud Shot", "Peck" ],
-		"specialAttacks": [ "Aqua Tail", "Horn Attack", "Water Pulse" ]
+		"fastMoves": [ "Mud Shot", "Peck" ],
+		"specialMoves": [ "Aqua Tail", "Horn Attack", "Water Pulse" ]
 	},
 	{ 
 		"number": 119,
@@ -1424,8 +1424,8 @@
 		"maxHP": 138,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Poison Jab", "Peck" ],
-		"specialAttacks": [ "Drill Run", "Megahorn", "Icy Wind" ]
+		"fastMoves": [ "Poison Jab", "Peck" ],
+		"specialMoves": [ "Drill Run", "Megahorn", "Icy Wind" ]
 	},
 	{ 
 		"number": 120,
@@ -1436,8 +1436,8 @@
 		"maxHP": 59,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Water Gun", "Quick Attack" ],
-		"specialAttacks": [ "Bubble Beam", "Power Gem", "Swift" ]
+		"fastMoves": [ "Water Gun", "Quick Attack" ],
+		"specialMoves": [ "Bubble Beam", "Power Gem", "Swift" ]
 	},
 	{ 
 		"number": 121,
@@ -1448,8 +1448,8 @@
 		"maxHP": 106,
 		"firstType": "WATER",
 		"secondType": "PSYCHIC",
-		"fastAttacks": [ "Water Gun", "Quick Attack" ],
-		"specialAttacks": [ "Hydro Pump", "Power Gem", "Psybeam" ]
+		"fastMoves": [ "Water Gun", "Quick Attack" ],
+		"specialMoves": [ "Hydro Pump", "Power Gem", "Psybeam" ]
 	},
 	{ 
 		"number": 122,
@@ -1460,8 +1460,8 @@
 		"maxHP": 75,
 		"firstType": "PSYCHIC",
 		"secondType": "FAIRY",
-		"fastAttacks": [ "Confusion", "Zen Headbutt" ],
-		"specialAttacks": [ "Shadow Ball", "Psybeam", "Psychic" ]
+		"fastMoves": [ "Confusion", "Zen Headbutt" ],
+		"specialMoves": [ "Shadow Ball", "Psybeam", "Psychic" ]
 	},
 	{ 
 		"number": 123,
@@ -1472,8 +1472,8 @@
 		"maxHP": 122,
 		"firstType": "BUG",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Steel Wing", "Fury Cutter" ],
-		"specialAttacks": [ "Bug Buzz", "X-Scissor", "Night Slash" ]
+		"fastMoves": [ "Steel Wing", "Fury Cutter" ],
+		"specialMoves": [ "Bug Buzz", "X-Scissor", "Night Slash" ]
 	},
 	{ 
 		"number": 124,
@@ -1484,8 +1484,8 @@
 		"maxHP": 114,
 		"firstType": "ICE",
 		"secondType": "PSYCHIC",
-		"fastAttacks": [ "Pound", "Frost Breath" ],
-		"specialAttacks": [ "Psyshock", "Ice Punch", "Draining Kiss" ]
+		"fastMoves": [ "Pound", "Frost Breath" ],
+		"specialMoves": [ "Psyshock", "Ice Punch", "Draining Kiss" ]
 	},
 	{ 
 		"number": 125,
@@ -1496,8 +1496,8 @@
 		"maxHP": 114,
 		"firstType": "ELECTRIC",
 		"secondType": null,
-		"fastAttacks": [ "Low Kick", "Thunder Shock" ],
-		"specialAttacks": [ "Thunderbolt", "Thunder", "Thunder Punch" ]
+		"fastMoves": [ "Low Kick", "Thunder Shock" ],
+		"specialMoves": [ "Thunderbolt", "Thunder", "Thunder Punch" ]
 	},
 	{ 
 		"number": 126,
@@ -1508,8 +1508,8 @@
 		"maxHP": 114,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Karate Chop", "Ember" ],
-		"specialAttacks": [ "Fire Blast", "Flamethrower", "Fire Punch" ]
+		"fastMoves": [ "Karate Chop", "Ember" ],
+		"specialMoves": [ "Fire Blast", "Flamethrower", "Fire Punch" ]
 	},
 	{ 
 		"number": 127,
@@ -1520,8 +1520,8 @@
 		"maxHP": 114,
 		"firstType": "BUG",
 		"secondType": null,
-		"fastAttacks": [ "Fury Cutter", "Rock Smash" ],
-		"specialAttacks": [ "Submission", "Vice Grip", "X-Scissor" ]
+		"fastMoves": [ "Fury Cutter", "Rock Smash" ],
+		"specialMoves": [ "Submission", "Vice Grip", "X-Scissor" ]
 	},
 	{ 
 		"number": 128,
@@ -1532,8 +1532,8 @@
 		"maxHP": 130,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Zen Headbutt" ],
-		"specialAttacks": [ "Earthquake", "Iron Head", "Horn Attack" ]
+		"fastMoves": [ "Tackle", "Zen Headbutt" ],
+		"specialMoves": [ "Earthquake", "Iron Head", "Horn Attack" ]
 	},
 	{ 
 		"number": 129,
@@ -1544,8 +1544,8 @@
 		"maxHP": 43,
 		"firstType": "WATER",
 		"secondType": null,
-		"fastAttacks": [ "Splash" ],
-		"specialAttacks": [ "Struggle" ]
+		"fastMoves": [ "Splash" ],
+		"specialMoves": [ "Struggle" ]
 	},
 	{ 
 		"number": 130,
@@ -1556,8 +1556,8 @@
 		"maxHP": 162,
 		"firstType": "WATER",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Bite", "Dragon Breath" ],
-		"specialAttacks": [ "Twister", "Hydro Pump", "Dragon Pulse" ]
+		"fastMoves": [ "Bite", "Dragon Breath" ],
+		"specialMoves": [ "Twister", "Hydro Pump", "Dragon Pulse" ]
 	},
 	{ 
 		"number": 131,
@@ -1568,8 +1568,8 @@
 		"maxHP": 217,
 		"firstType": "WATER",
 		"secondType": "ICE",
-		"fastAttacks": [ "Frost Breath", "Ice Shard" ],
-		"specialAttacks": [ "Ice Beam", "Dragon Pulse", "Blizzard" ]
+		"fastMoves": [ "Frost Breath", "Ice Shard" ],
+		"specialMoves": [ "Ice Beam", "Dragon Pulse", "Blizzard" ]
 	},
 	{ 
 		"number": 132,
@@ -1580,8 +1580,8 @@
 		"maxHP": 87,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Pound" ],
-		"specialAttacks": [ "Struggle" ]
+		"fastMoves": [ "Pound" ],
+		"specialMoves": [ "Struggle" ]
 	},
 	{ 
 		"number": 133,
@@ -1592,8 +1592,8 @@
 		"maxHP": 98,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Quick Attack" ],
-		"specialAttacks": [ "Body Slam", "Dig", "Swift" ]
+		"fastMoves": [ "Tackle", "Quick Attack" ],
+		"specialMoves": [ "Body Slam", "Dig", "Swift" ]
 	},
 	{ 
 		"number": 134,
@@ -1604,8 +1604,8 @@
 		"maxHP": 217,
 		"firstType": "WATER",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Water Gun" ],
-		"specialAttacks": [ "Aqua Tail", "Water Pulse", "Hydro Pump" ]
+		"fastMoves": [ "Water Gun" ],
+		"specialMoves": [ "Aqua Tail", "Water Pulse", "Hydro Pump" ]
 	},
 	{ 
 		"number": 135,
@@ -1616,8 +1616,8 @@
 		"maxHP": 114,
 		"firstType": "ELECTRIC",
 		"secondType": null,
-		"fastAttacks": [ "Thunder Shock" ],
-		"specialAttacks": [ "Thunderbolt", "Thunder", "Discharge" ]
+		"fastMoves": [ "Thunder Shock" ],
+		"specialMoves": [ "Thunderbolt", "Thunder", "Discharge" ]
 	},
 	{ 
 		"number": 136,
@@ -1628,8 +1628,8 @@
 		"maxHP": 114,
 		"firstType": "FIRE",
 		"secondType": null,
-		"fastAttacks": [ "Ember" ],
-		"specialAttacks": [ "Fire Blast", "Flamethrower", "Heat Wave" ]
+		"fastMoves": [ "Ember" ],
+		"specialMoves": [ "Fire Blast", "Flamethrower", "Heat Wave" ]
 	},
 	{ 
 		"number": 137,
@@ -1640,8 +1640,8 @@
 		"maxHP": 114,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Tackle", "Quick Attack" ],
-		"specialAttacks": [ "Discharge", "Psybeam", "Signal Beam" ]
+		"fastMoves": [ "Tackle", "Quick Attack" ],
+		"specialMoves": [ "Discharge", "Psybeam", "Signal Beam" ]
 	},
 	{ 
 		"number": 138,
@@ -1652,8 +1652,8 @@
 		"maxHP": 67,
 		"firstType": "ROCK",
 		"secondType": "WATER",
-		"fastAttacks": [ "Water Gun", "Mud Shot" ],
-		"specialAttacks": [ "Rock Tomb", "Ancient Power", "Brine" ]
+		"fastMoves": [ "Water Gun", "Mud Shot" ],
+		"specialMoves": [ "Rock Tomb", "Ancient Power", "Brine" ]
 	},
 	{ 
 		"number": 139,
@@ -1664,8 +1664,8 @@
 		"maxHP": 122,
 		"firstType": "ROCK",
 		"secondType": "WATER",
-		"fastAttacks": [ "Water Gun", "Rock Throw" ],
-		"specialAttacks": [ "Rock Slide", "Ancient Power", "Hydro Pump" ]
+		"fastMoves": [ "Water Gun", "Rock Throw" ],
+		"specialMoves": [ "Rock Slide", "Ancient Power", "Hydro Pump" ]
 	},
 	{ 
 		"number": 140,
@@ -1676,8 +1676,8 @@
 		"maxHP": 59,
 		"firstType": "ROCK",
 		"secondType": "WATER",
-		"fastAttacks": [ "Scratch", "Mud Shot" ],
-		"specialAttacks": [ "Aqua Jet", "Rock Tomb", "Ancient Power" ]
+		"fastMoves": [ "Scratch", "Mud Shot" ],
+		"specialMoves": [ "Aqua Jet", "Rock Tomb", "Ancient Power" ]
 	},
 	{ 
 		"number": 141,
@@ -1688,8 +1688,8 @@
 		"maxHP": 106,
 		"firstType": "ROCK",
 		"secondType": "WATER",
-		"fastAttacks": [ "Fury Cutter", "Mud Shot" ],
-		"specialAttacks": [ "Water Pulse", "Stone Edge", "Ancient Power" ]
+		"fastMoves": [ "Fury Cutter", "Mud Shot" ],
+		"specialMoves": [ "Water Pulse", "Stone Edge", "Ancient Power" ]
 	},
 	{ 
 		"number": 142,
@@ -1700,8 +1700,8 @@
 		"maxHP": 138,
 		"firstType": "ROCK",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Bite", "Steel Wing" ],
-		"specialAttacks": [ "Iron Head", "Hyper Beam", "Ancient Power" ]
+		"fastMoves": [ "Bite", "Steel Wing" ],
+		"specialMoves": [ "Iron Head", "Hyper Beam", "Ancient Power" ]
 	},
 	{ 
 		"number": 143,
@@ -1712,8 +1712,8 @@
 		"maxHP": 264,
 		"firstType": "NORMAL",
 		"secondType": null,
-		"fastAttacks": [ "Lick", "Zen Headbutt" ],
-		"specialAttacks": [ "Earthquake", "Hyper Beam", "Body Slam" ]
+		"fastMoves": [ "Lick", "Zen Headbutt" ],
+		"specialMoves": [ "Earthquake", "Hyper Beam", "Body Slam" ]
 	},
 	{ 
 		"number": 144,
@@ -1724,8 +1724,8 @@
 		"maxHP": 154,
 		"firstType": "ICE",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Frost Breath" ],
-		"specialAttacks": [ "Ice Beam", "Icy Wind", "Blizzard" ]
+		"fastMoves": [ "Frost Breath" ],
+		"specialMoves": [ "Ice Beam", "Icy Wind", "Blizzard" ]
 	},
 	{ 
 		"number": 145,
@@ -1736,8 +1736,8 @@
 		"maxHP": 154,
 		"firstType": "ELECTRIC",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Thunder Shock" ],
-		"specialAttacks": [ "Discharge", "Thunderbolt", "Thunder" ]
+		"fastMoves": [ "Thunder Shock" ],
+		"specialMoves": [ "Discharge", "Thunderbolt", "Thunder" ]
 	},
 	{ 
 		"number": 146,
@@ -1748,8 +1748,8 @@
 		"maxHP": 154,
 		"firstType": "FIRE",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Ember" ],
-		"specialAttacks": [ "Fire Blast", "Heat Wave", "Flamethrower" ]
+		"fastMoves": [ "Ember" ],
+		"specialMoves": [ "Fire Blast", "Heat Wave", "Flamethrower" ]
 	},
 	{ 
 		"number": 147,
@@ -1760,8 +1760,8 @@
 		"maxHP": 76,
 		"firstType": "DRAGON",
 		"secondType": null,
-		"fastAttacks": [ "Dragon Breath" ],
-		"specialAttacks": [ "Wrap", "Aqua Tail", "Twister" ]
+		"fastMoves": [ "Dragon Breath" ],
+		"specialMoves": [ "Wrap", "Aqua Tail", "Twister" ]
 	},
 	{ 
 		"number": 148,
@@ -1772,8 +1772,8 @@
 		"maxHP": 108,
 		"firstType": "DRAGON",
 		"secondType": null,
-		"fastAttacks": [ "Dragon Breath" ],
-		"specialAttacks": [ "Wrap", "Aqua Tail", "Dragon Pulse" ]
+		"fastMoves": [ "Dragon Breath" ],
+		"specialMoves": [ "Wrap", "Aqua Tail", "Dragon Pulse" ]
 	},
 	{ 
 		"number": 149,
@@ -1784,8 +1784,8 @@
 		"maxHP": 155,
 		"firstType": "DRAGON",
 		"secondType": "FLYING",
-		"fastAttacks": [ "Dragon Breath", "Steel Wing" ],
-		"specialAttacks": [ "Dragon Claw", "Hyper Beam", "Dragon Pulse" ]
+		"fastMoves": [ "Dragon Breath", "Steel Wing" ],
+		"specialMoves": [ "Dragon Claw", "Hyper Beam", "Dragon Pulse" ]
 	},
 	{ 
 		"number": 150,
@@ -1796,8 +1796,8 @@
 		"maxHP": 179,
 		"firstType": "PSYCHIC",
 		"secondType": null,
-		"fastAttacks": [ "Confusion", "Psycho Cut" ],
-		"specialAttacks": [ "Psychic", "Shadow Ball", "Hyper Beam" ]
+		"fastMoves": [ "Confusion", "Psycho Cut" ],
+		"specialMoves": [ "Psychic", "Shadow Ball", "Hyper Beam" ]
 	},
 	{ 
 		"number": 151,
@@ -1808,7 +1808,7 @@
 		"maxHP": 169,
 		"firstType": "PSYCHIC",
 		"secondType": null,
-		"fastAttacks": [ "Pound" ],
-		"specialAttacks": [ "Hurricane", "Earthquake", "Psychic", "Dragon Pulse", "Thunder", "Moonblast", "Fire Blast", "Solar Beam", "Hyper Beam" ]
+		"fastMoves": [ "Pound" ],
+		"specialMoves": [ "Hurricane", "Earthquake", "Psychic", "Dragon Pulse", "Thunder", "Moonblast", "Fire Blast", "Solar Beam", "Hyper Beam" ]
 	},
 ]

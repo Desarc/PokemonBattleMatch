@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Constants.cs" />
     <Compile Include="Data\Files.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -56,9 +57,9 @@
     <Compile Include="Persistence\IResultWriter.cs" />
     <Compile Include="Persistence\ResultWriter.cs" />
     <Compile Include="Analysis\IMatchupCalculator.cs" />
-    <Compile Include="Lookup\Attacks.cs" />
+    <Compile Include="Lookup\Moves.cs" />
     <Compile Include="Model\IPokemonFactory.cs" />
-    <Compile Include="Lookup\IAttacks.cs" />
+    <Compile Include="Lookup\IMoves.cs" />
     <Compile Include="Lookup\IPokemonTemplates.cs" />
     <Compile Include="Lookup\ITypeMatchups.cs" />
     <Compile Include="Lookup\PokemonTemplates.cs" />
@@ -67,7 +68,7 @@
     <Compile Include="Model\TypeMatchup.cs" />
     <Compile Include="Model\TypeModifier.cs" />
     <Compile Include="Analysis\MatchupCalculator.cs" />
-    <Compile Include="Model\Attack.cs" />
+    <Compile Include="Model\Move.cs" />
     <Compile Include="Model\Pokemon.cs" />
     <Compile Include="Model\PokemonFactory.cs" />
     <Compile Include="Model\PokemonTemplate.cs" />
@@ -80,8 +81,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\PokemonTemplates.txt" />
-    <Content Include="Data\SpecialAttacks.txt" />
-    <Content Include="Data\FastAttacks.txt" />
+    <Content Include="Data\SpecialMoves.txt" />
+    <Content Include="Data\FastMoves.txt" />
     <Content Include="Data\TypeMathcups.txt" />
   </ItemGroup>
   <ItemGroup>

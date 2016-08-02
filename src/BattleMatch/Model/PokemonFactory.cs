@@ -5,32 +5,32 @@ namespace Optimizer.Model
 {
     internal class PokemonFactory : IPokemonFactory
     {
-        private readonly IAttacks _attacks;
+        private readonly IMoves _moves;
         private readonly IPokemonTemplates _pokemonTemplates;
 
-        public PokemonFactory(IAttacks attacks, IPokemonTemplates pokemonTemplates)
+        public PokemonFactory(IMoves moves, IPokemonTemplates pokemonTemplates)
         {
-            _attacks = attacks;
+            _moves = moves;
             _pokemonTemplates = pokemonTemplates;
         }
 
-        public Pokemon CreatePokemon(string name, string fastAttackName, string specialAttackName)
+        public Pokemon CreatePokemon(string name, string fastMoveName, string specialMoveName)
         {
             var template = _pokemonTemplates.GetTemplate(name);
-            if (!template.FastAttackValid(fastAttackName))
+            if (!template.FastMoveValid(fastMoveName))
             {
-                throw new InvalidOperationException($"Fast attack {fastAttackName} is not valid for {name}");
+                throw new InvalidOperationException($"Fast move {fastMoveName} is not valid for {name}");
             }
 
-            if (!template.SpecialAttackValid(specialAttackName))
+            if (!template.SpecialMoveValid(specialMoveName))
             {
-                throw new InvalidOperationException($"Special attack {specialAttackName} is not valid for {name}");
+                throw new InvalidOperationException($"Special move {specialMoveName} is not valid for {name}");
             }
 
-            var fastAttack = _attacks.GetFastAttack(fastAttackName);
-            var specialAttack = _attacks.GetSpecialAttack(specialAttackName);
+            var fastMove = _moves.GetFastMove(fastMoveName);
+            var specialMove = _moves.GetSpecialMove(specialMoveName);
 
-            return new Pokemon(name, fastAttack, specialAttack, template.MaxCP, template.FirstType, template.SecondType);
+            return new Pokemon(template.Number, name, fastMove, specialMove, template.MaxCP, template.FirstType, template.SecondType);
         }
     }
 }

@@ -1,75 +1,440 @@
-1 - (073) Tentacruel: 613.88616221089
-2 - (031) Nidoqueen: 602.025500103832
-3 - (112) Rhydon: 597.787237207231
-4 - (117) Seadra: 592.214929853748
-5 - (006) Charizard: 588.147636279959
-6 - (107) Hitmonchan: 569.939253217915
-7 - (003) Venusaur: 569.684852718687
-8 - (131) Lapras: 565.5376393088
-9 - (149) Dragonite: 563.30801281674
-10 - (045) Vileplume: 555.807848044072
-11 - (071) Victreebel: 552.503814085351
-12 - (103) Exeggutor: 549.993256565359
-13 - (076) Golem: 549.077406622071
-14 - (055) Golduck: 540.255279580762
-15 - (143) Snorlax: 539.14523177725
-16 - (091) Cloyster: 535.969864442806
-17 - (009) Blastoise: 534.902869753585
-18 - (038) Ninetales: 532.549770486802
-19 - (034) Nidoking: 531.228700933086
-20 - (051) Dugtrio: 528.843472103488
-21 - (040) Wigglytuff: 527.435692664384
-22 - (026) Raichu: 520.476982775677
-23 - (059) Arcanine: 515.238499379871
-24 - (101) Electrode: 513.533321184918
-25 - (089) Muk: 508.717323784353
-26 - (139) Omastar: 505.387653778711
-27 - (068) Machamp: 502.016728819503
-28 - (080) Slowbro: 501.1781085015
-29 - (095) Onix: 498.427970642064
-30 - (047) Parasect: 494.767446038489
-31 - (097) Hypno: 494.641990112654
-32 - (036) Clefable: 493.949441114869
-33 - (015) Beedrill: 492.678119554823
-34 - (108) Lickitung: 490.829817811423
-35 - (024) Arbok: 489.424081647124
-36 - (065) Alakazam: 489.285760629201
-37 - (106) Hitmonlee: 489.202891750629
-38 - (105) Marowak: 487.635073928699
-39 - (125) Electabuzz: 486.636486248151
-40 - (062) Poliwrath: 483.932074918913
-41 - (130) Gyarados: 481.428782573809
-42 - (078) Rapidash: 480.196319426811
-43 - (122) Mr. Mime: 477.197094967811
-44 - (128) Tauros: 476.801417866563
-45 - (094) Gengar: 476.205773112514
-46 - (113) Chansey: 473.436746322715
-47 - (012) Butterfree: 470.244957484803
-48 - (087) Dewgong: 468.261300736164
-49 - (028) Sandslash: 467.743959113638
-50 - (018) Pidgeot: 467.129963733498
-51 - (053) Persian: 463.252811526381
-52 - (142) Aerodactyl: 457.388364166312
-53 - (126) Magmar: 456.598884121069
-54 - (049) Venomoth: 455.604836260135
-55 - (020) Raticate: 455.348391446796
-56 - (110) Weezing: 451.749766471519
-57 - (121) Starmie: 450.57853693546
-58 - (057) Primeape: 449.247743479856
-59 - (115) Kangaskhan: 445.919782181268
-60 - (082) Magneton: 434.419223745573
-61 - (124) Jynx: 431.030857699085
-62 - (099) Kingler: 420.116831795531
-63 - (141) Kabutops: 414.296794376528
-64 - (119) Seaking: 412.608625300385
-65 - (123) Scyther: 409.443333840683
-66 - (137) Porygon: 405.077237572945
-67 - (042) Golbat: 403.411007369433
-68 - (085) Dodrio: 395.337486389486
-69 - (127) Pinsir: 388.801793042612
-70 - (083) Farfetch'd: 380.80211398354
-71 - (022) Fearow: 380.614919787493
-72 - (114) Tangela: 296.761044822049
-73 - (134) Vaporeon: 275.583336803705
-74 - (136) Flareon: 271.962349820463
-75 - (135) Jolteon: 252.72891475742
+1 - (112) Rhydon - Mud Slap - Stone Edge: 174.172486424164
+2 - (076) Golem - Mud Shot - Stone Edge: 173.31346402645
+3 - (141) Kabutops - Mud Shot - Stone Edge: 167.806733160913
+4 - (076) Golem - Rock Throw - Stone Edge: 164.439711649455
+5 - (095) Onix - Rock Throw - Stone Edge: 164.439711649455
+6 - (095) Onix - Tackle - Stone Edge: 161.237744492449
+7 - (112) Rhydon - Rock Smash - Stone Edge: 159.985937010524
+8 - (141) Kabutops - Fury Cutter - Stone Edge: 153.256125552458
+9 - (031) Nidoqueen - Poison Jab - Stone Edge: 147.431590479081
+10 - (051) Dugtrio - Mud Shot - Stone Edge: 145.0461042736
+11 - (031) Nidoqueen - Bite - Stone Edge: 142.264013245681
+12 - (106) Hitmonlee - Rock Smash - Stone Edge: 140.629453159893
+13 - (106) Hitmonlee - Low Kick - Stone Edge: 131.467518084885
+14 - (051) Dugtrio - Sucker Punch - Stone Edge: 131.160925506025
+15 - (057) Primeape - Low Kick - Cross Chop: 130.833125646458
+16 - (149) Dragonite - Dragon Breath - Dragon Claw: 130.818552660462
+17 - (068) Machamp - Karate Chop - Stone Edge: 128.175567386938
+18 - (057) Primeape - Karate Chop - Cross Chop: 127.541174948511
+19 - (068) Machamp - Karate Chop - Cross Chop: 127.541174948511
+20 - (068) Machamp - Bullet Punch - Stone Edge: 124.682555397914
+21 - (068) Machamp - Bullet Punch - Cross Chop: 124.048162959487
+22 - (006) Charizard - Wing Attack - Dragon Claw: 118.785302243574
+23 - (149) Dragonite - Steel Wing - Dragon Claw: 116.821187461264
+24 - (006) Charizard - Wing Attack - Fire Blast: 116.28658199705
+25 - (018) Pidgeot - Wing Attack - Hurricane: 113.935643656919
+26 - (134) Vaporeon - Water Gun - Hydro Pump: 112.731594292741
+27 - (040) Wigglytuff - Pound - Hyper Beam: 111.03225165557
+28 - (139) Omastar - Water Gun - Hydro Pump: 110.999975549668
+29 - (087) Dewgong - Frost Breath - Blizzard: 110.712384041961
+30 - (091) Cloyster - Frost Breath - Blizzard: 110.712384041961
+31 - (131) Lapras - Frost Breath - Blizzard: 110.712384041961
+32 - (009) Blastoise - Water Gun - Hydro Pump: 110.429792274933
+33 - (055) Golduck - Water Gun - Hydro Pump: 110.429792274933
+34 - (117) Seadra - Water Gun - Hydro Pump: 110.429792274933
+35 - (059) Arcanine - Fire Fang - Fire Blast: 110.035610130024
+36 - (112) Rhydon - Mud Slap - Earthquake: 109.593024320355
+37 - (121) Starmie - Water Gun - Hydro Pump: 109.521743879734
+38 - (087) Dewgong - Ice Shard - Blizzard: 109.114662570274
+39 - (091) Cloyster - Ice Shard - Blizzard: 109.114662570274
+40 - (131) Lapras - Ice Shard - Blizzard: 109.114662570274
+41 - (076) Golem - Mud Shot - Earthquake: 108.734001922641
+42 - (031) Nidoqueen - Poison Jab - Earthquake: 108.17143210124
+43 - (034) Nidoking - Poison Jab - Earthquake: 108.17143210124
+44 - (073) Tentacruel - Poison Jab - Hydro Pump: 108.106079041235
+45 - (105) Marowak - Mud Slap - Earthquake: 108.105037565633
+46 - (071) Victreebel - Razor Leaf - Leaf Blade: 107.995327440876
+47 - (103) Exeggutor - Zen Headbutt - Solar Beam: 107.441114858102
+48 - (028) Sandslash - Mud Shot - Earthquake: 107.255223806615
+49 - (051) Dugtrio - Mud Shot - Earthquake: 107.255223806615
+50 - (062) Poliwrath - Bubble - Hydro Pump: 107.189928743618
+51 - (094) Gengar - Shadow Claw - Sludge Wave: 105.381182868966
+52 - (006) Charizard - Ember - Dragon Claw: 105.379504650779
+53 - (026) Raichu - Spark - Thunder: 104.669662440034
+54 - (117) Seadra - Water Gun - Blizzard: 104.352117986618
+55 - (003) Venusaur - Vine Whip - Solar Beam: 104.075581247167
+56 - (047) Parasect - Bug Bite - Solar Beam: 103.772580631185
+57 - (071) Victreebel - Acid - Leaf Blade: 103.391609812834
+58 - (107) Hitmonchan - Rock Smash - Brick Break: 103.322073535022
+59 - (091) Cloyster - Frost Breath - Hydro Pump: 103.007237791851
+60 - (031) Nidoqueen - Bite - Earthquake: 103.003854867839
+61 - (006) Charizard - Ember - Fire Blast: 102.880784404255
+62 - (114) Tangela - Vine Whip - Solar Beam: 102.566772641405
+63 - (006) Charizard - Wing Attack - Flamethrower: 102.536932629168
+64 - (003) Venusaur - Razor Leaf - Solar Beam: 102.33514705589
+65 - (045) Vileplume - Razor Leaf - Solar Beam: 102.33514705589
+66 - (071) Victreebel - Razor Leaf - Solar Beam: 102.33514705589
+67 - (073) Tentacruel - Poison Jab - Blizzard: 102.290946911117
+68 - (143) Snorlax - Zen Headbutt - Body Slam: 102.234142949585
+69 - (080) Slowbro - Water Gun - Psychic: 102.168287447326
+70 - (065) Alakazam - Psycho Cut - Psychic: 102.072143284501
+71 - (122) Mr. Mime - Zen Headbutt - Psychic: 101.681937999442
+72 - (130) Gyarados - Bite - Hydro Pump: 101.681337307663
+73 - (130) Gyarados - Dragon Breath - Hydro Pump: 101.528771564141
+74 - (091) Cloyster - Ice Shard - Hydro Pump: 101.409516320164
+75 - (059) Arcanine - Bite - Fire Blast: 101.177880006305
+76 - (103) Exeggutor - Confusion - Solar Beam: 101.151451448644
+77 - (134) Vaporeon - Water Gun - Aqua Tail: 101.148561639772
+78 - (028) Sandslash - Metal Claw - Earthquake: 100.532763027135
+79 - (073) Tentacruel - Acid - Hydro Pump: 100.325584535885
+80 - (038) Ninetales - Ember - Fire Blast: 100.243660314612
+81 - (078) Rapidash - Ember - Fire Blast: 100.243660314612
+82 - (126) Magmar - Ember - Fire Blast: 100.243660314612
+83 - (136) Flareon - Ember - Fire Blast: 100.243660314612
+84 - (009) Blastoise - Bite - Hydro Pump: 100.02437490508
+85 - (076) Golem - Rock Throw - Earthquake: 99.8602495456462
+86 - (139) Omastar - Rock Throw - Hydro Pump: 99.7531679661499
+87 - (117) Seadra - Dragon Breath - Hydro Pump: 99.7339286593977
+88 - (038) Ninetales - Feint Attack - Fire Blast: 99.6406359464265
+89 - (018) Pidgeot - Steel Wing - Hurricane: 98.9006890408106
+90 - (062) Poliwrath - Mud Shot - Hydro Pump: 98.8258467278463
+91 - (149) Dragonite - Dragon Breath - Hyper Beam: 98.7384284895583
+92 - (097) Hypno - Zen Headbutt - Psychic: 98.4953578605806
+93 - (114) Tangela - Vine Whip - Power Whip: 98.2604241047974
+94 - (040) Wigglytuff - Pound - Play Rough: 98.2094832459715
+95 - (103) Exeggutor - Zen Headbutt - Psychic: 98.1324373532512
+96 - (015) Beedrill - Poison Jab - Sludge Bomb: 98.101095449903
+97 - (073) Tentacruel - Poison Jab - Sludge Wave: 98.0227196512162
+98 - (045) Vileplume - Acid - Solar Beam: 97.731429427848
+99 - (071) Victreebel - Acid - Solar Beam: 97.731429427848
+100 - (026) Raichu - Thunder Shock - Thunder: 97.528421441851
+101 - (125) Electabuzz - Thunder Shock - Thunder: 97.528421441851
+102 - (135) Jolteon - Thunder Shock - Thunder: 97.528421441851
+103 - (040) Wigglytuff - Feint Attack - Hyper Beam: 97.0777218590039
+104 - (101) Electrode - Spark - Thunderbolt: 96.9777720938082
+105 - (059) Arcanine - Fire Fang - Flamethrower: 96.4631965626981
+106 - (149) Dragonite - Dragon Breath - Dragon Pulse: 96.45772646971
+107 - (089) Muk - Poison Jab - Sludge Bomb: 96.2222905393121
+108 - (108) Lickitung - Zen Headbutt - Hyper Beam: 95.8835638583193
+109 - (143) Snorlax - Zen Headbutt - Hyper Beam: 95.8835638583193
+110 - (143) Snorlax - Lick - Body Slam: 95.726953384712
+111 - (020) Raticate - Bite - Hyper Beam: 95.697768995842
+112 - (015) Beedrill - Bug Bite - Sludge Bomb: 95.6647040431163
+113 - (080) Slowbro - Confusion - Psychic: 95.4578657968025
+114 - (031) Nidoqueen - Poison Jab - Sludge Wave: 95.4355446506866
+115 - (034) Nidoking - Poison Jab - Sludge Wave: 95.4355446506866
+116 - (112) Rhydon - Rock Smash - Earthquake: 95.4064749067153
+117 - (122) Mr. Mime - Confusion - Psychic: 95.1053777423675
+118 - (055) Golduck - Confusion - Hydro Pump: 95.0402830863332
+119 - (089) Muk - Poison Jab - Sludge Wave: 94.8711277730568
+120 - (073) Tentacruel - Acid - Blizzard: 94.5104524057663
+121 - (105) Marowak - Rock Smash - Earthquake: 94.3746734727614
+122 - (112) Rhydon - Mud Slap - Megahorn: 94.2034939322067
+123 - (003) Venusaur - Vine Whip - Sludge Bomb: 94.1641457428839
+124 - (083) Farfetch'd - Cut - Leaf Blade: 94.0624845746905
+125 - (003) Venusaur - Vine Whip - Petal Blizzard: 93.7520947695138
+126 - (117) Seadra - Dragon Breath - Blizzard: 93.6562543710833
+127 - (139) Omastar - Water Gun - Rock Slide: 93.4693336147122
+128 - (051) Dugtrio - Sucker Punch - Earthquake: 93.3700450390392
+129 - (036) Clefable - Pound - Moonblast: 93.1247264800032
+130 - (034) Nidoking - Poison Jab - Megahorn: 92.9121071589533
+131 - (026) Raichu - Spark - Brick Break: 92.4689099215313
+132 - (055) Golduck - Water Gun - Psychic: 92.4320061167713
+133 - (003) Venusaur - Razor Leaf - Sludge Bomb: 92.4237115516066
+134 - (071) Victreebel - Razor Leaf - Sludge Bomb: 92.4237115516066
+135 - (065) Alakazam - Confusion - Psychic: 92.1833835830746
+136 - (097) Hypno - Confusion - Psychic: 92.1833835830746
+137 - (024) Arbok - Bite - Gunk Shot: 92.1406906431715
+138 - (094) Gengar - Shadow Claw - Shadow Ball: 92.0209238255935
+139 - (003) Venusaur - Razor Leaf - Petal Blizzard: 92.0116605782366
+140 - (045) Vileplume - Razor Leaf - Petal Blizzard: 92.0116605782366
+141 - (038) Ninetales - Ember - Heat Wave: 91.8798482638986
+142 - (078) Rapidash - Ember - Heat Wave: 91.8798482638986
+143 - (136) Flareon - Ember - Heat Wave: 91.8798482638986
+144 - (103) Exeggutor - Confusion - Psychic: 91.8427739437934
+145 - (038) Ninetales - Feint Attack - Heat Wave: 91.2768238957129
+146 - (036) Clefable - Zen Headbutt - Moonblast: 91.2312966722112
+147 - (113) Chansey - Pound - Psychic: 90.6974187206437
+148 - (031) Nidoqueen - Bite - Sludge Wave: 90.2679674172864
+149 - (073) Tentacruel - Acid - Sludge Wave: 90.2422251458658
+150 - (128) Tauros - Tackle - Earthquake: 90.1422354445758
+151 - (024) Arbok - Acid - Gunk Shot: 89.9252113841592
+152 - (125) Electabuzz - Thunder Shock - Thunderbolt: 89.8365310956254
+153 - (135) Jolteon - Thunder Shock - Thunderbolt: 89.8365310956254
+154 - (101) Electrode - Spark - Hyper Beam: 89.8112658551546
+155 - (047) Parasect - Fury Cutter - Solar Beam: 89.7566359348914
+156 - (024) Arbok - Bite - Sludge Wave: 89.5348767368221
+157 - (108) Lickitung - Lick - Hyper Beam: 89.3763742934464
+158 - (143) Snorlax - Lick - Hyper Beam: 89.3763742934464
+159 - (101) Electrode - Tackle - Thunderbolt: 89.363970170575
+160 - (006) Charizard - Ember - Flamethrower: 89.1311350363727
+161 - (094) Gengar - Sucker Punch - Sludge Wave: 88.8423404114091
+162 - (131) Lapras - Frost Breath - Ice Beam: 88.7249978721219
+163 - (089) Muk - Acid - Sludge Bomb: 88.670560244065
+164 - (110) Weezing - Acid - Sludge Bomb: 88.670560244065
+165 - (125) Electabuzz - Low Kick - Thunder: 88.5173907871096
+166 - (103) Exeggutor - Zen Headbutt - Seed Bomb: 88.4374995423724
+167 - (078) Rapidash - Low Kick - Fire Blast: 87.9717588541681
+168 - (071) Victreebel - Acid - Sludge Bomb: 87.8199939235647
+169 - (059) Arcanine - Bite - Flamethrower: 87.6054664389789
+170 - (042) Golbat - Wing Attack - Air Cutter: 87.4543754109102
+171 - (045) Vileplume - Acid - Petal Blizzard: 87.4079429501947
+172 - (107) Hitmonchan - Bullet Punch - Brick Break: 87.3751757730425
+173 - (024) Arbok - Acid - Sludge Wave: 87.3193974778097
+174 - (089) Muk - Acid - Sludge Wave: 87.3193974778097
+175 - (105) Marowak - Mud Slap - Bone Club: 87.1833792286757
+176 - (026) Raichu - Spark - Thunder Punch: 87.1300232076371
+177 - (131) Lapras - Ice Shard - Ice Beam: 87.1272764004349
+178 - (082) Magneton - Spark - Flash Cannon: 87.1086711504524
+179 - (082) Magneton - Spark - Discharge: 86.9793669456748
+180 - (117) Seadra - Water Gun - Dragon Pulse: 86.6938052783391
+181 - (020) Raticate - Quick Attack - Hyper Beam: 86.6923136189358
+182 - (038) Ninetales - Ember - Flamethrower: 86.6712467472865
+183 - (126) Magmar - Ember - Flamethrower: 86.6712467472865
+184 - (136) Flareon - Ember - Flamethrower: 86.6712467472865
+185 - (049) Venomoth - Bug Bite - Psychic: 86.6194100116435
+186 - (012) Butterfree - Bug Bite - Psychic: 86.6070819576486
+187 - (110) Weezing - Tackle - Sludge Bomb: 86.5555409261574
+188 - (012) Butterfree - Bug Bite - Bug Buzz: 86.3854704984867
+189 - (009) Blastoise - Water Gun - Ice Beam: 86.3829154975117
+190 - (055) Golduck - Water Gun - Ice Beam: 86.3829154975117
+191 - (047) Parasect - Bug Bite - Cross Poison: 86.3082869645101
+192 - (015) Beedrill - Poison Jab - X-Scissor: 86.3041965942052
+193 - (128) Tauros - Zen Headbutt - Earthquake: 86.2784800878391
+194 - (143) Snorlax - Zen Headbutt - Earthquake: 86.2784800878391
+195 - (049) Venomoth - Bug Bite - Bug Buzz: 86.1911793224373
+196 - (142) Aerodactyl - Bite - Hyper Beam: 86.1473646195234
+197 - (097) Hypno - Zen Headbutt - Psyshock: 86.1011170269398
+198 - (038) Ninetales - Feint Attack - Flamethrower: 86.0682223791009
+199 - (034) Nidoking - Fury Cutter - Earthquake: 85.9226058343124
+200 - (080) Slowbro - Water Gun - Ice Beam: 85.6530959809005
+201 - (026) Raichu - Thunder Shock - Brick Break: 85.3276689233485
+202 - (126) Magmar - Karate Chop - Fire Blast: 85.2918554718155
+203 - (115) Kangaskhan - Mud Slap - Brick Break: 84.984081821049
+204 - (149) Dragonite - Steel Wing - Hyper Beam: 84.7410632903603
+205 - (115) Kangaskhan - Mud Slap - Earthquake: 84.4900566118759
+206 - (040) Wigglytuff - Feint Attack - Play Rough: 84.2549534494053
+207 - (036) Clefable - Pound - Psychic: 84.134902450642
+208 - (040) Wigglytuff - Pound - Dazzling Gleam: 83.8773157210602
+209 - (015) Beedrill - Bug Bite - X-Scissor: 83.8678051874184
+210 - (121) Starmie - Quick Attack - Hydro Pump: 83.8444735155047
+211 - (119) Seaking - Poison Jab - Megahorn: 83.5689808355157
+212 - (149) Dragonite - Steel Wing - Dragon Pulse: 82.4603612705122
+213 - (142) Aerodactyl - Steel Wing - Hyper Beam: 82.3850962247447
+214 - (108) Lickitung - Zen Headbutt - Power Whip: 82.3465209983823
+215 - (053) Persian - Scratch - Play Rough: 82.3037359062468
+216 - (114) Tangela - Vine Whip - Sludge Bomb: 82.2535101449837
+217 - (036) Clefable - Zen Headbutt - Psychic: 82.24147264285
+218 - (139) Omastar - Rock Throw - Rock Slide: 82.2225260311937
+219 - (047) Parasect - Bug Bite - X-Scissor: 82.2099405997398
+220 - (101) Electrode - Tackle - Hyper Beam: 82.1974639319214
+221 - (103) Exeggutor - Confusion - Seed Bomb: 82.1478361329146
+222 - (062) Poliwrath - Bubble - Submission: 82.1432930870181
+223 - (045) Vileplume - Razor Leaf - Moonblast: 82.0801581066951
+224 - (018) Pidgeot - Wing Attack - Air Cutter: 81.999542796187
+225 - (078) Rapidash - Ember - Drill Run: 80.9621900544502
+226 - (125) Electabuzz - Low Kick - Thunderbolt: 80.8255004408841
+227 - (009) Blastoise - Water Gun - Flash Cannon: 80.4150775158443
+228 - (131) Lapras - Frost Breath - Dragon Pulse: 80.3395235307971
+229 - (094) Gengar - Shadow Claw - Dark Pulse: 80.2928791303027
+230 - (065) Alakazam - Psycho Cut - Shadow Ball: 80.207467463646
+231 - (095) Onix - Rock Throw - Rock Slide: 80.1037041883565
+232 - (042) Golbat - Wing Attack - Poison Fang: 80.085885312124
+233 - (101) Electrode - Spark - Discharge: 80.0236746870758
+234 - (112) Rhydon - Rock Smash - Megahorn: 80.0169445185666
+235 - (026) Raichu - Thunder Shock - Thunder Punch: 79.9887822094544
+236 - (125) Electabuzz - Thunder Shock - Thunder Punch: 79.9887822094544
+237 - (124) Jynx - Frost Breath - Psyshock: 79.8330611794654
+238 - (097) Hypno - Confusion - Psyshock: 79.7891427494338
+239 - (143) Snorlax - Lick - Earthquake: 79.7712905229661
+240 - (078) Rapidash - Low Kick - Heat Wave: 79.6079468034546
+241 - (121) Starmie - Water Gun - Power Gem: 79.5782734588853
+242 - (082) Magneton - Thunder Shock - Flash Cannon: 79.4334457216365
+243 - (122) Mr. Mime - Zen Headbutt - Shadow Ball: 79.3463049611208
+244 - (123) Scyther - Steel Wing - Bug Buzz: 79.3151179414571
+245 - (134) Vaporeon - Water Gun - Water Pulse: 79.3121159761178
+246 - (082) Magneton - Thunder Shock - Discharge: 79.3041415168589
+247 - (012) Butterfree - Bug Bite - Signal Beam: 79.0356989263696
+248 - (080) Slowbro - Confusion - Ice Beam: 78.9426743303767
+249 - (113) Chansey - Zen Headbutt - Psychic: 78.9390434606484
+250 - (049) Venomoth - Confusion - Psychic: 78.8045966335604
+251 - (131) Lapras - Ice Shard - Dragon Pulse: 78.7418020591102
+252 - (012) Butterfree - Confusion - Psychic: 78.3859379290917
+253 - (049) Venomoth - Confusion - Bug Buzz: 78.3763659443541
+254 - (119) Seaking - Poison Jab - Drill Run: 78.1798428638218
+255 - (012) Butterfree - Confusion - Bug Buzz: 78.1643264699298
+256 - (105) Marowak - Mud Slap - Dig: 78.0781098301957
+257 - (020) Raticate - Bite - Hyper Fang: 78.0652899280476
+258 - (121) Starmie - Water Gun - Psybeam: 77.8829502806106
+259 - (122) Mr. Mime - Zen Headbutt - Psybeam: 77.7619033794185
+260 - (130) Gyarados - Bite - Dragon Pulse: 77.7386095037106
+261 - (130) Gyarados - Dragon Breath - Dragon Pulse: 77.5860437601886
+262 - (045) Vileplume - Acid - Moonblast: 77.4764404786532
+263 - (119) Seaking - Peck - Megahorn: 77.0840437789007
+264 - (139) Omastar - Water Gun - Ancient Power: 77.0467233064466
+265 - (055) Golduck - Confusion - Psychic: 77.042496928172
+266 - (022) Fearow - Peck - Drill Run: 77.0253558677918
+267 - (123) Scyther - Steel Wing - X-Scissor: 77.0139115067367
+268 - (107) Hitmonchan - Rock Smash - Thunder Punch: 77.0064489260584
+269 - (095) Onix - Tackle - Rock Slide: 76.9017370313509
+270 - (018) Pidgeot - Wing Attack - Aerial Ace: 76.7916434780396
+271 - (097) Hypno - Zen Headbutt - Shadow Ball: 76.630682039726
+272 - (080) Slowbro - Water Gun - Water Pulse: 76.5655009656156
+273 - (065) Alakazam - Psycho Cut - Dazzling Gleam: 76.427178270045
+274 - (053) Persian - Scratch - Night Slash: 76.3175015447861
+275 - (117) Seadra - Dragon Breath - Dragon Pulse: 75.9979416628042
+276 - (009) Blastoise - Bite - Ice Beam: 75.977498127659
+277 - (022) Fearow - Steel Wing - Drill Run: 75.9035353699013
+278 - (051) Dugtrio - Mud Shot - Mud Bomb: 75.8727363011795
+279 - (108) Lickitung - Lick - Power Whip: 75.8393314335093
+280 - (124) Jynx - Pound - Psyshock: 75.7238639773802
+281 - (094) Gengar - Sucker Punch - Shadow Ball: 75.4820813680367
+282 - (085) Dodrio - Feint Attack - Drill Peck: 75.2206865352135
+283 - (053) Persian - Scratch - Power Gem: 75.1747215221643
+284 - (126) Magmar - Ember - Fire Punch: 74.9518933349094
+285 - (113) Chansey - Pound - Dazzling Gleam: 74.8327746179465
+286 - (082) Magneton - Spark - Magnet Bomb: 74.6140717442106
+287 - (042) Golbat - Bite - Air Cutter: 74.5055354875352
+288 - (042) Golbat - Wing Attack - Ominous Wind: 74.4985456844494
+289 - (083) Farfetch'd - Fury Cutter - Leaf Blade: 74.4814482850245
+290 - (036) Clefable - Pound - Dazzling Gleam: 74.4437393412468
+291 - (115) Kangaskhan - Low Kick - Brick Break: 74.1047287776307
+292 - (106) Hitmonlee - Rock Smash - Low Sweep: 74.0662659199753
+293 - (083) Farfetch'd - Cut - Air Cutter: 73.7817615555844
+294 - (062) Poliwrath - Mud Shot - Submission: 73.7792110712468
+295 - (115) Kangaskhan - Low Kick - Earthquake: 73.6107035684577
+296 - (105) Marowak - Rock Smash - Bone Club: 73.4530151358046
+297 - (124) Jynx - Frost Breath - Ice Punch: 73.3025776782618
+298 - (034) Nidoking - Fury Cutter - Sludge Wave: 73.1867183837594
+299 - (085) Dodrio - Steel Wing - Drill Peck: 73.082315110198
+300 - (076) Golem - Mud Shot - Ancient Power: 73.0519218250433
+301 - (135) Jolteon - Thunder Shock - Discharge: 72.8824336888931
+302 - (122) Mr. Mime - Confusion - Shadow Ball: 72.7697447040462
+303 - (062) Poliwrath - Bubble - Ice Punch: 72.7446633709969
+304 - (028) Sandslash - Mud Shot - Bulldoze: 72.6756613719379
+305 - (053) Persian - Feint Attack - Play Rough: 72.6012246331955
+306 - (127) Pinsir - Rock Smash - X-Scissor: 72.5836087189379
+307 - (036) Clefable - Zen Headbutt - Dazzling Gleam: 72.5503095334548
+308 - (108) Lickitung - Zen Headbutt - Stomp: 72.5259415188536
+309 - (101) Electrode - Tackle - Discharge: 72.4098727638427
+310 - (047) Parasect - Fury Cutter - Cross Poison: 72.2923422682163
+311 - (099) Kingler - Metal Claw - X-Scissor: 72.1707237362985
+312 - (123) Scyther - Fury Cutter - Bug Buzz: 71.7829155533477
+313 - (113) Chansey - Pound - Psybeam: 71.777926204941
+314 - (126) Magmar - Karate Chop - Flamethrower: 71.7194419044897
+315 - (119) Seaking - Peck - Drill Run: 71.6949058072068
+316 - (028) Sandslash - Mud Shot - Rock Tomb: 71.6508768582714
+317 - (089) Muk - Poison Jab - Dark Pulse: 71.3191862462068
+318 - (137) Porygon - Tackle - Discharge: 71.2384278547075
+319 - (122) Mr. Mime - Confusion - Psybeam: 71.1853431223439
+320 - (055) Golduck - Confusion - Ice Beam: 70.9934063089123
+321 - (125) Electabuzz - Low Kick - Thunder Punch: 70.977751554713
+322 - (012) Butterfree - Confusion - Signal Beam: 70.8145548978127
+323 - (115) Kangaskhan - Mud Slap - Stomp: 70.7375180428905
+324 - (087) Dewgong - Frost Breath - Aqua Jet: 70.7208344193287
+325 - (034) Nidoking - Fury Cutter - Megahorn: 70.6632808920261
+326 - (128) Tauros - Tackle - Iron Head: 70.5807115267764
+327 - (059) Arcanine - Fire Fang - Bulldoze: 70.3996180724694
+328 - (065) Alakazam - Confusion - Shadow Ball: 70.31870776222
+329 - (097) Hypno - Confusion - Shadow Ball: 70.31870776222
+330 - (009) Blastoise - Bite - Flash Cannon: 70.0096601459916
+331 - (040) Wigglytuff - Feint Attack - Dazzling Gleam: 69.9227859244939
+332 - (080) Slowbro - Confusion - Water Pulse: 69.8550793150919
+333 - (107) Hitmonchan - Rock Smash - Fire Punch: 69.6988838497212
+334 - (106) Hitmonlee - Rock Smash - Stomp: 69.6898405755356
+335 - (049) Venomoth - Bug Bite - Poison Fang: 69.6296313977117
+336 - (123) Scyther - Fury Cutter - X-Scissor: 69.4817091186274
+337 - (128) Tauros - Tackle - Horn Attack: 69.3415162932387
+338 - (124) Jynx - Pound - Ice Punch: 69.1933804761767
+339 - (087) Dewgong - Ice Shard - Aqua Jet: 69.1231129476418
+340 - (085) Dodrio - Feint Attack - Air Cutter: 69.1029596050942
+341 - (020) Raticate - Quick Attack - Hyper Fang: 69.0598345511415
+342 - (099) Kingler - Mud Shot - X-Scissor: 69.0359442872104
+343 - (078) Rapidash - Low Kick - Drill Run: 68.6902885940061
+344 - (137) Porygon - Tackle - Signal Beam: 68.6837880458735
+345 - (083) Farfetch'd - Cut - Aerial Ace: 68.5738622374369
+346 - (015) Beedrill - Poison Jab - Aerial Ace: 68.4543999427165
+347 - (123) Scyther - Steel Wing - Night Slash: 68.3869757886688
+348 - (142) Aerodactyl - Bite - Iron Head: 68.3183761505819
+349 - (047) Parasect - Fury Cutter - X-Scissor: 68.1939959034459
+350 - (107) Hitmonchan - Rock Smash - Ice Punch: 67.752744199844
+351 - (099) Kingler - Metal Claw - Water Pulse: 67.4804020584413
+352 - (110) Weezing - Acid - Shadow Ball: 67.3371309750373
+353 - (127) Pinsir - Fury Cutter - X-Scissor: 67.3045678893215
+354 - (095) Onix - Rock Throw - Iron Head: 67.2599010831799
+355 - (042) Golbat - Bite - Poison Fang: 67.1370453887489
+356 - (018) Pidgeot - Steel Wing - Air Cutter: 66.9645881800787
+357 - (085) Dodrio - Steel Wing - Air Cutter: 66.9645881800787
+358 - (082) Magneton - Thunder Shock - Magnet Bomb: 66.9388463153946
+359 - (128) Tauros - Zen Headbutt - Iron Head: 66.7169561700397
+360 - (053) Persian - Feint Attack - Night Slash: 66.6149902717347
+361 - (065) Alakazam - Confusion - Dazzling Gleam: 66.538418568619
+362 - (108) Lickitung - Lick - Stomp: 66.0187519539807
+363 - (015) Beedrill - Bug Bite - Aerial Ace: 66.0180085359299
+364 - (024) Arbok - Bite - Dark Pulse: 65.9829352099721
+365 - (028) Sandslash - Metal Claw - Bulldoze: 65.953200592458
+366 - (139) Omastar - Rock Throw - Ancient Power: 65.7999157229281
+367 - (128) Tauros - Zen Headbutt - Horn Attack: 65.477760936502
+368 - (053) Persian - Feint Attack - Power Gem: 65.4722102491129
+369 - (142) Aerodactyl - Bite - Ancient Power: 65.4452810907592
+370 - (110) Weezing - Tackle - Shadow Ball: 65.2221116571298
+371 - (028) Sandslash - Metal Claw - Rock Tomb: 64.9284160787915
+372 - (057) Primeape - Low Kick - Low Sweep: 64.9043308449668
+373 - (106) Hitmonlee - Low Kick - Low Sweep: 64.9043308449668
+374 - (141) Kabutops - Mud Shot - Water Pulse: 64.7209410171599
+375 - (142) Aerodactyl - Steel Wing - Iron Head: 64.5561077558032
+376 - (141) Kabutops - Mud Shot - Ancient Power: 64.4157787390248
+377 - (062) Poliwrath - Mud Shot - Ice Punch: 64.3805813552255
+378 - (105) Marowak - Rock Smash - Dig: 64.3477457373246
+379 - (099) Kingler - Mud Shot - Water Pulse: 64.3456226093532
+380 - (099) Kingler - Metal Claw - Vice Grip: 64.2398446749879
+381 - (076) Golem - Rock Throw - Ancient Power: 64.178169448048
+382 - (095) Onix - Tackle - Iron Head: 64.0579339261743
+383 - (068) Machamp - Karate Chop - Submission: 63.9072941896206
+384 - (085) Dodrio - Feint Attack - Aerial Ace: 63.8950602869467
+385 - (137) Porygon - Tackle - Psybeam: 63.8833063016825
+386 - (024) Arbok - Acid - Dark Pulse: 63.7674559509597
+387 - (089) Muk - Acid - Dark Pulse: 63.7674559509597
+388 - (110) Weezing - Acid - Dark Pulse: 63.7674559509597
+389 - (094) Gengar - Sucker Punch - Dark Pulse: 63.7540366727459
+390 - (057) Primeape - Low Kick - Night Slash: 63.1115477141842
+391 - (113) Chansey - Zen Headbutt - Dazzling Gleam: 63.0743993579512
+392 - (022) Fearow - Peck - Aerial Ace: 62.8785093598217
+393 - (020) Raticate - Bite - Dig: 62.3624750958285
+394 - (051) Dugtrio - Sucker Punch - Mud Bomb: 61.987557533604
+395 - (049) Venomoth - Confusion - Poison Fang: 61.8148180196286
+396 - (018) Pidgeot - Steel Wing - Aerial Ace: 61.7566888619312
+397 - (022) Fearow - Steel Wing - Aerial Ace: 61.7566888619312
+398 - (085) Dodrio - Steel Wing - Aerial Ace: 61.7566888619312
+399 - (142) Aerodactyl - Steel Wing - Ancient Power: 61.6830126959804
+400 - (110) Weezing - Tackle - Dark Pulse: 61.6524366330521
+401 - (057) Primeape - Karate Chop - Low Sweep: 61.61238014702
+402 - (042) Golbat - Bite - Ominous Wind: 61.5497057610744
+403 - (059) Arcanine - Bite - Bulldoze: 61.54188794875
+404 - (127) Pinsir - Rock Smash - Submission: 61.3681966943823
+405 - (099) Kingler - Mud Shot - Vice Grip: 61.1050652258997
+406 - (107) Hitmonchan - Bullet Punch - Thunder Punch: 61.059551164079
+407 - (123) Scyther - Fury Cutter - Night Slash: 60.8547734005594
+408 - (087) Dewgong - Frost Breath - Icy Wind: 60.7614252008545
+409 - (091) Cloyster - Frost Breath - Icy Wind: 60.7614252008545
+410 - (106) Hitmonlee - Low Kick - Stomp: 60.5279055005271
+411 - (068) Machamp - Bullet Punch - Submission: 60.4142822005965
+412 - (113) Chansey - Zen Headbutt - Psybeam: 60.0195509449458
+413 - (126) Magmar - Karate Chop - Fire Punch: 60.0000884921126
+414 - (130) Gyarados - Bite - Twister: 59.901747642958
+415 - (115) Kangaskhan - Low Kick - Stomp: 59.8581649994722
+416 - (057) Primeape - Karate Chop - Night Slash: 59.8195970162374
+417 - (130) Gyarados - Dragon Breath - Twister: 59.749181899436
+418 - (087) Dewgong - Ice Shard - Icy Wind: 59.1637037291676
+419 - (091) Cloyster - Ice Shard - Icy Wind: 59.1637037291676
+420 - (124) Jynx - Frost Breath - Draining Kiss: 59.1376367449651
+421 - (137) Porygon - Quick Attack - Discharge: 58.1834222585873
+422 - (127) Pinsir - Rock Smash - Vice Grip: 57.073893434927
+423 - (127) Pinsir - Fury Cutter - Submission: 56.0891558647659
+424 - (137) Porygon - Quick Attack - Signal Beam: 55.6287824497533
+425 - (124) Jynx - Pound - Draining Kiss: 55.02843954288
+426 - (022) Fearow - Peck - Twister: 54.7587623470338
+427 - (083) Farfetch'd - Fury Cutter - Air Cutter: 54.2007252659184
+428 - (121) Starmie - Quick Attack - Power Gem: 53.9010030946555
+429 - (107) Hitmonchan - Bullet Punch - Fire Punch: 53.7519860877418
+430 - (022) Fearow - Steel Wing - Twister: 53.6369418491433
+431 - (020) Raticate - Quick Attack - Dig: 53.3570197189223
+432 - (121) Starmie - Quick Attack - Psybeam: 52.2056799163808
+433 - (107) Hitmonchan - Bullet Punch - Ice Punch: 51.8058464378646
+434 - (127) Pinsir - Fury Cutter - Vice Grip: 51.7948526053107
+435 - (137) Porygon - Quick Attack - Psybeam: 50.8283007055623
+436 - (141) Kabutops - Fury Cutter - Water Pulse: 50.1703334087052
+437 - (141) Kabutops - Fury Cutter - Ancient Power: 49.8651711305702
+438 - (119) Seaking - Poison Jab - Icy Wind: 49.4129882042564
+439 - (083) Farfetch'd - Fury Cutter - Aerial Ace: 48.9928259477709
+440 - (119) Seaking - Peck - Icy Wind: 42.9280511476414

@@ -1,4 +1,5 @@
-﻿using Optimizer.Lookup;
+﻿using Optimizer.Data;
+using Optimizer.Lookup;
 using Optimizer.Model;
 using System;
 using System.Collections.Generic;
@@ -8,13 +9,6 @@ namespace Optimizer.Analysis
 {
     internal class MatchupCalculator : IMatchupCalculator
     {
-        // game constants
-        private const double SameTypeAttackBonus = 1.25;
-
-        // custom matchup constants, may be completely wrong
-        private const double CPPowerIncreaseModifier = 2;
-        private const double FastAttackWeighting = 1;
-
         private readonly ITypeMatchups _typeMatchups;
         private readonly IPokemonTemplates _pokemonTemplates;
         private readonly IPokemonFactory _pokemonFactory;
@@ -51,7 +45,6 @@ namespace Optimizer.Analysis
                     favorableMatchups.Add(attackingPokemonPermutation, totalResult);
                 }
             }
-            
 
             return SortByValue(favorableMatchups);
         }
@@ -76,67 +69,75 @@ namespace Optimizer.Analysis
         private double MatchTotal(Pokemon attackingPokemon, Pokemon defendingPokemon, bool adjustForCP = false)
         {
             // get attack vs defense type modifiers
-            var attackingPokemonFastAttackModifierResult = GetFastAttackModifier(attackingPokemon, defendingPokemon);
-            var attackingPokemonSpecialAttackModifierResult = GetSpecialAttackModifier(attackingPokemon, defendingPokemon);
-            var defendingPokemonFastAttackModifierResult = GetFastAttackModifier(defendingPokemon, attackingPokemon);
-            var defendingPokemonSpecialAttackModifierResult = GetSpecialAttackModifier(defendingPokemon, attackingPokemon);
+            var attackingPokemonFastMoveTypeModifier = CalculateFastMoveTypeModifier(attackingPokemon, defendingPokemon);
+            var attackingPokemonSpecialMoveTypeModifier = CalculateSpecialMoveTypeModifier(attackingPokemon, defendingPokemon);
+            var defendingPokemonFastMoveTypeModifier = CalculateFastMoveTypeModifier(defendingPokemon, attackingPokemon);
+            var defendingPokemonSpecialMoveTypeModifier = CalculateSpecialMoveTypeModifier(defendingPokemon, attackingPokemon);
 
-            // compare fast and special attack DPS
-            var fastAttackDPSModifier = attackingPokemon.FastAttack.DPS / defendingPokemon.FastAttack.DPS;
-            var specialAttackDPSModifier = attackingPokemon.SpecialAttack.DPS / defendingPokemon.SpecialAttack.DPS;
+            // compare fast and special move DPS
+            var fastMoveDPSModifier = CalculateMoveDPSModifier(attackingPokemon.FastMove, defendingPokemon.FastMove);
+            var specialMoveDPSModifier = CalculateMoveDPSModifier(attackingPokemon.SpecialMove, defendingPokemon.SpecialMove);
 
-            var fastAttackModifier = (attackingPokemonFastAttackModifierResult / defendingPokemonFastAttackModifierResult) * fastAttackDPSModifier;
-            var specialAttackModifier = (attackingPokemonSpecialAttackModifierResult / defendingPokemonSpecialAttackModifierResult) * specialAttackDPSModifier;
+            var fastMoveModifier = (attackingPokemonFastMoveTypeModifier / defendingPokemonFastMoveTypeModifier) * fastMoveDPSModifier;
+            var specialMoveModifier = (attackingPokemonSpecialMoveTypeModifier / defendingPokemonSpecialMoveTypeModifier) * specialMoveDPSModifier;
 
-            var totalModifier = (fastAttackDPSModifier * FastAttackWeighting + specialAttackModifier) / (FastAttackWeighting + 1);
+            var totalModifier = (fastMoveModifier * Constants.FastMoveWeighting + specialMoveModifier) / (Constants.FastMoveWeighting + 1);
 
             if (adjustForCP)
             {
                 var CPmodifier = attackingPokemon.MaxCP / defendingPokemon.MaxCP;
-                return totalModifier * Math.Pow(CPmodifier, CPPowerIncreaseModifier);
+                return totalModifier * Math.Pow(CPmodifier, Constants.CPPowerIncreaseModifier);
             }
 
             return totalModifier;
         }
 
-        private double GetFastAttackModifier(Pokemon attackingPokemon, Pokemon defendingPokemon)
+        private double CalculateFastMoveTypeModifier(Pokemon attackingPokemon, Pokemon defendingPokemon)
         {
-            double fastAttackModifier;
+            double fastMoveModifier;
             if (defendingPokemon.SecondType != null)
             {
-                fastAttackModifier = _typeMatchups.GetModifier(attackingPokemon.FastAttack.Type, defendingPokemon.FirstType, defendingPokemon.SecondType);
+                fastMoveModifier = _typeMatchups.GetModifier(attackingPokemon.FastMove.Type, defendingPokemon.FirstType, defendingPokemon.SecondType);
             }
             else
             {
-                fastAttackModifier = _typeMatchups.GetModifier(attackingPokemon.FastAttack.Type, defendingPokemon.FirstType);
+                fastMoveModifier = _typeMatchups.GetModifier(attackingPokemon.FastMove.Type, defendingPokemon.FirstType);
             }
 
-            if (SameTypeAttackBonusAppliesToFast(attackingPokemon))
+            if (attackingPokemon.SameTypeAttackBonusAppliesToFastMove)
             {
-                fastAttackModifier = fastAttackModifier * SameTypeAttackBonus;
+                fastMoveModifier = fastMoveModifier * Constants.SameTypeAttackBonus;
             }
 
-            return fastAttackModifier;
+            return fastMoveModifier;
         }
 
-        private double GetSpecialAttackModifier(Pokemon attackingPokemon, Pokemon defendingPokemon)
+        private double CalculateSpecialMoveTypeModifier(Pokemon attackingPokemon, Pokemon defendingPokemon)
         {
-            double specialAttackModifier;
+            double specialMoveModifier;
             if (defendingPokemon.SecondType != null)
             {
-                specialAttackModifier = _typeMatchups.GetModifier(attackingPokemon.SpecialAttack.Type, defendingPokemon.FirstType, defendingPokemon.SecondType);
+                specialMoveModifier = _typeMatchups.GetModifier(attackingPokemon.SpecialMove.Type, defendingPokemon.FirstType, defendingPokemon.SecondType);
             }
             else
             {
-                specialAttackModifier = _typeMatchups.GetModifier(attackingPokemon.SpecialAttack.Type, defendingPokemon.FirstType);
+                specialMoveModifier = _typeMatchups.GetModifier(attackingPokemon.SpecialMove.Type, defendingPokemon.FirstType);
             }
 
-            if (SameTypeAttackBonusAppliesToFast(attackingPokemon))
+            if (attackingPokemon.SameTypeAttackBonusAppliesToSpecialMove)
             {
-                specialAttackModifier = specialAttackModifier * SameTypeAttackBonus;
+                specialMoveModifier = specialMoveModifier * Constants.SameTypeAttackBonus;
             }
 
-            return specialAttackModifier;
+            return specialMoveModifier;
+        }
+
+        private double CalculateMoveDPSModifier(Move attackingPokemonMove, Move defendingPokemonMove)
+        {
+            var attackingPokemonDPS = attackingPokemonMove.DPS + attackingPokemonMove.DPS * Constants.CriticalHitMultiplier * attackingPokemonMove.CriticalHitChance;
+            var defendingPokemonDPS = defendingPokemonMove.DPS + defendingPokemonMove.DPS * Constants.CriticalHitMultiplier * defendingPokemonMove.CriticalHitChance;
+
+            return attackingPokemonDPS / defendingPokemonDPS;
         }
 
         private static IDictionary<Pokemon, double> SortByValue(IDictionary<Pokemon, double> dictionary)
@@ -146,16 +147,6 @@ namespace Optimizer.Analysis
                          select entry;
 
             return sorted.ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
-        }
-
-        private static bool SameTypeAttackBonusAppliesToFast(Pokemon pokemon)
-        {
-            return pokemon.FastAttack.Type == pokemon.FirstType || pokemon.FastAttack.Type == pokemon.SecondType;
-        }
-
-        public static bool SameTypeAttackBonusAppliesToSpecial(Pokemon pokemon)
-        {
-            return pokemon.SpecialAttack.Type == pokemon.FirstType || pokemon.SpecialAttack.Type == pokemon.SecondType;
         }
     }
 }

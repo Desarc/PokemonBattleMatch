@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="FastAttacks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>fastattacks.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="FastMoves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>fastmoves.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="PokemonTemplates" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>pokemontemplates.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="SpecialAttacks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>specialattacks.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="SpecialMoves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>specialmoves.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="TypeMathcups" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>typemathcups.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
